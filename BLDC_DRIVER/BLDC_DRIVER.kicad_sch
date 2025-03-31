@@ -6,6 +6,218 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 157.48 36.83)
+		(size 31.75 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a6cb0fa-11a9-4eae-a722-17bc849d44a5")
+		(property "Sheetname" "Motor_driver"
+			(at 157.48 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_driver.kicad_sch"
+			(at 157.48 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GH[1..3]" input
+			(at 157.48 40.64 180)
+			(uuid "e958d232-cb5a-4539-a419-0dfa06f54c68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GL[1..3]" input
+			(at 157.48 43.18 180)
+			(uuid "5e77ab0f-b702-46f2-abe8-743cb1a3a646")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nFAULT" bidirectional
+			(at 157.48 62.23 180)
+			(uuid "2081e2eb-6253-467f-8a17-263119d50d29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDO" bidirectional
+			(at 157.48 50.8 180)
+			(uuid "99bf3b4e-c6df-42f9-a21a-0ffea34506bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REF" bidirectional
+			(at 157.48 77.47 180)
+			(uuid "f61d45c5-ecf2-4254-8214-3bc9076c5b46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nSCS" bidirectional
+			(at 157.48 48.26 180)
+			(uuid "7ae704e3-81b3-46fe-a300-6f79f97d4dcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nOCTW" bidirectional
+			(at 157.48 59.69 180)
+			(uuid "5e100cc6-1243-4cfb-8dce-886ef17d1389")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" bidirectional
+			(at 157.48 55.88 180)
+			(uuid "8cb1194a-2035-4a2b-80ad-5f4107a89afe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_CAL" bidirectional
+			(at 157.48 64.77 180)
+			(uuid "fe7a481a-0b6e-4028-af27-2626199206ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" bidirectional
+			(at 157.48 53.34 180)
+			(uuid "abd2971c-19ce-46d5-870c-2cfc7f117779")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_GATE" bidirectional
+			(at 157.48 67.31 180)
+			(uuid "5097de50-e179-4360-b203-d0273d6cd0cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BSENSE" output
+			(at 157.48 85.09 180)
+			(uuid "5c45a25f-4609-4ce5-9d13-17f4da3fd459")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S01" bidirectional
+			(at 157.48 72.39 180)
+			(uuid "bfc3324b-15a9-4ddc-b315-1e9bfba14824")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ASENSE" output
+			(at 157.48 82.55 180)
+			(uuid "6a5c25ce-70a2-464f-93fb-439aa58a050c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SO2" bidirectional
+			(at 157.48 74.93 180)
+			(uuid "eec85bef-06ec-4e60-b591-d7e615c6425c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CSENSE" output
+			(at 157.48 87.63 180)
+			(uuid "c4a8b527-eb15-45ae-80d7-d17c568f0940")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PVDDSENSE" output
+			(at 157.48 91.44 180)
+			(uuid "0a0c3120-f7f9-4373-91d9-d60d9c8908c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 33.655 35.56)
 		(size 41.91 38.735)
 		(exclude_from_sim no)

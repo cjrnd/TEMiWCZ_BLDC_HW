@@ -404,6 +404,7 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -619,6 +620,10 @@
     [
       "3858e4a6-498a-4dbf-a28d-a3d68cd1c461",
       "MCU"
+    ],
+    [
+      "1a6cb0fa-11a9-4eae-a722-17bc849d44a5",
+      "Motor_driver"
     ]
   ],
   "text_variables": {}
