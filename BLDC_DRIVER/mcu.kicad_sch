@@ -1687,7 +1687,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32G4:STM32G431RBTx")
-		(at 92.71 85.09 0)
+		(at 99.06 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1696,7 +1696,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b4587d4-fc22-4a55-8bc0-e532bcd2a3e1")
 		(property "Reference" "U2"
-			(at 97.3933 133.35 0)
+			(at 103.7433 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1705,7 @@
 			)
 		)
 		(property "Value" "STM32G431RBTx"
-			(at 97.3933 135.89 0)
+			(at 103.7433 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1714,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 77.47 130.81 0)
+			(at 83.82 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1724,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g431rb.pdf"
-			(at 92.71 85.09 0)
+			(at 99.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1733,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 52 GPIO, LQFP64"
-			(at 92.71 85.09 0)
+			(at 99.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
