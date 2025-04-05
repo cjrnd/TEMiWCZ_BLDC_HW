@@ -59,148 +59,8 @@
 				(justify left)
 			)
 		)
-		(pin "nFAULT" bidirectional
-			(at 157.48 62.23 180)
-			(uuid "2081e2eb-6253-467f-8a17-263119d50d29")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDO" bidirectional
-			(at 157.48 50.8 180)
-			(uuid "99bf3b4e-c6df-42f9-a21a-0ffea34506bd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "REF" bidirectional
-			(at 157.48 77.47 180)
-			(uuid "f61d45c5-ecf2-4254-8214-3bc9076c5b46")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "nSCS" bidirectional
-			(at 157.48 48.26 180)
-			(uuid "7ae704e3-81b3-46fe-a300-6f79f97d4dcb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "nOCTW" bidirectional
-			(at 157.48 59.69 180)
-			(uuid "5e100cc6-1243-4cfb-8dce-886ef17d1389")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SCLK" bidirectional
-			(at 157.48 55.88 180)
-			(uuid "8cb1194a-2035-4a2b-80ad-5f4107a89afe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DC_CAL" bidirectional
-			(at 157.48 64.77 180)
-			(uuid "fe7a481a-0b6e-4028-af27-2626199206ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDI" bidirectional
-			(at 157.48 53.34 180)
-			(uuid "abd2971c-19ce-46d5-870c-2cfc7f117779")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EN_GATE" bidirectional
-			(at 157.48 67.31 180)
-			(uuid "5097de50-e179-4360-b203-d0273d6cd0cb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "BSENSE" output
-			(at 157.48 85.09 180)
-			(uuid "5c45a25f-4609-4ce5-9d13-17f4da3fd459")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "S01" bidirectional
-			(at 157.48 72.39 180)
-			(uuid "bfc3324b-15a9-4ddc-b315-1e9bfba14824")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ASENSE" output
-			(at 157.48 82.55 180)
-			(uuid "6a5c25ce-70a2-464f-93fb-439aa58a050c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SO2" bidirectional
-			(at 157.48 74.93 180)
-			(uuid "eec85bef-06ec-4e60-b591-d7e615c6425c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CSENSE" output
-			(at 157.48 87.63 180)
-			(uuid "c4a8b527-eb15-45ae-80d7-d17c568f0940")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PVDDSENSE" output
-			(at 157.48 95.25 180)
+			(at 157.48 99.06 180)
 			(uuid "0a0c3120-f7f9-4373-91d9-d60d9c8908c2")
 			(effects
 				(font
@@ -209,9 +69,139 @@
 				(justify left)
 			)
 		)
-		(pin "NSENSE" bidirectional
-			(at 157.48 90.17 180)
-			(uuid "39d391cf-e534-473f-a15b-991643cc249f")
+		(pin "SDO" input
+			(at 157.48 66.04 180)
+			(uuid "ad830042-0ca0-4640-91e0-6be26211cc91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 157.48 68.58 180)
+			(uuid "72b3a413-dfc7-4f6a-b52b-e57fe839df9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SensIA" input
+			(at 157.48 88.9 180)
+			(uuid "3ade4ea4-c13d-4c12-bf40-3b28875525cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENABLE" input
+			(at 157.48 54.61 180)
+			(uuid "43aac470-bdbc-4366-aa4d-b0b7b690c35e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAL" input
+			(at 157.48 52.07 180)
+			(uuid "7ca4d2b6-7bfd-438e-a4c7-fa985f6b385a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SensVB" output
+			(at 157.48 81.28 180)
+			(uuid "f7127d8c-2ed2-4a1a-a858-1142d70a2370")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SensVC" output
+			(at 157.48 83.82 180)
+			(uuid "eb6abb9f-8500-48d9-9ba1-507b63792382")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SensVA" output
+			(at 157.48 78.74 180)
+			(uuid "55a894a5-9fd7-4525-9f1a-2b655dd02cc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SensVN" bidirectional
+			(at 157.48 76.2 180)
+			(uuid "e4a924c2-1c30-492f-b3a8-9bd6e837b521")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NFAULT" input
+			(at 157.48 57.15 180)
+			(uuid "136636aa-30aa-472b-ab6c-97dbaf24d383")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SensIC" input
+			(at 157.48 93.98 180)
+			(uuid "01b8ae25-80fb-4b42-ba46-54c0ac11c328")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SensIB" input
+			(at 157.48 91.44 180)
+			(uuid "a432fb02-4ca0-4fd0-bb9f-c25c32e1f6e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NSCS" input
+			(at 157.48 71.12 180)
+			(uuid "13f5c70e-5b0d-493b-8c61-ae7b5b93ee3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" input
+			(at 157.48 63.5 180)
+			(uuid "955180a5-14d6-4a01-848a-0b93b4172f1c")
 			(effects
 				(font
 					(size 1.27 1.27)
