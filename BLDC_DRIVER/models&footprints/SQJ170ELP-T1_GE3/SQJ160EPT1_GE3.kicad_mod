@@ -1,0 +1,341 @@
+(footprint "SQJ160EPT1_GE3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PowerPAK® SO-8L Single Short Ear")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at -0.055 0.097 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "47caab6f-9754-44ce-814d-7716164e1e11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SQJ160EPT1_GE3"
+		(at -0.055 0.097 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6ca68e21-cc18-4e7d-a787-0ddc28a24c98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92f561be-756b-4c33-a76c-f21cd775caf3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9552d2ab-8e5a-443f-9715-d4194a9d91f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQJ170ELP-T1_GE3?qs=MyNHzdoqoQKx0TNbtBmHoQ%3D%3D"
+		(at 0.005 0.168 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "032b3c94-a7d9-4d05-8770-4c94d1192548")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Vishay"
+		(at 0.005 0.168 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dde2dfe-349a-4a69-99ab-61e795538f27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.1"
+		(at 0.005 0.168 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e5546f3-0f72-4166-80a7-87f866c2b8f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "78-SQJ170ELP-T1_GE3"
+		(at 0.005 0.168 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37ae4890-84eb-4ccd-be47-101e19a6aa62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SQJ170ELP-T1_GE3"
+		(at 0.005 0.168 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48cb0941-0614-4bcb-a67f-aa7ee9a0a035")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.445 -1.997)
+		(end -2.445 2.333)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c03e400e-89f1-4ddc-bf19-167551c2c95c")
+	)
+	(fp_line
+		(start -1.995 3.968)
+		(end -1.995 3.968)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5dc53135-15fa-4687-99bb-c9d562798d71")
+	)
+	(fp_line
+		(start -1.995 4.068)
+		(end -1.995 4.068)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6380b819-f322-4952-a853-b9a634eb2d21")
+	)
+	(fp_line
+		(start 2.455 -1.997)
+		(end 2.455 2.333)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64534036-eaf0-4b9e-97b2-b67c9f2cb799")
+	)
+	(fp_arc
+		(start -1.995 3.968)
+		(mid -1.945 4.018)
+		(end -1.995 4.068)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d98cc1a-6309-4863-87de-1b37ca9100ab")
+	)
+	(fp_arc
+		(start -1.995 4.068)
+		(mid -2.045 4.018)
+		(end -1.995 3.968)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8653b10d-8721-4ca0-bdba-50f4db4ff568")
+	)
+	(fp_line
+		(start -3.7 -4.1)
+		(end 3.6 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8938fa16-821e-4491-80a0-0881c404bd09")
+	)
+	(fp_line
+		(start -3.7 4.631)
+		(end -3.7 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5631b25-f18a-435b-b06b-e1a56dfc59d6")
+	)
+	(fp_line
+		(start 3.6 -4.1)
+		(end 3.6 4.631)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "942ba425-ef71-4120-b1a9-fc06fa617a74")
+	)
+	(fp_line
+		(start 3.6 4.631)
+		(end -3.7 4.631)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee05a225-79b8-4704-ac9f-7ed5f48b4243")
+	)
+	(fp_line
+		(start -2.445 -1.997)
+		(end 2.455 -1.997)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d78052e-6b9f-4b4f-a531-0f548c9a12ee")
+	)
+	(fp_line
+		(start -2.445 2.333)
+		(end -2.445 -1.997)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a81c1932-30af-4fbc-a160-e0619a8958d7")
+	)
+	(fp_line
+		(start 2.455 -1.997)
+		(end 2.455 2.333)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "663e1071-bb0e-4202-8206-da15144c2d7c")
+	)
+	(fp_line
+		(start 2.455 2.333)
+		(end -2.445 2.333)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f793a26-4235-4a08-ad36-1c08f5820fa4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.05 0.265 0)
+		(layer "F.Fab")
+		(uuid "3da417b9-b293-4ba7-8332-1288f6d78ab1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.95 3.081)
+		(size 0.68 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "076010a3-3ddd-47d6-9cd6-3459616a1bec")
+	)
+	(pad "1" smd rect
+		(at -0.68 3.081)
+		(size 0.68 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d7e07dff-09ed-4534-b932-d36969e59fa2")
+	)
+	(pad "1" smd rect
+		(at 0.59 3.081)
+		(size 0.68 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a9e6be73-ab22-4a2c-a6f5-f59d92eb066a")
+	)
+	(pad "4" smd rect
+		(at 1.85 3.081)
+		(size 0.68 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2efb3927-8e6a-4238-9e8a-3ab37bd31cfd")
+	)
+	(pad "9" smd rect
+		(at -1.715 -2.0145)
+		(size 0.63 0.771)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0696ba2f-364d-476c-b4ec-d39022204d4a")
+	)
+	(pad "9" smd rect
+		(at -1.45 -2.745 90)
+		(size 0.71 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a8f6e271-dd32-4e6b-b562-1723766f7adc")
+	)
+	(pad "9" smd rect
+		(at -0.05 -0.22 90)
+		(size 2.82 3.96)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cd4dcbe0-94db-457b-9c11-a8ffbe68759e")
+	)
+	(pad "9" smd rect
+		(at 1.35 -2.745 90)
+		(size 0.71 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ceb06626-de18-4fb5-a9df-a8e6c0e13dda")
+	)
+	(pad "9" smd rect
+		(at 1.615 -2.0145)
+		(size 0.63 0.771)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4f03ef70-85b2-4ad4-92a6-5de2760ea690")
+	)
+	(embedded_fonts no)
+	(model "SQJ170ELP-T1_GE3.stp"
+		(offset
+			(xyz -0.09000000222 -1.940000028 0.01999999925)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

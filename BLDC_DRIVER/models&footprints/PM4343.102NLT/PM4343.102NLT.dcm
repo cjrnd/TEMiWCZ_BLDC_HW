@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PM4343.102NLT
+D Fixed Inductors 1uH 30A 6.5mm +/-20% AEC-Q200
+K
+F https://products.pulseelex.com/files/product_files/P770.pdf
+$ENDCMP
+#
+#End Doc Library
