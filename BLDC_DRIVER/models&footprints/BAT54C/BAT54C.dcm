@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAT54C
+D  Negligible switching losses  Very small conduction losses  Low forward voltage drop  Surface mount device  Double diodes with different pining are available This is a Pb  Free Device  -A is an AEC-Q101 qualified device  All SMC parts are traceable to the wafer lot  Additional testing can be offered upon request
+K
+F https://www.digikey.ph/en/products/detail/smc-diode-solutions/BAT54C/6022502?msockid=39f1ec84d77b6f4428b7f904d6676eed
+$ENDCMP
+#
+#End Doc Library
