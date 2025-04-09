@@ -3516,10 +3516,10 @@
 		(uuid "f419c81a-6377-4481-bb3a-5bd95b56ebb1")
 	)
 	(junction
-		(at 67.31 157.48)
+		(at 209.55 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "00621e74-202f-48b8-b284-4c0f902963a3")
+		(uuid "00f98c50-992f-472e-97e7-152d693bab5a")
 	)
 	(junction
 		(at 240.03 252.73)
@@ -3534,10 +3534,22 @@
 		(uuid "15a6a61f-8dba-4dbf-9443-34794189efe9")
 	)
 	(junction
+		(at 78.74 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16015c1a-011d-45a1-a25d-7bc23551f223")
+	)
+	(junction
 		(at 67.31 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16e8a03f-53bd-4df8-a6d9-341b4d96b6f5")
+	)
+	(junction
+		(at 92.71 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18ad5a0b-f2b9-472c-82c0-cbe831f71729")
 	)
 	(junction
 		(at 30.48 41.91)
@@ -3618,6 +3630,12 @@
 		(uuid "3ceef422-96d8-405b-801d-9895a9a451d1")
 	)
 	(junction
+		(at 209.55 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e504d03-0bd6-49b0-bc24-802933eb49d0")
+	)
+	(junction
 		(at 74.93 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3628,18 +3646,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "451aabf2-8c78-4873-9052-c2747a820db4")
-	)
-	(junction
-		(at 298.45 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4910be8d-99b1-4548-8075-bd549d06f6cb")
-	)
-	(junction
-		(at 184.15 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bea7f72-0dec-4a06-b748-017d1d2f1478")
 	)
 	(junction
 		(at 125.73 260.35)
@@ -3672,10 +3678,10 @@
 		(uuid "629d933d-2c49-4673-9f83-d2c5c5485823")
 	)
 	(junction
-		(at 209.55 156.21)
+		(at 323.85 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "65fe2c29-b814-4100-b390-1d59e8db29be")
+		(uuid "6551c2df-4d79-4b11-a7ac-198b828e35e7")
 	)
 	(junction
 		(at 254 34.29)
@@ -3690,16 +3696,16 @@
 		(uuid "6bef77a6-c905-4216-a947-4936babaef4f")
 	)
 	(junction
+		(at 323.85 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7235dba0-2b10-47f7-83db-52751e6b580a")
+	)
+	(junction
 		(at 168.91 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7559573a-0c95-4175-990b-6f8ad78e3cac")
-	)
-	(junction
-		(at 323.85 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "758246c1-069d-4fee-829f-c03c9ef2a2c5")
 	)
 	(junction
 		(at 306.07 138.43)
@@ -3714,10 +3720,22 @@
 		(uuid "7bae9c58-dfcb-4a97-88de-a1bd50656777")
 	)
 	(junction
+		(at 323.85 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bd1d0aa-c99a-4def-8756-f54181fdf8a1")
+	)
+	(junction
 		(at 306.07 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7be07785-d3a3-4990-bad7-60c998252a41")
+	)
+	(junction
+		(at 323.85 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cf6501e-8772-4576-8770-1edb76465b33")
 	)
 	(junction
 		(at 252.73 241.3)
@@ -3750,13 +3768,19 @@
 		(uuid "866c8ad6-0621-413b-bde8-f64f405b2603")
 	)
 	(junction
+		(at 209.55 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8767ec1e-40c5-4db3-963a-94acaa9669da")
+	)
+	(junction
 		(at 184.15 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87a2051b-e253-43fb-8766-f6a589c03325")
 	)
 	(junction
-		(at 224.79 156.21)
+		(at 195.58 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87e02b99-41f1-486f-9bad-d5d8cfc0bdd0")
@@ -3766,12 +3790,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c1a8898-f3f0-4ae9-9ce2-36becc6beb40")
-	)
-	(junction
-		(at 109.22 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e6d0cb9-e30a-46cc-b953-dd5a448ad174")
 	)
 	(junction
 		(at 179.07 190.5)
@@ -3796,6 +3814,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98c73e6c-26a7-4bdc-bfe7-2aa06c25b771")
+	)
+	(junction
+		(at 92.71 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b82c6f3-0c1d-4f6e-9d1b-d8915aeb1d89")
 	)
 	(junction
 		(at 96.52 62.23)
@@ -3846,6 +3870,12 @@
 		(uuid "aed8ce52-5c2c-4a04-98a8-da30763f9480")
 	)
 	(junction
+		(at 323.85 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b07e4e60-8d7b-4f69-9858-f11779e47957")
+	)
+	(junction
 		(at 115.57 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3892,6 +3922,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c31ee067-99fb-4347-9145-7e75ecd7d08f")
+	)
+	(junction
+		(at 209.55 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c333d067-7815-46ec-8fe6-642f5df9091a")
+	)
+	(junction
+		(at 209.55 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c661ed85-5fbb-4ab5-8770-c00dfbbf3bd1")
 	)
 	(junction
 		(at 293.37 182.88)
@@ -3948,6 +3990,12 @@
 		(uuid "dba5f3d7-a3d1-40d4-b8cc-f7f6e2a7cdeb")
 	)
 	(junction
+		(at 92.71 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de70c006-ca55-4b45-a3cb-b9bf30fe594b")
+	)
+	(junction
 		(at 76.2 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3978,7 +4026,7 @@
 		(uuid "f3c62b22-dc73-4451-87a5-5d2006fbb7d4")
 	)
 	(junction
-		(at 340.36 156.21)
+		(at 311.15 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6cb5e86-ab6e-4c14-af6b-925fd965eca3")
@@ -4000,6 +4048,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa50375d-596c-4355-825f-c085663690ae")
+	)
+	(junction
+		(at 92.71 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd999fd0-a64c-40e4-a15e-f1cfcb8b34bf")
 	)
 	(junction
 		(at 168.91 147.32)
@@ -4077,16 +4131,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 156.21) (xy 306.07 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "011eabd0-fd59-4dd3-9560-50e11e04e50d")
-	)
-	(wire
-		(pts
 			(xy 240.03 252.73) (xy 252.73 252.73)
 		)
 		(stroke
@@ -4127,6 +4171,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 190.5) (xy 191.77 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "055fac7e-77ff-411b-bb20-17e93b3c23ca")
+	)
+	(wire
+		(pts
 			(xy 55.88 41.91) (xy 55.88 48.26)
 		)
 		(stroke
@@ -4154,6 +4208,26 @@
 			(type default)
 		)
 		(uuid "06403cd2-2cde-4bbf-b4e0-8ef0fcda0e84")
+	)
+	(wire
+		(pts
+			(xy 74.93 184.15) (xy 86.36 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08eb72c8-4f34-4f11-974d-7ae4da57fd90")
+	)
+	(wire
+		(pts
+			(xy 337.82 149.86) (xy 344.17 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a98c96-7705-417d-bd43-3643eb12019f")
 	)
 	(wire
 		(pts
@@ -4257,6 +4331,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 148.59) (xy 220.98 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf2c336-9795-4a90-9344-a0fb1205feb5")
+	)
+	(wire
+		(pts
 			(xy 293.37 190.5) (xy 306.07 190.5)
 		)
 		(stroke
@@ -4287,13 +4371,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 156.21) (xy 224.79 156.21)
+			(xy 229.87 162.56) (xy 220.98 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e53e4e2-d968-4afc-8c7a-d98caf036ebc")
+		(uuid "0e686e4a-33f2-4415-b308-262b7bfe0ce5")
 	)
 	(wire
 		(pts
@@ -4337,6 +4421,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 175.26) (xy 92.71 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c57300-1566-47b3-b785-9350379b6093")
+	)
+	(wire
+		(pts
 			(xy 92.71 140.97) (xy 92.71 138.43)
 		)
 		(stroke
@@ -4344,16 +4438,6 @@
 			(type default)
 		)
 		(uuid "12de57dd-2cc4-41bc-b796-a1f21e884df9")
-	)
-	(wire
-		(pts
-			(xy 323.85 172.72) (xy 323.85 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1325634f-44b0-4e72-a32e-16d8c259408b")
 	)
 	(wire
 		(pts
@@ -4437,6 +4521,26 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 167.64) (xy 106.68 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c242556-494a-4471-b628-dbd000e9cd61")
+	)
+	(wire
+		(pts
+			(xy 334.01 162.56) (xy 334.01 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c93c770-aa80-4346-a48f-706c09e453a2")
+	)
+	(wire
+		(pts
 			(xy 179.07 227.33) (xy 179.07 228.6)
 		)
 		(stroke
@@ -4477,6 +4581,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 162.56) (xy 220.98 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa2225a-4d6a-4d90-be4d-33360737d107")
+	)
+	(wire
+		(pts
 			(xy 184.15 66.04) (xy 187.96 66.04)
 		)
 		(stroke
@@ -4484,6 +4598,16 @@
 			(type default)
 		)
 		(uuid "20f95da8-9f98-44fc-a092-dfea416e0bbf")
+	)
+	(wire
+		(pts
+			(xy 334.01 148.59) (xy 323.85 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211f639b-5fe5-4543-b643-e96994bd6231")
 	)
 	(wire
 		(pts
@@ -4497,6 +4621,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 166.37) (xy 92.71 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a92647-d508-4bb8-b830-a2813e03c4a3")
+	)
+	(wire
+		(pts
+			(xy 323.85 166.37) (xy 323.85 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2204b7d9-bf23-40f3-a346-bddd40b430a2")
+	)
+	(wire
+		(pts
 			(xy 237.49 38.1) (xy 237.49 45.72)
 		)
 		(stroke
@@ -4504,6 +4648,16 @@
 			(type default)
 		)
 		(uuid "2252b873-3785-4291-a783-27b70d7611f4")
+	)
+	(wire
+		(pts
+			(xy 102.87 162.56) (xy 102.87 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231aa2b1-b13d-42da-8e56-575031e029a7")
 	)
 	(wire
 		(pts
@@ -4757,13 +4911,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 157.48) (xy 67.31 157.48)
+			(xy 45.72 157.48) (xy 74.93 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "317a466a-8651-47c2-8dc1-eafe89e94cd2")
+	)
+	(wire
+		(pts
+			(xy 323.85 167.64) (xy 337.82 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3309b785-0840-4ff1-ac52-20d419df10b5")
 	)
 	(wire
 		(pts
@@ -4817,6 +4981,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 162.56) (xy 334.01 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a074ce4-91cc-41ba-a0d8-e26e20553abf")
+	)
+	(wire
+		(pts
 			(xy 306.07 175.26) (xy 306.07 182.88)
 		)
 		(stroke
@@ -4847,6 +5021,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 158.75) (xy 323.85 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ede4e9e-75ad-4d7f-b1ff-10ca20caa042")
+	)
+	(wire
+		(pts
 			(xy 295.91 147.32) (xy 298.45 147.32)
 		)
 		(stroke
@@ -4867,7 +5051,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 157.48) (xy 92.71 157.48)
+			(xy 74.93 157.48) (xy 78.74 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4894,6 +5078,26 @@
 			(type default)
 		)
 		(uuid "41f04cd1-d053-4909-938d-626edc507400")
+	)
+	(wire
+		(pts
+			(xy 223.52 167.64) (xy 223.52 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f2f778-b75d-46d3-8c39-a545b7093caf")
+	)
+	(wire
+		(pts
+			(xy 113.03 166.37) (xy 113.03 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42514fbf-7fa5-4a8b-bec0-51aa10275eee")
 	)
 	(wire
 		(pts
@@ -5047,6 +5251,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 139.7) (xy 113.03 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe5e910-b33c-4e55-a1fa-70331e3dcc9b")
+	)
+	(wire
+		(pts
+			(xy 106.68 149.86) (xy 113.03 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506db8ae-bc55-4525-8c3f-04200de9cb15")
+	)
+	(wire
+		(pts
 			(xy 209.55 73.66) (xy 222.25 73.66)
 		)
 		(stroke
@@ -5057,13 +5281,13 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 157.48) (xy 323.85 156.21)
+			(xy 306.07 182.88) (xy 317.5 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50b06fb2-5b9d-4bdf-a727-453855497255")
+		(uuid "50b31d1d-7af9-4248-9879-bda861d90c24")
 	)
 	(wire
 		(pts
@@ -5084,6 +5308,16 @@
 			(type default)
 		)
 		(uuid "5214f297-4f01-432f-8508-c2251f0790e2")
+	)
+	(wire
+		(pts
+			(xy 102.87 149.86) (xy 92.71 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521cf5a7-5b4f-4e6b-bf85-e0cf896c1c8f")
 	)
 	(wire
 		(pts
@@ -5114,6 +5348,16 @@
 			(type default)
 		)
 		(uuid "53993b80-1141-4080-a0c6-9baafd0720ab")
+	)
+	(wire
+		(pts
+			(xy 113.03 176.53) (xy 113.03 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c9313e-2a68-4526-8c8b-1a9d52a90da2")
 	)
 	(wire
 		(pts
@@ -5177,13 +5421,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 156.21) (xy 184.15 156.21)
+			(xy 162.56 156.21) (xy 191.77 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5d4d62fb-91ab-4413-b195-783bf3017c2e")
+	)
+	(wire
+		(pts
+			(xy 113.03 147.32) (xy 113.03 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d817735-f3ae-4fb9-aca4-60f121733125")
 	)
 	(wire
 		(pts
@@ -5227,13 +5481,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 172.72) (xy 209.55 175.26)
+			(xy 209.55 156.21) (xy 209.55 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fa4da50-ff00-4c37-bfef-e8a87e27aa33")
+		(uuid "6009a14a-b39f-464c-8729-b90c1c7af3cd")
 	)
 	(wire
 		(pts
@@ -5267,7 +5521,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 156.21) (xy 345.44 156.21)
+			(xy 311.15 156.21) (xy 323.85 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5284,6 +5538,16 @@
 			(type default)
 		)
 		(uuid "62b7ff29-0efb-4aab-ab05-eddac40b580d")
+	)
+	(wire
+		(pts
+			(xy 317.5 190.5) (xy 306.07 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e25cc8-8fba-47c7-9981-2d45ba1dda28")
 	)
 	(wire
 		(pts
@@ -5337,13 +5601,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 157.48) (xy 209.55 156.21)
+			(xy 344.17 147.32) (xy 344.17 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b1078f5-1d18-41b2-b850-e1da5cf1180f")
+		(uuid "6aed6717-6ab4-4d6f-80d7-b583f8c486c7")
+	)
+	(wire
+		(pts
+			(xy 323.85 138.43) (xy 344.17 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9aa27b-69b2-4480-870d-295d1cb61276")
 	)
 	(wire
 		(pts
@@ -5404,16 +5678,6 @@
 			(type default)
 		)
 		(uuid "74b52f34-642e-4577-b076-3f8ba87ea5c9")
-	)
-	(wire
-		(pts
-			(xy 92.71 157.48) (xy 109.22 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76219ed6-b7d9-4fb4-829e-0fd562eb8e61")
 	)
 	(wire
 		(pts
@@ -5637,13 +5901,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 157.48) (xy 116.84 157.48)
+			(xy 92.71 167.64) (xy 106.68 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cc929f1-5231-46cf-ba39-6120d697d552")
+		(uuid "8a4489ed-4073-4fe5-9950-a756e60a6c7d")
 	)
 	(wire
 		(pts
@@ -5727,6 +5991,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 139.7) (xy 229.87 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e856af-1239-4659-8b33-c4f9b66f0495")
+	)
+	(wire
+		(pts
 			(xy 191.77 138.43) (xy 191.77 142.24)
 		)
 		(stroke
@@ -5777,6 +6051,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 166.37) (xy 344.17 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f61b78-2198-47db-b240-b744ee13bd99")
+	)
+	(wire
+		(pts
 			(xy 229.87 41.91) (xy 229.87 45.72)
 		)
 		(stroke
@@ -5817,16 +6101,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 156.21) (xy 191.77 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dd1404d-2098-4741-ac35-308f8a610bcc")
-	)
-	(wire
-		(pts
 			(xy 38.1 138.43) (xy 38.1 140.97)
 		)
 		(stroke
@@ -5857,6 +6131,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 138.43) (xy 113.03 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1696683-b310-4ea3-84d8-282062573f6a")
+	)
+	(wire
+		(pts
 			(xy 96.52 41.91) (xy 115.57 41.91)
 		)
 		(stroke
@@ -5864,6 +6148,16 @@
 			(type default)
 		)
 		(uuid "a1a00c14-046b-4be8-b4f7-2c1f0c323573")
+	)
+	(wire
+		(pts
+			(xy 337.82 167.64) (xy 337.82 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a26c538e-7d77-463c-9c04-2eeb0fe514b0")
 	)
 	(wire
 		(pts
@@ -5937,6 +6231,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 147.32) (xy 229.87 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87dc34c-0e7b-4dd7-8484-2d4a7a169767")
+	)
+	(wire
+		(pts
 			(xy 90.17 245.11) (xy 85.09 245.11)
 		)
 		(stroke
@@ -6007,6 +6311,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 138.43) (xy 229.87 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d27b19-3fa7-47ae-a065-c9a65e1f83ba")
+	)
+	(wire
+		(pts
 			(xy 240.03 38.1) (xy 240.03 45.72)
 		)
 		(stroke
@@ -6057,16 +6371,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 156.21) (xy 323.85 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3083fd3-5cbd-4a21-9e6a-c9c52a7e47a8")
-	)
-	(wire
-		(pts
 			(xy 67.31 176.53) (xy 74.93 176.53)
 		)
 		(stroke
@@ -6077,16 +6381,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 157.48) (xy 74.93 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5eef109-342d-4e2f-a973-d2b192370692")
-	)
-	(wire
-		(pts
 			(xy 262.89 66.04) (xy 271.78 66.04)
 		)
 		(stroke
@@ -6094,16 +6388,6 @@
 			(type default)
 		)
 		(uuid "b623803e-a070-443a-8eb3-4f19bf9ac627")
-	)
-	(wire
-		(pts
-			(xy 92.71 173.99) (xy 92.71 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7e2cb74-b907-49e4-a46e-e780da4ffb25")
 	)
 	(wire
 		(pts
@@ -6147,6 +6431,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 149.86) (xy 229.87 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b98ac245-3b73-4793-b774-d9076ca2a745")
+	)
+	(wire
+		(pts
 			(xy 76.2 41.91) (xy 76.2 48.26)
 		)
 		(stroke
@@ -6164,6 +6458,26 @@
 			(type default)
 		)
 		(uuid "bbffec31-9489-4d50-a7a2-9f4c386819eb")
+	)
+	(wire
+		(pts
+			(xy 344.17 175.26) (xy 344.17 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd511994-e2b7-4cfe-ba4b-261b136d90da")
+	)
+	(wire
+		(pts
+			(xy 323.85 175.26) (xy 344.17 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7b3620-0701-4b64-84f3-dcffeb14524a")
 	)
 	(wire
 		(pts
@@ -6187,7 +6501,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 156.21) (xy 229.87 156.21)
+			(xy 195.58 156.21) (xy 209.55 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6257,7 +6571,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 176.53) (xy 74.93 176.53)
+			(xy 74.93 176.53) (xy 92.71 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6307,6 +6621,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 167.64) (xy 223.52 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a94ce0-97b5-43b8-8fc4-4e9dbcbc99b6")
+	)
+	(wire
+		(pts
 			(xy 209.55 78.74) (xy 222.25 78.74)
 		)
 		(stroke
@@ -6347,13 +6671,23 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 139.7) (xy 323.85 138.43)
+			(xy 323.85 138.43) (xy 323.85 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cc7f5779-815c-4631-9955-01381660b082")
+	)
+	(wire
+		(pts
+			(xy 92.71 149.86) (xy 92.71 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc885c39-0b03-4dd9-85da-4f47e71b741b")
 	)
 	(wire
 		(pts
@@ -6364,6 +6698,16 @@
 			(type default)
 		)
 		(uuid "ccb9f505-d352-4ec0-8ceb-cc40f7079ddd")
+	)
+	(wire
+		(pts
+			(xy 229.87 166.37) (xy 229.87 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd70e748-f1d4-4459-a569-9a010a69ecfd")
 	)
 	(wire
 		(pts
@@ -6477,13 +6821,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 156.21) (xy 92.71 157.48)
+			(xy 229.87 175.26) (xy 229.87 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2b369d6-9352-4bee-b0bc-3b9055eb4be1")
+		(uuid "d14e3a09-0e9e-4595-b064-87026a106e78")
+	)
+	(wire
+		(pts
+			(xy 209.55 166.37) (xy 209.55 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20a828f-8c23-47ed-99ba-478eced0b893")
 	)
 	(wire
 		(pts
@@ -6517,7 +6871,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 156.21) (xy 340.36 156.21)
+			(xy 306.07 156.21) (xy 311.15 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6547,6 +6901,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 162.56) (xy 102.87 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c3875d-d0b6-45d0-8c2a-efe20ea0d0f2")
+	)
+	(wire
+		(pts
+			(xy 191.77 182.88) (xy 203.2 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d8b36f-987c-45ec-973f-81fcaa7485b6")
+	)
+	(wire
+		(pts
 			(xy 308.61 81.28) (xy 308.61 82.55)
 		)
 		(stroke
@@ -6564,6 +6938,16 @@
 			(type default)
 		)
 		(uuid "db77f41e-3557-447e-865b-2608960439ea")
+	)
+	(wire
+		(pts
+			(xy 78.74 157.48) (xy 92.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd6e036-1553-4a59-8f8d-c3be9a168d50")
 	)
 	(wire
 		(pts
@@ -6667,6 +7051,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 191.77) (xy 74.93 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ada719-3fa5-456b-ac66-900ba9e0c8ed")
+	)
+	(wire
+		(pts
 			(xy 240.03 99.06) (xy 240.03 104.14)
 		)
 		(stroke
@@ -6747,16 +7141,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 154.94) (xy 209.55 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9c29d4c-284d-4154-bc4a-d371c9644102")
-	)
-	(wire
-		(pts
 			(xy 242.57 99.06) (xy 242.57 104.14)
 		)
 		(stroke
@@ -6794,6 +7178,16 @@
 			(type default)
 		)
 		(uuid "eb96ebd1-47bf-442a-bab6-902b6029a0ec")
+	)
+	(wire
+		(pts
+			(xy 344.17 139.7) (xy 344.17 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9efe65-b0af-49d6-b544-8ffab0d26f52")
 	)
 	(wire
 		(pts
@@ -6867,6 +7261,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 175.26) (xy 229.87 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f073e60a-6dd2-4e97-be43-b7bb352be730")
+	)
+	(wire
+		(pts
 			(xy 254 34.29) (xy 262.89 34.29)
 		)
 		(stroke
@@ -6884,26 +7288,6 @@
 			(type default)
 		)
 		(uuid "f251ff43-8604-40dc-87b1-44d1c9e5face")
-	)
-	(wire
-		(pts
-			(xy 323.85 154.94) (xy 323.85 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2e5b652-d705-4d0f-abfc-4c9c66deab95")
-	)
-	(wire
-		(pts
-			(xy 209.55 139.7) (xy 209.55 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3716c6e-d0ed-49a5-baca-830054ec1fd1")
 	)
 	(wire
 		(pts
@@ -6977,7 +7361,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 156.21) (xy 209.55 156.21)
+			(xy 191.77 156.21) (xy 195.58 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6987,7 +7371,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 156.21) (xy 298.45 156.21)
+			(xy 276.86 156.21) (xy 306.07 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7014,6 +7398,16 @@
 			(type default)
 		)
 		(uuid "f85c6cf5-4c00-43e7-aaa2-0b99ee7b5ea6")
+	)
+	(wire
+		(pts
+			(xy 92.71 176.53) (xy 113.03 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f870e161-15ec-4afd-9fc2-78d2c93edfe1")
 	)
 	(bus
 		(pts
@@ -7044,6 +7438,16 @@
 			(type default)
 		)
 		(uuid "fb7184e9-96e9-4823-b24d-bedb3bbda62d")
+	)
+	(wire
+		(pts
+			(xy 209.55 138.43) (xy 209.55 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8907da-79ae-41a4-9afa-d49464bf1deb")
 	)
 	(wire
 		(pts
@@ -7176,7 +7580,7 @@
 		(uuid "362cfb39-6a2b-4581-b8ff-79b2cbac0d33")
 	)
 	(label "U_PHASE"
-		(at 116.84 157.48 0)
+		(at 81.28 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7316,7 +7720,7 @@
 		(uuid "74f7045e-5a47-4621-a551-abc4ccedd4d0")
 	)
 	(label "W_PHASE"
-		(at 345.44 156.21 0)
+		(at 312.42 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7326,7 +7730,7 @@
 		(uuid "7c471202-0d06-4c21-8cf2-8b5d84507d18")
 	)
 	(label "V_PHASE"
-		(at 229.87 156.21 0)
+		(at 198.12 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8009,76 +8413,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 209.55 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "019f8e7a-221f-48fc-87aa-ab822150e672")
-		(property "Reference" "R105"
-			(at 210.566 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R"
-			(at 210.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 207.772 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 209.55 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "abbae720-317a-4f27-a3ab-cecf84361e99")
-		)
-		(pin "1"
-			(uuid "468a91c3-f9ec-40df-a2a3-c52ae8f65b18")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 179.07 227.33 0)
 		(unit 1)
@@ -8144,35 +8478,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 323.85 143.51 0)
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 95.25 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "02be48a6-6568-4bc5-961d-b3e0e8180ba9")
-		(property "Reference" "R106"
-			(at 324.866 142.24 0)
+		(uuid "01d47c75-bc66-4e7b-876d-f13c7c54acba")
+		(property "Reference" "D113"
+			(at 95.25 162.9409 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10R"
-			(at 325.12 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 322.072 143.51 90)
+		(property "Value" "RF201L2SDDTE25"
+			(at 90.17 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8180,8 +8505,28 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 323.85 143.51 0)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 188.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 288.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 95.25 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8189,25 +8534,66 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 323.85 143.51 0)
+		(property "Height" "2.2"
+			(at 488.9 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at 588.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at 688.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 788.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at 888.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "0753950a-9ee1-4ec0-9585-e6401754e6a3")
+			(uuid "47f13a35-636e-4f49-af52-91128b65e481")
 		)
 		(pin "1"
-			(uuid "cf3f5c6c-464a-4434-ae39-2ae6eb621081")
+			(uuid "bac73f63-7bad-4cc7-b19f-9c9ba0204a70")
 		)
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R106")
+					(reference "D113")
 					(unit 1)
 				)
 			)
@@ -8568,7 +8954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f3fe3ad-8bfd-47e9-98a3-947bf5d8b062")
-		(property "Reference" "R118"
+		(property "Reference" "R119"
 			(at 308.61 185.4199 0)
 			(effects
 				(font
@@ -8577,7 +8963,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10m"
+		(property "Value" "20m"
 			(at 308.61 187.9599 0)
 			(effects
 				(font
@@ -8622,7 +9008,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R118")
+					(reference "R119")
 					(unit 1)
 				)
 			)
@@ -8769,15 +9155,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 358.14 238.76 0)
+		(at 358.14 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "13b6fe2b-5d9d-4bf9-9a9b-4bf897116aa6")
-		(property "Reference" "#PWR0130"
-			(at 358.14 242.57 0)
+		(property "Reference" "#PWR0129"
+			(at 358.14 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8786,7 +9172,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 358.14 234.95 0)
+			(at 358.14 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +9180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 238.76 0)
+			(at 358.14 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +9189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 238.76 0)
+			(at 358.14 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +9198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 358.14 238.76 0)
+			(at 358.14 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,7 +9212,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "#PWR0130")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -9144,7 +9530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19af4aea-ede6-45f8-9ed5-a45dd5e83db3")
-		(property "Reference" "R123"
+		(property "Reference" "R126"
 			(at 73.66 237.998 90)
 			(effects
 				(font
@@ -9196,7 +9582,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R123")
+					(reference "R126")
 					(unit 1)
 				)
 			)
@@ -9211,7 +9597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c828e10-0e21-4deb-8b61-6e78c4968cdd")
-		(property "Reference" "R131"
+		(property "Reference" "R134"
 			(at 65.532 258.826 0)
 			(effects
 				(font
@@ -9263,7 +9649,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R131")
+					(reference "R134")
 					(unit 1)
 				)
 			)
@@ -9339,7 +9725,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 144.78 0)
+		(at 113.03 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9348,7 +9734,7 @@
 		(fields_autoplaced yes)
 		(uuid "2312cb10-b0a6-4987-94ea-1ba3fc96e41d")
 		(property "Reference" "R107"
-			(at 93.726 143.51 0)
+			(at 114.046 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9357,7 +9743,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 93.98 146.05 0)
+			(at 114.3 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9366,7 +9752,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 90.932 144.78 90)
+			(at 111.252 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,7 +9761,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 144.78 0)
+			(at 113.03 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9384,7 +9770,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 144.78 0)
+			(at 113.03 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9482,7 +9868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25419736-fb8d-4dd5-9b1b-aead46e5463f")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0131"
 			(at 185.42 264.16 0)
 			(effects
 				(font
@@ -9532,7 +9918,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "#PWR0132")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -9809,6 +10195,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 203.2 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c6bb9fb-ab1c-4254-825b-91710dba0e75")
+		(property "Reference" "R118"
+			(at 205.74 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20m"
+			(at 205.74 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 201.422 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6cff8aad-53bd-4ddf-98bd-c7ccab67848e")
+		)
+		(pin "1"
+			(uuid "08de4e29-ec6a-4ff7-b824-fdbb6d70bf24")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "R118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 323.85 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dfd567e-4317-4d5d-9308-75ac1b27a9a8")
+		(property "Reference" "C120"
+			(at 326.644 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n/200V"
+			(at 326.644 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 324.8152 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 323.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "298decb4-b005-4c40-9412-43a4a317c4b9")
+		)
+		(pin "2"
+			(uuid "221b2857-4838-4924-92e0-37a2cbc5f1e7")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 85.09 240.03 0)
 		(unit 1)
@@ -9818,7 +10342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e626090-b322-4b77-829b-47ee86c306eb")
-		(property "Reference" "TP120"
+		(property "Reference" "TP121"
 			(at 87.63 236.7279 0)
 			(effects
 				(font
@@ -9870,7 +10394,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "TP120")
+					(reference "TP121")
 					(unit 1)
 				)
 			)
@@ -9943,34 +10467,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 323.85 168.91 0)
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 326.39 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2f47b27a-76c0-4467-bd4f-30ff20c8e206")
-		(property "Reference" "C132"
-			(at 326.644 167.64 0)
+		(fields_autoplaced yes)
+		(uuid "301af085-b255-4600-8ee0-dd15eab5a4e1")
+		(property "Reference" "D117"
+			(at 326.39 162.9409 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10n/200V"
-			(at 326.644 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 324.8152 172.72 0)
+		(property "Value" "RF201L2SDDTE25"
+			(at 321.31 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,8 +10494,28 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 323.85 168.91 0)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 420.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 520.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 326.39 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9987,25 +10523,66 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 323.85 168.91 0)
+		(property "Height" "2.2"
+			(at 720.04 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "a82527a3-41c0-41e9-a650-6aabff6e1685")
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at 820.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at 920.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 1020.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at 1120.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "9b672ac9-88d5-4e54-981b-6d9c459ee432")
+			(uuid "8069e2f9-907d-4ea6-9234-b65d440be336")
+		)
+		(pin "1"
+			(uuid "e7cd412d-2030-4b50-bca0-f0639f97efb5")
 		)
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "C132")
+					(reference "D117")
 					(unit 1)
 				)
 			)
@@ -10021,7 +10598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30ecca70-8ecc-4058-ba86-f47eebbc9abf")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0133"
 			(at 125.73 269.24 0)
 			(effects
 				(font
@@ -10071,7 +10648,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "#PWR0134")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -10079,7 +10656,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 162.56 0)
+		(at 113.03 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10088,7 +10665,7 @@
 		(fields_autoplaced yes)
 		(uuid "3208ba6e-126f-4968-bf79-8922aca86670")
 		(property "Reference" "R113"
-			(at 93.726 161.29 0)
+			(at 114.046 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10097,7 +10674,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 93.98 163.83 0)
+			(at 114.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,7 +10683,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 90.932 162.56 90)
+			(at 111.252 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,7 +10692,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 162.56 0)
+			(at 113.03 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,7 +10701,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 162.56 0)
+			(at 113.03 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10282,7 +10859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a8a8acc-90c4-443b-906e-adb24bc373ca")
-		(property "Reference" "D111"
+		(property "Reference" "D110"
 			(at 358.14 248.92 0)
 			(effects
 				(font
@@ -10338,7 +10915,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D111")
+					(reference "D110")
 					(unit 1)
 				)
 			)
@@ -10543,7 +11120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4285d604-d113-4f37-a5b1-8ca35e061232")
-		(property "Reference" "R126"
+		(property "Reference" "R129"
 			(at 241.3 244.856 0)
 			(effects
 				(font
@@ -10597,7 +11174,129 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R126")
+					(reference "R129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 212.09 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42abb265-0d59-4f3e-a259-2535fb2382da")
+		(property "Reference" "D114"
+			(at 212.09 152.7809 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RF201L2SDDTE25"
+			(at 207.01 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 305.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 405.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 212.09 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.2"
+			(at 605.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at 705.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at 805.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 905.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at 1005.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4977853-4b55-469a-ae81-e07ab180496c")
+		)
+		(pin "1"
+			(uuid "302b06fe-99b5-4b0e-816c-f2f350f7ebbf")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D114")
 					(unit 1)
 				)
 			)
@@ -10613,7 +11312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "450e762f-e54e-4875-b662-a92a40959bd6")
-		(property "Reference" "D112"
+		(property "Reference" "D111"
 			(at 388.62 248.92 0)
 			(effects
 				(font
@@ -10669,7 +11368,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D112")
+					(reference "D111")
 					(unit 1)
 				)
 			)
@@ -10742,7 +11441,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 318.77 217.17 0)
+		(at 318.77 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10750,7 +11449,7 @@
 		(dnp no)
 		(uuid "4744320b-097e-42e7-8106-2427328a8eb0")
 		(property "Reference" "#PWR0124"
-			(at 318.77 220.98 0)
+			(at 318.77 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,7 +11458,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 318.77 213.36 0)
+			(at 318.77 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10767,7 +11466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 318.77 217.17 0)
+			(at 318.77 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10776,7 +11475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 217.17 0)
+			(at 318.77 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10785,7 +11484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 318.77 217.17 0)
+			(at 318.77 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10937,74 +11636,6 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "TP115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 67.31 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4869812c-aec7-4e84-bb38-7d69989e515f")
-		(property "Reference" "TP109"
-			(at 69.85 154.1779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 69.85 155.4479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 72.39 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 67.31 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af56b54d-eab3-4d9a-8385-585941f68f44")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "TP109")
 					(unit 1)
 				)
 			)
@@ -11270,75 +11901,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 209.55 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "543f9e79-3603-4d82-9001-08c70fb04bc6")
-		(property "Reference" "C119"
-			(at 212.344 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n/200V"
-			(at 212.344 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 210.5152 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 209.55 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6152f275-d564-45e6-957c-f23cc78024f2")
-		)
-		(pin "2"
-			(uuid "4bd64bf1-2497-456e-9b07-842b03b99f7c")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "C119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 115.57 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11477,7 +12039,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 340.36 156.21 0)
+		(at 311.15 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11486,7 +12048,7 @@
 		(fields_autoplaced yes)
 		(uuid "55a20a8d-dc7f-4732-8dc2-8a20169fd6d2")
 		(property "Reference" "TP108"
-			(at 342.9 152.9079 0)
+			(at 313.69 152.9079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11495,7 +12057,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 342.9 154.1779 0)
+			(at 313.69 154.1779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,7 +12067,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 345.44 156.21 0)
+			(at 316.23 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11514,7 +12076,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 156.21 0)
+			(at 316.23 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11523,7 +12085,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 340.36 156.21 0)
+			(at 311.15 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,75 +12637,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 323.85 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63edd8c2-e48a-4cab-8ece-49a2dc5215d5")
-		(property "Reference" "C120"
-			(at 326.644 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n/200V"
-			(at 326.644 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 324.8152 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 323.85 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 323.85 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9406efce-5b08-43d6-870e-754d86412be7")
-		)
-		(pin "2"
-			(uuid "dc55f225-ac67-4161-8625-2efd0e2b60e1")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "C120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:BAT54C")
 		(at 358.14 220.98 180)
 		(unit 1)
@@ -12292,7 +12785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65202bed-db52-45e7-b554-70ae514a4d78")
-		(property "Reference" "R125"
+		(property "Reference" "R128"
 			(at 73.66 243.078 90)
 			(effects
 				(font
@@ -12344,7 +12837,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R125")
+					(reference "R128")
 					(unit 1)
 				)
 			)
@@ -12560,6 +13053,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 344.17 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68343f21-b0fe-407c-8c16-7a518a0f55e0")
+		(property "Reference" "R112"
+			(at 345.186 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R"
+			(at 345.44 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 342.392 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 344.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96d52fb2-ad2e-420d-a6f9-639ded51a48f")
+		)
+		(pin "1"
+			(uuid "45aa7c53-72cc-4227-9dde-157ddd1fb2b2")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 38.1 250.19 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12567,7 +13130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69b3e2b4-5ce3-493a-90e8-8d3e7d0a83be")
-		(property "Reference" "R127"
+		(property "Reference" "R130"
 			(at 35.56 248.158 90)
 			(effects
 				(font
@@ -12619,7 +13182,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R127")
+					(reference "R130")
 					(unit 1)
 				)
 			)
@@ -12627,15 +13190,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 152.4 0)
+		(at 92.71 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6b07da9f-26db-4d1c-8f83-a7ca03f0d0c2")
-		(property "Reference" "C121"
-			(at 95.504 151.13 0)
+		(property "Reference" "C118"
+			(at 95.504 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12644,7 +13207,7 @@
 			)
 		)
 		(property "Value" "10n/200V"
-			(at 95.504 153.67 0)
+			(at 95.504 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12653,7 +13216,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 93.6752 156.21 0)
+			(at 93.6752 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12662,7 +13225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 152.4 0)
+			(at 92.71 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12671,7 +13234,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 92.71 152.4 0)
+			(at 92.71 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12688,7 +13251,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "C121")
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -12965,7 +13528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7477a678-ed8f-4b6f-a6d2-5fd8a642473b")
-		(property "Reference" "D110"
+		(property "Reference" "D109"
 			(at 318.77 248.92 0)
 			(effects
 				(font
@@ -13021,7 +13584,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D110")
+					(reference "D109")
 					(unit 1)
 				)
 			)
@@ -13029,7 +13592,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 224.79 156.21 0)
+		(at 195.58 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13038,7 +13601,7 @@
 		(fields_autoplaced yes)
 		(uuid "75770f7d-eaa3-45e4-9b74-822db43ef047")
 		(property "Reference" "TP106"
-			(at 227.33 152.9079 0)
+			(at 198.12 152.9079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13047,7 +13610,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 227.33 154.1779 0)
+			(at 198.12 154.1779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13057,7 +13620,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 229.87 156.21 0)
+			(at 200.66 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13066,7 +13629,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 156.21 0)
+			(at 200.66 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13075,7 +13638,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 224.79 156.21 0)
+			(at 195.58 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13090,76 +13653,6 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "TP106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 323.85 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75fc1c81-2385-4b88-81c2-fda8ec2435b5")
-		(property "Reference" "R112"
-			(at 324.866 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R"
-			(at 325.12 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 322.072 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 323.85 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 323.85 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b37ca987-2abb-4212-b121-7e7071763c00")
-		)
-		(pin "1"
-			(uuid "70530004-2f04-4416-bad8-8c81042cddbb")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -13362,7 +13855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b7f9b58-6865-461b-bb07-f8665fe40718")
-		(property "Reference" "R119"
+		(property "Reference" "R121"
 			(at 77.47 186.6899 0)
 			(effects
 				(font
@@ -13371,7 +13864,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10m"
+		(property "Value" "20m"
 			(at 77.47 189.2299 0)
 			(effects
 				(font
@@ -13416,7 +13909,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R119")
+					(reference "R121")
 					(unit 1)
 				)
 			)
@@ -13497,7 +13990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c5b2caf-4f9e-439f-aae7-7a81b08bc35b")
-		(property "Reference" "R120"
+		(property "Reference" "R123"
 			(at 182.626 233.934 0)
 			(effects
 				(font
@@ -13549,7 +14042,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R120")
+					(reference "R123")
 					(unit 1)
 				)
 			)
@@ -14069,75 +14562,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 209.55 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c465d9b-069d-441d-aae4-c39f47c7b3f1")
-		(property "Reference" "C116"
-			(at 212.344 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n/200V"
-			(at 212.344 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 210.5152 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 209.55 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2dc71e05-0fa3-4595-bdf8-f4f1917ceffe")
-		)
-		(pin "2"
-			(uuid "95a1783c-1e66-420f-aa1c-80af479ec690")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "C116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 67.31 176.53 0)
 		(unit 1)
@@ -14215,7 +14639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f4819a9-b632-404e-9bb2-138482b5c0fa")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0136"
 			(at 68.58 270.51 0)
 			(effects
 				(font
@@ -14265,7 +14689,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "#PWR0137")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -14280,7 +14704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f7010a8-8d79-4945-83c4-4b22bc51419e")
-		(property "Reference" "R122"
+		(property "Reference" "R125"
 			(at 35.56 237.998 90)
 			(effects
 				(font
@@ -14332,7 +14756,7 @@
 		(instances
 			(project ""
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R122")
+					(reference "R125")
 					(unit 1)
 				)
 			)
@@ -14461,7 +14885,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 157.48 0)
+		(at 78.74 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14470,7 +14894,7 @@
 		(fields_autoplaced yes)
 		(uuid "913e21c7-d0e7-4937-b24d-695fbce4e750")
 		(property "Reference" "TP110"
-			(at 111.76 154.1779 0)
+			(at 81.28 154.1779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14479,7 +14903,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 111.76 155.4479 0)
+			(at 81.28 155.4479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14489,7 +14913,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 114.3 157.48 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14498,7 +14922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 157.48 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14507,7 +14931,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 157.48 0)
+			(at 78.74 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14522,6 +14946,76 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "TP110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 229.87 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91416a73-24ab-4258-9085-21c8b9b8df14")
+		(property "Reference" "R111"
+			(at 230.886 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R"
+			(at 231.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 228.092 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2b8ccf1-4dea-4316-ae94-688da901dcbe")
+		)
+		(pin "1"
+			(uuid "b0e52c4e-516b-4ad6-be07-714ae65b0463")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -14647,6 +15141,128 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "Q102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 95.25 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9401ebbb-b00f-436e-9c8a-bde874ac5bbc")
+		(property "Reference" "D112"
+			(at 95.25 154.0509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RF201L2SDDTE25"
+			(at 90.17 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 188.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 288.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 95.25 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.2"
+			(at 488.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at 588.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at 688.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 788.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at 888.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d40882c3-2a5a-4ac9-9b3f-bd46bb429ad9")
+		)
+		(pin "1"
+			(uuid "4efef773-627a-4f24-9df0-e8a436ca1a5f")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D112")
 					(unit 1)
 				)
 			)
@@ -14934,7 +15550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "997947fb-d1e9-4965-95a8-d553e94acb9b")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0134"
 			(at 48.26 270.51 0)
 			(effects
 				(font
@@ -14984,7 +15600,77 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "#PWR0135")
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 344.17 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9af1e81a-f5df-4d6e-a9e6-cd2d358a3da7")
+		(property "Reference" "R136"
+			(at 345.186 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R"
+			(at 345.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 342.392 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 344.17 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "070ae1c1-14c0-43c9-902b-491671d17b29")
+		)
+		(pin "1"
+			(uuid "76a2d79f-e79b-4cea-9454-c419d9252116")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "R136")
 					(unit 1)
 				)
 			)
@@ -15067,7 +15753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ed6ac0c-cc01-4d16-b2eb-4c894054f509")
-		(property "Reference" "R124"
+		(property "Reference" "R127"
 			(at 35.56 243.078 90)
 			(effects
 				(font
@@ -15119,7 +15805,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R124")
+					(reference "R127")
 					(unit 1)
 				)
 			)
@@ -15134,7 +15820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f9d26ee-876e-4a02-8c14-ecaf9e904615")
-		(property "Reference" "R128"
+		(property "Reference" "R131"
 			(at 73.66 248.158 90)
 			(effects
 				(font
@@ -15186,7 +15872,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R128")
+					(reference "R131")
 					(unit 1)
 				)
 			)
@@ -15331,7 +16017,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 358.14 217.17 0)
+		(at 358.14 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15339,7 +16025,7 @@
 		(dnp no)
 		(uuid "a2c6b6f3-cc3b-4b9a-990a-f3d88cf6871c")
 		(property "Reference" "#PWR0125"
-			(at 358.14 220.98 0)
+			(at 358.14 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15348,7 +16034,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 358.14 213.36 0)
+			(at 358.14 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15356,7 +16042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 217.17 0)
+			(at 358.14 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15365,7 +16051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 217.17 0)
+			(at 358.14 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15374,7 +16060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 358.14 217.17 0)
+			(at 358.14 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15389,6 +16075,197 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 209.55 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2cdda50-ab6b-424e-854a-cd0010565ab4")
+		(property "Reference" "C119"
+			(at 212.344 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n/200V"
+			(at 212.344 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 210.5152 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 209.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a27d7b6-91db-4139-90e2-2a35b633d680")
+		)
+		(pin "2"
+			(uuid "1f17a521-b35a-4162-b887-a4b284ff8c2f")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 326.39 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5452897-b78b-4801-84b0-58296b3c621c")
+		(property "Reference" "D116"
+			(at 326.39 152.7809 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RF201L2SDDTE25"
+			(at 321.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 420.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 520.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 326.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.2"
+			(at 720.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at 820.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at 920.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 1020.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at 1120.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a4de59f-b5a4-4d9a-bf09-922799b553f5")
+		)
+		(pin "1"
+			(uuid "d5414304-a9b5-4aa4-a46a-30e9c2c08b8c")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D116")
 					(unit 1)
 				)
 			)
@@ -15799,76 +16676,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 209.55 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3270dcb-b698-4bc3-be0d-02ebe083aced")
-		(property "Reference" "R111"
-			(at 210.566 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R"
-			(at 210.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 207.772 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 209.55 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ffcd6bde-5b12-4b8a-9baa-99ac954a69f3")
-		)
-		(pin "1"
-			(uuid "9996f72e-e8cb-49f7-9cd1-be978c9a3f48")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 137.16 254 0)
 		(unit 1)
@@ -15939,6 +16746,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 86.36 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b93c2780-8aac-4061-9e07-6c671cf2c524")
+		(property "Reference" "R122"
+			(at 88.9 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20m"
+			(at 88.9 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 84.582 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b531908-3f33-463e-a52f-d48d126fed89")
+		)
+		(pin "1"
+			(uuid "44ac0a58-baec-48f9-9dfe-218e8c7a504e")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "R122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 191.77 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15956,7 +16832,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10m"
+		(property "Value" "20m"
 			(at 194.31 187.9599 0)
 			(effects
 				(font
@@ -16002,6 +16878,128 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "R117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 212.09 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be7b05cc-378d-4d61-a77c-99dc2e2e520a")
+		(property "Reference" "D115"
+			(at 212.09 162.9409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RF201L2SDDTE25"
+			(at 207.01 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 305.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 405.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 212.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.2"
+			(at 605.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at 705.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at 805.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 905.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at 1005.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b875dd15-5f82-4f21-950f-c3c7f300b0ad")
+		)
+		(pin "1"
+			(uuid "4ea2ec86-1f5a-47e1-88a1-0b796e49f5cd")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D115")
 					(unit 1)
 				)
 			)
@@ -16070,6 +17068,75 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "TP104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 317.5 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfcaf9e4-29b0-4478-a049-a465c2c3a5fd")
+		(property "Reference" "R120"
+			(at 320.04 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20m"
+			(at 320.04 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 315.722 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 317.5 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9f18f89-42bb-4a54-9af9-2dcdfd18d88c")
+		)
+		(pin "1"
+			(uuid "e33b391c-ba2b-4001-83e6-3a04ab276cbc")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "R120")
 					(unit 1)
 				)
 			)
@@ -16337,15 +17404,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 170.18 0)
+		(at 92.71 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c97acc52-d678-4611-be8e-f94d96a6bc1d")
-		(property "Reference" "C131"
-			(at 95.504 168.91 0)
+		(property "Reference" "C121"
+			(at 95.504 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16354,7 +17421,7 @@
 			)
 		)
 		(property "Value" "10n/200V"
-			(at 95.504 171.45 0)
+			(at 95.504 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16363,7 +17430,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 93.6752 173.99 0)
+			(at 93.6752 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16372,7 +17439,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 170.18 0)
+			(at 92.71 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16381,7 +17448,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 92.71 170.18 0)
+			(at 92.71 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16398,7 +17465,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "C131")
+					(reference "C121")
 					(unit 1)
 				)
 			)
@@ -16414,7 +17481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc93bd77-43a6-4277-a9be-5249f45bd44a")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0137"
 			(at 85.09 271.78 0)
 			(effects
 				(font
@@ -16464,7 +17531,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "#PWR0138")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -16616,7 +17683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce41a5c7-3924-47b3-8864-e2262ebe5401")
-		(property "Reference" "TP121"
+		(property "Reference" "TP120"
 			(at 255.27 235.4579 0)
 			(effects
 				(font
@@ -16668,7 +17735,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "TP121")
+					(reference "TP120")
 					(unit 1)
 				)
 			)
@@ -16820,7 +17887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4165862-1967-4408-9a8a-a10ec1eab354")
-		(property "Reference" "R129"
+		(property "Reference" "R132"
 			(at 45.212 258.826 0)
 			(effects
 				(font
@@ -16872,7 +17939,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R129")
+					(reference "R132")
 					(unit 1)
 				)
 			)
@@ -16887,7 +17954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d90fe490-ae1a-4416-b11b-44bca3edec39")
-		(property "Reference" "R130"
+		(property "Reference" "R133"
 			(at 55.372 258.826 0)
 			(effects
 				(font
@@ -16939,7 +18006,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R130")
+					(reference "R133")
 					(unit 1)
 				)
 			)
@@ -17071,6 +18138,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 323.85 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d982f206-a3b5-49ec-8978-d152476957ec")
+		(property "Reference" "C132"
+			(at 326.644 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n/200V"
+			(at 326.644 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 324.8152 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 323.85 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19cf8a78-ecfa-4a54-862a-c3424e772735")
+		)
+		(pin "2"
+			(uuid "eee2a09e-1d18-40f2-9378-0e26a15ac3a2")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 289.56 166.37 90)
 		(unit 1)
@@ -17148,7 +18284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc2759f3-955f-459c-bdfd-9d04e4e7cfa0")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0135"
 			(at 58.42 270.51 0)
 			(effects
 				(font
@@ -17198,7 +18334,76 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "#PWR0136")
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 209.55 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc49ce2b-f160-443a-a679-6c4cfd63affd")
+		(property "Reference" "C131"
+			(at 212.344 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n/200V"
+			(at 212.344 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 210.5152 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 209.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "290824b4-f8fa-4d1c-8aa1-de725fc71282")
+		)
+		(pin "2"
+			(uuid "7a3fdfed-0254-42a5-8103-841503ec29ac")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C131")
 					(unit 1)
 				)
 			)
@@ -17417,7 +18622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e282604d-e244-48cd-a451-74fa39556d01")
-		(property "Reference" "R121"
+		(property "Reference" "R124"
 			(at 241.046 234.95 0)
 			(effects
 				(font
@@ -17471,7 +18676,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R121")
+					(reference "R124")
 					(unit 1)
 				)
 			)
@@ -17479,15 +18684,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 388.62 238.76 0)
+		(at 388.62 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e347c0cd-c7ab-423e-8996-ad4ddc9a2791")
-		(property "Reference" "#PWR0131"
-			(at 388.62 242.57 0)
+		(property "Reference" "#PWR0130"
+			(at 388.62 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17496,7 +18701,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 388.62 234.95 0)
+			(at 388.62 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17504,7 +18709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 388.62 238.76 0)
+			(at 388.62 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17513,7 +18718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 388.62 238.76 0)
+			(at 388.62 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17522,7 +18727,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 388.62 238.76 0)
+			(at 388.62 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17536,7 +18741,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "#PWR0131")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -17677,15 +18882,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 318.77 238.76 0)
+		(at 318.77 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e6f6bc39-1076-4dd5-aa96-f1265fd75494")
-		(property "Reference" "#PWR0129"
-			(at 318.77 242.57 0)
+		(property "Reference" "#PWR0128"
+			(at 318.77 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17694,7 +18899,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 318.77 234.95 0)
+			(at 318.77 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17702,7 +18907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 318.77 238.76 0)
+			(at 318.77 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17711,7 +18916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 238.76 0)
+			(at 318.77 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17720,7 +18925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 318.77 238.76 0)
+			(at 318.77 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17734,75 +18939,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 184.15 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e86ee68d-1836-4e60-8154-56693f067329")
-		(property "Reference" "TP105"
-			(at 186.69 152.9079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 186.69 154.1779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 189.23 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 184.15 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe39550f-8275-452a-afd0-fb1bc98acc5f")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "TP105")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -18008,7 +19145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea1fd866-1478-40ad-b742-93dced559bef")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0132"
 			(at 240.03 264.16 0)
 			(effects
 				(font
@@ -18058,7 +19195,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "#PWR0133")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -18197,17 +19334,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 298.45 156.21 0)
+		(lib_id "Device:R")
+		(at 229.87 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f6b23976-f550-4f8e-ad57-25990a296438")
-		(property "Reference" "TP107"
-			(at 300.99 152.9079 0)
+		(uuid "f54add99-f13f-4112-a474-29f4e759617e")
+		(property "Reference" "R135"
+			(at 230.886 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18215,18 +19352,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 300.99 154.1779 0)
+		(property "Value" "10R"
+			(at 231.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 303.53 156.21 0)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 228.092 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18235,7 +19371,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 303.53 156.21 0)
+			(at 229.87 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18243,22 +19379,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 298.45 156.21 0)
+		(property "Description" "Resistor"
+			(at 229.87 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "4c2a8d7d-4a1a-486f-962a-1759f9492933")
 		)
 		(pin "1"
-			(uuid "15dad292-8375-4afe-a219-5c47bcaec6e2")
+			(uuid "524da39f-ef00-403b-a5ce-50abb1be291f")
 		)
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "TP107")
+					(reference "R135")
 					(unit 1)
 				)
 			)
