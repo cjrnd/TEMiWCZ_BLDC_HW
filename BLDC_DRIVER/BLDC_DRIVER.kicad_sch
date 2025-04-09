@@ -5,8 +5,168 @@
 	(uuid "3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 171.45 75.565) (xy 198.755 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0a991a-b6b2-4445-bf2d-34e815fe3f97")
+	)
+	(wire
+		(pts
+			(xy 171.45 78.105) (xy 198.755 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f554576-b8e4-4293-a8fb-5ff79bba648c")
+	)
+	(wire
+		(pts
+			(xy 171.45 73.025) (xy 198.755 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ac7cdf-abb8-4af4-8af3-f27a57a1bdb2")
+	)
+	(wire
+		(pts
+			(xy 171.45 100.965) (xy 198.755 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e7cdfaa-9018-437d-b459-fbea722a8902")
+	)
+	(wire
+		(pts
+			(xy 171.45 83.185) (xy 198.755 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6ed311-38c4-4c79-b237-b15372f1a461")
+	)
+	(wire
+		(pts
+			(xy 171.45 98.425) (xy 198.755 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ae998b-1527-4d03-84f9-067f427caf38")
+	)
+	(wire
+		(pts
+			(xy 171.45 121.285) (xy 198.755 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786a5d6d-3339-4820-a616-b86448d1994e")
+	)
+	(wire
+		(pts
+			(xy 171.45 107.315) (xy 198.755 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a994cd5-28a4-4ed5-b2e0-603258c5e921")
+	)
+	(wire
+		(pts
+			(xy 171.45 95.885) (xy 198.755 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e65a50-16e1-4e39-be1c-8528b42561fa")
+	)
+	(wire
+		(pts
+			(xy 171.45 103.505) (xy 198.755 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed589bc-1049-4b96-9ea4-9437e08b0b97")
+	)
+	(wire
+		(pts
+			(xy 171.45 109.855) (xy 198.755 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52f2a1f-9078-411c-b7b4-e005ec50a663")
+	)
+	(wire
+		(pts
+			(xy 171.45 118.745) (xy 198.755 118.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ad6c6e-10db-4c2c-b66e-cbf0128ce6ab")
+	)
+	(wire
+		(pts
+			(xy 171.45 88.265) (xy 198.755 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3ce4eb-0608-4228-9b11-06fcaef6a2f1")
+	)
+	(wire
+		(pts
+			(xy 171.45 85.725) (xy 198.755 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "defb07ca-64c9-46e0-98c2-cae977077cbe")
+	)
+	(wire
+		(pts
+			(xy 171.45 112.395) (xy 198.755 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed81e9ea-ef39-47e2-a9fe-f537fe13767a")
+	)
+	(wire
+		(pts
+			(xy 171.45 90.805) (xy 198.755 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac4fc19-0f01-45c9-90c2-61caa91d8eef")
+	)
 	(sheet
-		(at 157.48 36.83)
+		(at 198.755 61.595)
 		(size 31.75 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +182,7 @@
 		)
 		(uuid "1a6cb0fa-11a9-4eae-a722-17bc849d44a5")
 		(property "Sheetname" "Motor_driver"
-			(at 157.48 36.1184 0)
+			(at 198.755 60.8834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +191,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor_driver.kicad_sch"
-			(at 157.48 100.9146 0)
+			(at 198.755 125.6796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +200,7 @@
 			)
 		)
 		(pin "GH[1..3]" input
-			(at 157.48 40.64 180)
+			(at 198.755 65.405 180)
 			(uuid "e958d232-cb5a-4539-a419-0dfa06f54c68")
 			(effects
 				(font
@@ -50,7 +210,7 @@
 			)
 		)
 		(pin "GL[1..3]" input
-			(at 157.48 43.18 180)
+			(at 198.755 67.945 180)
 			(uuid "5e77ab0f-b702-46f2-abe8-743cb1a3a646")
 			(effects
 				(font
@@ -60,7 +220,7 @@
 			)
 		)
 		(pin "PVDDSENSE" output
-			(at 157.48 96.52 180)
+			(at 198.755 121.285 180)
 			(uuid "0a0c3120-f7f9-4373-91d9-d60d9c8908c2")
 			(effects
 				(font
@@ -70,7 +230,7 @@
 			)
 		)
 		(pin "SDO" input
-			(at 157.48 60.96 180)
+			(at 198.755 85.725 180)
 			(uuid "ad830042-0ca0-4640-91e0-6be26211cc91")
 			(effects
 				(font
@@ -80,7 +240,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 157.48 63.5 180)
+			(at 198.755 88.265 180)
 			(uuid "72b3a413-dfc7-4f6a-b52b-e57fe839df9f")
 			(effects
 				(font
@@ -90,7 +250,7 @@
 			)
 		)
 		(pin "SensIA" input
-			(at 157.48 82.55 180)
+			(at 198.755 107.315 180)
 			(uuid "3ade4ea4-c13d-4c12-bf40-3b28875525cc")
 			(effects
 				(font
@@ -100,7 +260,7 @@
 			)
 		)
 		(pin "ENABLE" input
-			(at 157.48 50.8 180)
+			(at 198.755 75.565 180)
 			(uuid "43aac470-bdbc-4366-aa4d-b0b7b690c35e")
 			(effects
 				(font
@@ -110,7 +270,7 @@
 			)
 		)
 		(pin "CAL" input
-			(at 157.48 48.26 180)
+			(at 198.755 73.025 180)
 			(uuid "7ca4d2b6-7bfd-438e-a4c7-fa985f6b385a")
 			(effects
 				(font
@@ -120,7 +280,7 @@
 			)
 		)
 		(pin "SensVB" output
-			(at 157.48 76.2 180)
+			(at 198.755 100.965 180)
 			(uuid "f7127d8c-2ed2-4a1a-a858-1142d70a2370")
 			(effects
 				(font
@@ -130,7 +290,7 @@
 			)
 		)
 		(pin "SensVC" output
-			(at 157.48 78.74 180)
+			(at 198.755 103.505 180)
 			(uuid "eb6abb9f-8500-48d9-9ba1-507b63792382")
 			(effects
 				(font
@@ -140,7 +300,7 @@
 			)
 		)
 		(pin "SensVA" output
-			(at 157.48 73.66 180)
+			(at 198.755 98.425 180)
 			(uuid "55a894a5-9fd7-4525-9f1a-2b655dd02cc6")
 			(effects
 				(font
@@ -150,7 +310,7 @@
 			)
 		)
 		(pin "SensVN" bidirectional
-			(at 157.48 71.12 180)
+			(at 198.755 95.885 180)
 			(uuid "e4a924c2-1c30-492f-b3a8-9bd6e837b521")
 			(effects
 				(font
@@ -160,7 +320,7 @@
 			)
 		)
 		(pin "NFAULT" input
-			(at 157.48 53.34 180)
+			(at 198.755 78.105 180)
 			(uuid "136636aa-30aa-472b-ab6c-97dbaf24d383")
 			(effects
 				(font
@@ -170,7 +330,7 @@
 			)
 		)
 		(pin "SensIC" input
-			(at 157.48 87.63 180)
+			(at 198.755 112.395 180)
 			(uuid "01b8ae25-80fb-4b42-ba46-54c0ac11c328")
 			(effects
 				(font
@@ -180,7 +340,7 @@
 			)
 		)
 		(pin "SensIB" input
-			(at 157.48 85.09 180)
+			(at 198.755 109.855 180)
 			(uuid "a432fb02-4ca0-4fd0-bb9f-c25c32e1f6e7")
 			(effects
 				(font
@@ -190,7 +350,7 @@
 			)
 		)
 		(pin "NSCS" input
-			(at 157.48 66.04 180)
+			(at 198.755 90.805 180)
 			(uuid "13f5c70e-5b0d-493b-8c61-ae7b5b93ee3b")
 			(effects
 				(font
@@ -200,7 +360,7 @@
 			)
 		)
 		(pin "SDI" input
-			(at 157.48 58.42 180)
+			(at 198.755 83.185 180)
 			(uuid "955180a5-14d6-4a01-848a-0b93b4172f1c")
 			(effects
 				(font
@@ -210,7 +370,7 @@
 			)
 		)
 		(pin "TEMP_MOSFET" input
-			(at 157.48 93.98 180)
+			(at 198.755 118.745 180)
 			(uuid "ff04799e-fe64-4a84-a31d-85e279932b43")
 			(effects
 				(font
@@ -228,8 +388,8 @@
 		)
 	)
 	(sheet
-		(at 33.655 35.56)
-		(size 41.91 38.735)
+		(at 69.85 62.23)
+		(size 41.91 62.865)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -244,7 +404,7 @@
 		)
 		(uuid "1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d")
 		(property "Sheetname" "Power"
-			(at 33.655 34.8484 0)
+			(at 69.85 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,7 +413,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 33.655 74.8796 0)
+			(at 69.85 125.6796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,8 +430,8 @@
 		)
 	)
 	(sheet
-		(at 98.425 37.465)
-		(size 34.29 33.655)
+		(at 137.16 62.23)
+		(size 34.29 62.865)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -286,7 +446,7 @@
 		)
 		(uuid "3858e4a6-498a-4dbf-a28d-a3d68cd1c461")
 		(property "Sheetname" "MCU"
-			(at 98.425 36.7534 0)
+			(at 137.16 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -295,12 +455,172 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 98.425 71.7046 0)
+			(at 137.16 125.6796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SensVB" output
+			(at 171.45 100.965 0)
+			(uuid "cf2395fe-c2b7-4f2d-8df8-41425ebbf42a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SensVA" output
+			(at 171.45 98.425 0)
+			(uuid "7cb3196f-eb19-488e-8159-94186b917af7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SensVC" output
+			(at 171.45 103.505 0)
+			(uuid "c818c1be-74be-4d85-b26c-841d3c63582d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENABLE" input
+			(at 171.45 75.565 0)
+			(uuid "b9c6e2c4-e43e-4e97-8aac-54b53289b578")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SensIA" input
+			(at 171.45 107.315 0)
+			(uuid "80e08458-bba0-455d-b8ac-9bd80ec76166")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK" input
+			(at 171.45 88.265 0)
+			(uuid "65057b43-275b-4dbe-be83-c099992f2e95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NFAULT" input
+			(at 171.45 78.105 0)
+			(uuid "2e348058-5dd1-490a-a6c3-82867e1e1fe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAL" input
+			(at 171.45 73.025 0)
+			(uuid "49bf9e44-cb29-4930-bd01-e0c1f06fd2f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SensIB" input
+			(at 171.45 109.855 0)
+			(uuid "7adb92c5-6d6e-4408-8948-bfb0d208bd84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SensIC" input
+			(at 171.45 112.395 0)
+			(uuid "92ae4bf5-d933-4f6f-b347-c351268c6fbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NSCS" input
+			(at 171.45 90.805 0)
+			(uuid "d2ac1e66-dcae-4062-9ffe-ef9cef238e03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDI" input
+			(at 171.45 83.185 0)
+			(uuid "0da70cd0-26a8-42e0-9842-b893a36fc299")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDO" input
+			(at 171.45 85.725 0)
+			(uuid "6806a7b9-fb53-4f65-9ed5-56355c76741f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PVDDSENSE" output
+			(at 171.45 121.285 0)
+			(uuid "3cdc598f-28a2-4116-a8fe-9f972200d75d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP_MOSFET" input
+			(at 171.45 118.745 0)
+			(uuid "27e6a3e5-eb84-4051-858b-4e24b21b0d4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SensVN" bidirectional
+			(at 171.45 95.885 0)
+			(uuid "e174ebab-4e3f-481e-8a7b-f888cdad3aed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
