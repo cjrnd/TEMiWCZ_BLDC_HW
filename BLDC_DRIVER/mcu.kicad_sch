@@ -7738,7 +7738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 74.168 90)
 			(effects
 				(font
@@ -8452,7 +8452,7 @@
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 80.01 76.2 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9608,7 +9608,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 166.37 84.328 90)
 			(effects
 				(font
@@ -10203,7 +10203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 66.548 90)
 			(effects
 				(font
@@ -10794,7 +10794,7 @@
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 80.01 83.82 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -13727,7 +13727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 166.37 91.948 90)
 			(effects
 				(font

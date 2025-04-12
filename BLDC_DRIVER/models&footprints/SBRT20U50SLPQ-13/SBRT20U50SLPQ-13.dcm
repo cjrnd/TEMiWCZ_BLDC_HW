@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SBRT20U50SLPQ-13
+D Schottky Diodes & Rectifiers 20A TrechSBR 50Vrrm 20A 0.5Vf 0.5mA
+K
+F https://www.diodes.com//assets/Datasheets/SBRT20U50SLPQ.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SBR3U60P1-7
+D Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123
+K
+F https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf
+$ENDCMP
+#
+#End Doc Library

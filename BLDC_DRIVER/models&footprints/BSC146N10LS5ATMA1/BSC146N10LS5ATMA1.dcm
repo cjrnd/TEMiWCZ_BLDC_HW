@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSC146N10LS5ATMA1
+D OptiMOSTM5Power-Transistor,100V
+K
+F https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea
+$ENDCMP
+#
+#End Doc Library
