@@ -2566,198 +2566,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PM4343_102NLT:PM4343.102NLT"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 16.51 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "PM4343.102NLT"
-				(at 16.51 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "INDPM140128X650N"
-				(at 16.51 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://products.pulseelex.com/files/product_files/P770.pdf"
-				(at 16.51 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fixed Inductors 1uH 30A 6.5mm +/-20% AEC-Q200"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "6.5"
-				(at 16.51 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "673-PM4343.102NLT"
-				(at 16.51 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/PM4343102NLT?qs=l7cgNqFNU1hepeTrNv0BPg%3D%3D"
-				(at 16.51 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Pulse Electronics"
-				(at 16.51 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "PM4343.102NLT"
-				(at 16.51 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "PM4343.102NLT_1_1"
-				(arc
-					(start 5.08 0)
-					(mid 6.35 1.219)
-					(end 7.62 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 0)
-					(mid 8.89 1.219)
-					(end 10.16 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 0)
-					(mid 11.43 1.219)
-					(end 12.7 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 12.7 0)
-					(mid 13.97 1.219)
-					(end 15.24 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SBR3U60P1-7:SBR3U60P1-7"
 			(pin_names
 				(hide yes)
@@ -6194,7 +6002,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 41.91) (xy 34.29 41.91)
+			(xy 30.48 41.91) (xy 55.88 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6891,16 +6699,6 @@
 			(type default)
 		)
 		(uuid "d0d01b1f-0d43-4bf4-a662-8d273c1bc649")
-	)
-	(wire
-		(pts
-			(xy 54.61 41.91) (xy 55.88 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0e51b4c-ab16-4926-839a-60dd6059d122")
 	)
 	(wire
 		(pts
@@ -8499,6 +8297,126 @@
 		)
 	)
 	(symbol
+		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
+		(at 186.69 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "021fb098-e6b3-447f-ae59-226a298d097f")
+		(property "Reference" "D103"
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SBR3U60P1-7"
+			(at 186.309 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 199.39 246.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
+			(at 199.39 346.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
+			(at 186.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 199.39 546.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-SBR3U60P1-7"
+			(at 199.39 646.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
+			(at 199.39 746.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 199.39 846.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
+			(at 199.39 946.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c97e1d85-4ff9-4400-959e-97a0f1744d8a")
+		)
+		(pin "2"
+			(uuid "b3a65fa3-7406-474b-b77d-61e8d35ce18c")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1")
 		(at 203.2 166.37 0)
 		(unit 1)
@@ -8526,7 +8444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BSC146N10LS5ATMA1"
+		(property "Footprint" "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
 			(at 224.79 261.29 0)
 			(effects
 				(font
@@ -8652,7 +8570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 318.77 147.32 0)
 			(effects
 				(font
@@ -9614,126 +9532,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
-		(at 186.69 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18ebaff1-6081-48a6-ab82-685fbf068bb9")
-		(property "Reference" "D103"
-			(at 186.69 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SBR3U60P1-7"
-			(at 186.309 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SBR3U60P17"
-			(at 199.39 246.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
-			(at 199.39 346.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
-			(at 186.69 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 199.39 546.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-SBR3U60P1-7"
-			(at 199.39 646.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
-			(at 199.39 746.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 199.39 846.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
-			(at 199.39 946.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e114572-7e19-4240-99f7-9cbbf55e6aaf")
-		)
-		(pin "2"
-			(uuid "c3d64042-8165-49d9-9bc6-5ed1b0c35da0")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 76.2 240.03 90)
 		(unit 1)
@@ -9896,7 +9694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 198.12 166.37 0)
 			(effects
 				(font
@@ -9963,7 +9761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BSC146N10LS5ATMA1"
+		(property "Footprint" "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
 			(at 96.52 243.51 0)
 			(effects
 				(font
@@ -10695,7 +10493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 186.69 182.88 0)
 			(effects
 				(font
@@ -10832,7 +10630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 90.17 240.03 0)
 			(effects
 				(font
@@ -11349,126 +11147,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PM4343_102NLT:PM4343.102NLT")
-		(at 34.29 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c40756a-dc0d-496f-b4b9-4fcf922c4599")
-		(property "Reference" "L101"
-			(at 44.45 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u/30A"
-			(at 44.45 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PM4343.102NLT:INDPM140128X650N"
-			(at 50.8 138.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://products.pulseelex.com/files/product_files/P770.pdf"
-			(at 50.8 238.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fixed Inductors 1uH 30A 6.5mm +/-20% AEC-Q200"
-			(at 34.29 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "6.5"
-			(at 50.8 438.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "673-PM4343.102NLT"
-			(at 50.8 538.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/PM4343102NLT?qs=l7cgNqFNU1hepeTrNv0BPg%3D%3D"
-			(at 50.8 638.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Pulse Electronics"
-			(at 50.8 738.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PM4343.102NLT"
-			(at 50.8 838.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df56b6f2-f653-47bb-a505-fc9df253d967")
-		)
-		(pin "2"
-			(uuid "a40ee731-5196-4052-b4bd-df4b5854b569")
-		)
-		(instances
-			(project ""
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "L101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 190.5 186.69 0)
 		(unit 1)
@@ -11566,7 +11244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BSC146N10LS5ATMA1"
+		(property "Footprint" "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
 			(at 96.52 262.56 0)
 			(effects
 				(font
@@ -11658,126 +11336,6 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "Q102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
-		(at 58.42 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4121797d-f92a-4d0f-8986-e6bb87ac7628")
-		(property "Reference" "D102"
-			(at 58.42 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SBR3U60P1-7"
-			(at 58.039 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SBR3U60P17"
-			(at 71.12 266.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
-			(at 71.12 366.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
-			(at 58.42 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 71.12 566.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-SBR3U60P1-7"
-			(at 71.12 666.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
-			(at 71.12 766.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 71.12 866.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
-			(at 71.12 966.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43fd4fe5-ea20-412e-a43e-a3e704398049")
-		)
-		(pin "2"
-			(uuid "c99e41e7-a7e2-4331-8a4e-c071c4849940")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -12356,7 +11914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 321.31 175.26 0)
 			(effects
 				(font
@@ -12424,7 +11982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 198.12 147.32 0)
 			(effects
 				(font
@@ -12766,7 +12324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 334.01 156.21 0)
 			(effects
 				(font
@@ -13165,126 +12723,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
-		(at 186.69 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f16514b-d8ab-4678-90b2-4d10abc296ae")
-		(property "Reference" "D104"
-			(at 186.69 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SBR3U60P1-7"
-			(at 186.309 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SBR3U60P17"
-			(at 199.39 265.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
-			(at 199.39 365.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
-			(at 186.69 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 199.39 565.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-SBR3U60P1-7"
-			(at 199.39 665.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
-			(at 199.39 765.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 199.39 865.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
-			(at 199.39 965.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79f67c41-1ede-43c2-92be-f4937f642ff1")
-		)
-		(pin "2"
-			(uuid "cd616551-4c8b-4bc6-a64b-b188bf84c00d")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Vdrive")
 		(at 323.85 137.16 0)
 		(unit 1)
@@ -13591,7 +13029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 119.38 242.57 0)
 			(effects
 				(font
@@ -14417,7 +13855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 212.09 156.21 0)
 			(effects
 				(font
@@ -14753,7 +14191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BSC146N10LS5ATMA1"
+		(property "Footprint" "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
 			(at 345.44 261.29 0)
 			(effects
 				(font
@@ -14948,7 +14386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 58.42 184.15 0)
 			(effects
 				(font
@@ -15085,7 +14523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 69.85 167.64 0)
 			(effects
 				(font
@@ -15152,7 +14590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BSC146N10LS5ATMA1"
+		(property "Footprint" "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
 			(at 345.44 242.24 0)
 			(effects
 				(font
@@ -15344,7 +14782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 72.39 176.53 0)
 			(effects
 				(font
@@ -15544,7 +14982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BSC146N10LS5ATMA1"
+		(property "Footprint" "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
 			(at 224.79 242.24 0)
 			(effects
 				(font
@@ -15670,7 +15108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 83.82 157.48 0)
 			(effects
 				(font
@@ -15774,126 +15212,6 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "R111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
-		(at 307.34 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9471a2b0-9f60-471d-b1e5-6effa7467720")
-		(property "Reference" "D105"
-			(at 307.34 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SBR3U60P1-7"
-			(at 306.959 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SBR3U60P17"
-			(at 320.04 246.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
-			(at 320.04 346.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
-			(at 307.34 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 320.04 546.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-SBR3U60P1-7"
-			(at 320.04 646.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
-			(at 320.04 746.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 320.04 846.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
-			(at 320.04 946.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "519a3916-4a89-4770-861f-7ed1559f1e64")
-		)
-		(pin "2"
-			(uuid "73371fbd-d2f9-4898-9547-dcbf21f6c9f2")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D105")
 					(unit 1)
 				)
 			)
@@ -16062,7 +15380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 200.66 175.26 0)
 			(effects
 				(font
@@ -16308,6 +15626,126 @@
 		)
 	)
 	(symbol
+		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
+		(at 307.34 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d39c1e6-4fd6-4d72-aa9c-077d148ed8cb")
+		(property "Reference" "D106"
+			(at 307.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SBR3U60P1-7"
+			(at 306.959 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 320.04 265.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
+			(at 320.04 365.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
+			(at 307.34 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 320.04 565.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-SBR3U60P1-7"
+			(at 320.04 665.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
+			(at 320.04 765.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 320.04 865.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
+			(at 320.04 965.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76aaa5c6-c248-4300-be63-0942a296110f")
+		)
+		(pin "2"
+			(uuid "60ade3ac-98f4-4c0e-9978-70caaf66f35f")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 300.99 182.88 0)
 		(unit 1)
@@ -16336,7 +15774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 306.07 182.88 0)
 			(effects
 				(font
@@ -16538,7 +15976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 101.6 41.91 0)
 			(effects
 				(font
@@ -16780,6 +16218,126 @@
 		)
 	)
 	(symbol
+		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
+		(at 58.42 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa5c934e-d898-4f8a-aaeb-b4edf6bfd49c")
+		(property "Reference" "D102"
+			(at 58.42 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SBR3U60P1-7"
+			(at 58.039 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 71.12 266.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
+			(at 71.12 366.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
+			(at 58.42 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 71.12 566.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-SBR3U60P1-7"
+			(at 71.12 666.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
+			(at 71.12 766.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 71.12 866.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
+			(at 71.12 966.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fac548d2-be90-4661-b49d-c15bccda5825")
+		)
+		(pin "2"
+			(uuid "7040e59d-582b-41ca-9645-ab81a86e8c5f")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 125.73 242.57 0)
 		(unit 1)
@@ -16808,7 +16366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 130.81 242.57 0)
 			(effects
 				(font
@@ -17185,6 +16743,126 @@
 		)
 	)
 	(symbol
+		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
+		(at 307.34 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3fae9fd-503b-43e1-8cb3-c597064fcaa2")
+		(property "Reference" "D105"
+			(at 307.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SBR3U60P1-7"
+			(at 306.959 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 320.04 246.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
+			(at 320.04 346.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
+			(at 307.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 320.04 546.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-SBR3U60P1-7"
+			(at 320.04 646.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
+			(at 320.04 746.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 320.04 846.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
+			(at 320.04 946.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60444119-55a5-45f3-9838-4a5fb5bc047d")
+		)
+		(pin "2"
+			(uuid "1e90e281-71c4-4975-97fc-0fc94f0c1817")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 137.16 254 0)
 		(unit 1)
@@ -17421,7 +17099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 69.85 148.59 0)
 			(effects
 				(font
@@ -17963,7 +17641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 257.81 238.76 0)
 			(effects
 				(font
@@ -18575,7 +18253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 318.77 166.37 0)
 			(effects
 				(font
@@ -18615,6 +18293,126 @@
 		)
 	)
 	(symbol
+		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
+		(at 186.69 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfe54405-95f6-4453-9fac-1d675d8c7e84")
+		(property "Reference" "D104"
+			(at 186.69 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SBR3U60P1-7"
+			(at 186.309 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 199.39 265.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
+			(at 199.39 365.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
+			(at 186.69 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 199.39 565.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-SBR3U60P1-7"
+			(at 199.39 665.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
+			(at 199.39 765.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 199.39 865.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
+			(at 199.39 965.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "881fede2-3337-4b79-8f86-3158435e6fe2")
+		)
+		(pin "2"
+			(uuid "b0357fb2-023d-4593-b13a-4d574161aec0")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 187.96 242.57 0)
 		(unit 1)
@@ -18643,7 +18441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 193.04 242.57 0)
 			(effects
 				(font
@@ -18711,7 +18509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 142.24 242.57 0)
 			(effects
 				(font
@@ -19440,8 +19238,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SBR3U60P17"
-			(at 71.12 247.32 0)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 72.39 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19599,126 +19397,6 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "R135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
-		(at 307.34 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7475157-701a-4a32-95ca-de7491afd9f3")
-		(property "Reference" "D106"
-			(at 307.34 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SBR3U60P1-7"
-			(at 306.959 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SBR3U60P17"
-			(at 320.04 265.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
-			(at 320.04 365.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
-			(at 307.34 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 320.04 565.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-SBR3U60P1-7"
-			(at 320.04 665.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
-			(at 320.04 765.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 320.04 865.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
-			(at 320.04 965.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "889f7bf3-0925-46a9-ba33-96e7ce3626f8")
-		)
-		(pin "2"
-			(uuid "f4175b82-3f0f-443d-a035-2af3dcf67ed2")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D106")
 					(unit 1)
 				)
 			)
