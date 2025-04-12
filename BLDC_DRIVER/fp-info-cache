@@ -1,4 +1,11 @@
-24744327238465491
+24758280573802260
+691311400103
+691311400103
+
+
+0
+3
+3
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +20,20 @@ audio belton reverb
 0
 7
 7
+BAT54C
+SOT95P232X115-3N
+BAT54C
+Schottky Diode
+0
+3
+3
+BSC146N10LS5ATMA1
+BSC146N10LS5ATMA1
+BSC146N10LS5ATMA1-2
+MOSFET (N-Channel)
+0
+9
+3
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -2565,6 +2586,20 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+CAPAE1300X1400N
+CAPAE1300X1400N
+1213
+Capacitor Polarised
+0
+2
+2
+CDBC560-G
+DIOM7959X262N
+DO-214AB (SMC)
+Schottky Diode
 0
 2
 2
@@ -55229,6 +55264,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DRV8323
+QFN50P600X600X80-41N-D
+RTA (S-PQFP-N40)
+Integrated Circuit
+0
+41
+41
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -57252,6 +57294,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EMVY101ARA101MKE0S
+CAPAE1300X1400N
+cap_5151P
+Capacitor Polarised
+0
+2
+2
 ESP32-S3-WROOM-1U-N16R2
 XCVR_ESP32-S3-WROOM-1U-N16R2
 
@@ -65855,34 +65904,6 @@ Yellow 5381 Series LED
 0
 2
 2
-LMR51610YDBVR
-DBV0006A-IPC_A
-
-LMR51610YDBVR 
-0
-6
-6
-LMR51610YDBVR
-DBV0006A-IPC_B
-
-LMR51610YDBVR 
-0
-6
-6
-LMR51610YDBVR
-DBV0006A-IPC_C
-
-LMR51610YDBVR 
-0
-6
-6
-LMR51610YDBVR
-DBV0006A-MFG
-
-LMR51610YDBVR 
-0
-6
-6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -69831,6 +69852,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PM4343.102NLT
+INDPM140128X650N
+12.8mmX6.5mm
+Inductor
+0
+2
+2
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf
@@ -87688,6 +87716,13 @@ Skyworks
 0
 7
 7
+RF201L2SDDTE25
+DIOM5026X220N
+DO-214AC (SMA) (PMDS)
+Schottky Diode
+0
+2
+2
 RF_Antenna
 AVX_M620720
 868Mhz, 915Mhz ISM antenna, 6 x 2 x 1.08mm, http://datasheets.avx.com/ethertronics/AVX-E_M620720.pdf
@@ -91230,6 +91265,27 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SBR3U60P1-7
+SBR3U60P17
+SBR3U60P1-7
+Schottky Diode
+0
+2
+2
+SBRT20U50SLPQ-13
+DMTH8012LPSQ13
+PowerDI5060-8_2021_1
+Schottky Diode
+0
+11
+2
+SQJ170ELP-T1_GE3
+SQJ160EPT1_GE3
+PowerPAK® SO-8L Single Short Ear
+MOSFET (N-Channel)
+0
+9
+3
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
