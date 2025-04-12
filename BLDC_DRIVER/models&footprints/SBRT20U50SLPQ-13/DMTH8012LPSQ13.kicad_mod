@@ -1,0 +1,444 @@
+(footprint "DMTH8012LPSQ13"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PowerDI5060-8_2021_1")
+	(tags "Schottky Diode")
+	(property "Reference" "D**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5aceb9b1-9ded-4b92-9d3b-3937f49c1084")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DMTH8012LPSQ13"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e8cddbcb-d008-4406-937a-0ddd7be26802")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21a95d80-2994-446d-87e2-11faf6609877")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08be9a0d-c49d-4620-957b-4628bdaddc87")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.1"
+		(at -0.005 0.005 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddb1c242-5191-479b-9eda-f13b252ef9ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Diodes Incorporated"
+		(at -0.005 0.005 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc8f510b-5280-4826-84f4-a7a7e623804b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "621-SBRT20U50SLPQ-13"
+		(at -0.005 0.005 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a002c56-189a-47e7-aeed-fadfd9fbdba3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBRT20U50SLPQ-13?qs=IvkZ4pJZlB1IjzBTgRaX%252BQ%3D%3D"
+		(at -0.005 0.005 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eccae74d-b5d9-427d-9d7b-009f053f6615")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SBRT20U50SLPQ-13"
+		(at -0.005 0.005 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "513877c6-0f42-429f-81cb-f71e6e0361af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.455 1.505)
+		(end -2.455 1.505)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9dc5c0ec-f236-436a-a39a-fdfc7f71d58f")
+	)
+	(fp_line
+		(start -2.455 1.505)
+		(end -2.455 1.755)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb5b6d6b-330c-4d04-b648-c974162022c7")
+	)
+	(fp_line
+		(start -2.455 1.755)
+		(end -2.455 1.505)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e736c78f-8f51-4c75-b7c5-b99c2361a8a3")
+	)
+	(fp_line
+		(start -2.455 1.755)
+		(end -2.455 1.755)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c2e9452-a78c-4610-99ac-49d5f1ef5cbf")
+	)
+	(fp_line
+		(start -1.91 3.805)
+		(end -1.91 3.805)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89952953-8c1f-47e2-8298-f0a73f888aec")
+	)
+	(fp_line
+		(start -1.91 3.805)
+		(end -1.91 3.805)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94e782c3-1009-450d-8aee-754d174202db")
+	)
+	(fp_line
+		(start -1.91 3.905)
+		(end -1.91 3.905)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e555ea39-6f9a-4cd9-9f83-3dada5d00111")
+	)
+	(fp_line
+		(start 2.445 1.505)
+		(end 2.445 1.505)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0d76ee0-b80e-436f-af4c-7c23da83996d")
+	)
+	(fp_line
+		(start 2.445 1.505)
+		(end 2.445 1.755)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9709861d-7897-4d50-8782-6988d57a2d58")
+	)
+	(fp_line
+		(start 2.445 1.755)
+		(end 2.445 1.505)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97923413-6c8d-4e43-8d1c-7b298a8b1390")
+	)
+	(fp_line
+		(start 2.445 1.755)
+		(end 2.445 1.755)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "532da3c9-e0ef-44e4-90e8-3f202788a3a7")
+	)
+	(fp_arc
+		(start -1.91 3.805)
+		(mid -1.86 3.855)
+		(end -1.91 3.905)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc77b951-6521-44c5-8319-e95b4fca4ee5")
+	)
+	(fp_arc
+		(start -1.91 3.905)
+		(mid -1.96 3.855)
+		(end -1.91 3.805)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a9c913a-44f9-4e97-ab5d-6cd1c8b4733d")
+	)
+	(fp_arc
+		(start -1.91 3.905)
+		(mid -1.96 3.855)
+		(end -1.91 3.805)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed3cf405-5730-4a6a-ac6d-25ee4b30f7ea")
+	)
+	(fp_line
+		(start -3.81 -4.3)
+		(end 3.8 -4.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f640bf00-4b98-4a53-8e2d-5f4bf1d1e10c")
+	)
+	(fp_line
+		(start -3.81 4.31)
+		(end -3.81 -4.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "495ea2be-0f9f-4c19-b105-861b6193fc26")
+	)
+	(fp_line
+		(start 3.8 -4.3)
+		(end 3.8 4.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "16a57ec9-a740-4a65-a277-9620d8cc47fd")
+	)
+	(fp_line
+		(start 3.8 4.31)
+		(end -3.81 4.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79d8e73f-fa7c-4598-a5c8-6faeca07e247")
+	)
+	(fp_line
+		(start -2.455 -2.895)
+		(end -2.455 2.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75449f4a-d9a3-459c-b8ae-07d1d6be1f6c")
+	)
+	(fp_line
+		(start -2.455 2.905)
+		(end 2.445 2.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f18e3b0-d38f-4d20-9932-ca3b398e5512")
+	)
+	(fp_line
+		(start 2.445 -2.895)
+		(end -2.455 -2.895)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "637c2f27-1dd2-4636-995c-67d8791fe2ff")
+	)
+	(fp_line
+		(start 2.445 2.905)
+		(end 2.445 -2.895)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae146af8-d08c-47e8-a0de-ca45f1464f0f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.005 0.005 0)
+		(layer "F.Fab")
+		(uuid "5d766d47-ecfc-4648-9b55-c904c48f483f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.91 2.675)
+		(size 0.61 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "21093122-64e4-48c1-bc2f-2f72a6ccdcba")
+	)
+	(pad "1" smd rect
+		(at -0.64 2.675)
+		(size 0.61 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7423806a-833b-4697-80dd-2193d66b2f50")
+	)
+	(pad "1" smd rect
+		(at 0.63 2.675)
+		(size 0.61 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d7dbd92-1906-4154-8525-a13359a90104")
+	)
+	(pad "1" smd rect
+		(at 1.9 2.675)
+		(size 0.61 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "afd60f84-fbfb-4300-98d7-5e0b3dda2e8a")
+	)
+	(pad "8" smd rect
+		(at -1.91 -2.79)
+		(size 0.61 1.02)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ed4a3272-bc4c-416a-8bea-e2392827c024")
+	)
+	(pad "8" smd rect
+		(at -0.64 -2.945)
+		(size 0.61 0.71)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b8113896-b8ce-4bac-827e-68fe011dd84c")
+	)
+	(pad "8" smd rect
+		(at -0.005 -1.685 90)
+		(size 0.6 5.61)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9c937fcb-2da7-456e-96e3-322c95f32397")
+	)
+	(pad "8" smd rect
+		(at -0.005 -0.69 90)
+		(size 3.82 4.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9cdb191a-c119-4b54-8379-ed5d5691f08a")
+	)
+	(pad "8" smd rect
+		(at -0.005 0.74 90)
+		(size 0.6 5.61)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e233066d-063f-42c9-bd3d-15c19eee2472")
+	)
+	(pad "8" smd rect
+		(at 0.63 -2.945)
+		(size 0.61 0.71)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "33c0011a-f67b-47b1-90bd-beda21022784")
+	)
+	(pad "8" smd rect
+		(at 1.9 -2.79)
+		(size 0.61 1.02)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8d51e5d5-492e-4d16-ad0e-ff14b9015b1d")
+	)
+	(group ""
+		(uuid "bca585f2-79de-460d-b9bc-90f86fa043bb")
+		(members "33c0011a-f67b-47b1-90bd-beda21022784" "513877c6-0f42-429f-81cb-f71e6e0361af"
+			"6a002c56-189a-47e7-aeed-fadfd9fbdba3" "8d51e5d5-492e-4d16-ad0e-ff14b9015b1d"
+			"9c937fcb-2da7-456e-96e3-322c95f32397" "9cdb191a-c119-4b54-8379-ed5d5691f08a"
+			"b8113896-b8ce-4bac-827e-68fe011dd84c" "bc8f510b-5280-4826-84f4-a7a7e623804b"
+			"e233066d-063f-42c9-bd3d-15c19eee2472" "eccae74d-b5d9-427d-9d7b-009f053f6615"
+			"ed4a3272-bc4c-416a-8bea-e2392827c024"
+		)
+	)
+	(embedded_fonts no)
+	(model "SBRT20U50SLPQ-13.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

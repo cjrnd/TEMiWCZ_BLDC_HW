@@ -5,42 +5,31 @@
 	(uuid "f1ed472b-41f8-464e-a11b-9bcaa0b777c4")
 	(paper "A3")
 	(lib_symbols
-		(symbol "691311400103:691311400103"
+		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -4.99 -1.205 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
 				)
 			)
-			(property "Value" "691311400103"
-				(at -4.95 -3.01 0)
+			(property "Value" "Screw_Terminal_01x03"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
 				)
 			)
-			(property "Footprint" "691311400103:691311400103"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -49,7 +38,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,90 +47,37 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Würth Elektronik"
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Description_1" "7.62mm Pitch Straight Pluggable Term Block, PCB Header, Through Hole, 3 Way | Wurth Electronics 691311400103"
+			(property "ki_keywords" "screw terminal"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
+			(property "ki_fp_filters" "TerminalBlock*:*"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/691311400103/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "691311400103"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/691311400103/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "691311400103_0_0"
+			(symbol "Screw_Terminal_01x03_1_1"
 				(rectangle
-					(start -3.81 -2.54)
-					(end 3.81 0)
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -150,11 +86,12 @@
 						(type background)
 					)
 				)
-				(circle
-					(center -2.54 -1.27)
-					(radius 0.254)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
 					(stroke
-						(width 0.635)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -163,10 +100,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -2.54 -2.54)
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -175,21 +112,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
 					)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0.635)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -198,10 +124,34 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.27) (xy 2.54 -2.54)
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -209,10 +159,32 @@
 					)
 				)
 				(circle
-					(center 2.54 -1.27)
-					(radius 0.254)
+					(center 0 2.54)
+					(radius 0.635)
 					(stroke
-						(width 0.635)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -220,381 +192,55 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 2.286 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "BSC146N10LS5ATMA1"
-				(at 2.286 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "BSC146N10LS5ATMA1"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "OptiMOSTM5Power-Transistor,100V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Infineon"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "BSC146N10LS5ATMA1_0_1"
-				(polyline
-					(pts
-						(xy -2.286 1.905) (xy -2.286 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -1.778 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 0.508) (xy -1.778 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.27) (xy -1.778 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.778) (xy 0.762 -1.778) (xy 0.762 1.778) (xy -1.778 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -0.508 0.381) (xy -0.508 -0.381) (xy -1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -0.889 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 0.381) (xy 1.143 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.381) (xy 0.381 -0.254) (xy 1.143 -0.254) (xy 0.762 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BSC146N10LS5ATMA1_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -2758,7 +2404,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SBR3U60P1-7:SBR3U60P1-7"
+		(symbol "RF201L2SDDTE25:RF201L2SDDTE25"
 			(pin_names
 				(hide yes)
 			)
@@ -2766,7 +2412,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at -5.842 6.096 0)
+				(at 12.7 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2774,8 +2420,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "SBR3U60P1-7"
-				(at -5.842 3.556 0)
+			(property "Value" "RF201L2SDDTE25"
+				(at 12.7 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2783,7 +2429,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SBR3U60P17"
+			(property "Footprint" "DIOM5026X220N"
 				(at 12.7 -93.65 0)
 				(effects
 					(font
@@ -2793,7 +2439,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
 				(at 12.7 -193.65 0)
 				(effects
 					(font
@@ -2803,7 +2449,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
+			(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2812,7 +2458,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1"
+			(property "Height" "2.2"
 				(at 12.7 -393.65 0)
 				(effects
 					(font
@@ -2822,7 +2468,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "621-SBR3U60P1-7"
+			(property "Mouser Part Number" "755-RF201L2SDDTE25"
 				(at 12.7 -493.65 0)
 				(effects
 					(font
@@ -2832,7 +2478,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
 				(at 12.7 -593.65 0)
 				(effects
 					(font
@@ -2842,7 +2488,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Diodes Incorporated"
+			(property "Manufacturer_Name" "ROHM Semiconductor"
 				(at 12.7 -693.65 0)
 				(effects
 					(font
@@ -2852,7 +2498,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SBR3U60P1-7"
+			(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
 				(at 12.7 -793.65 0)
 				(effects
 					(font
@@ -2862,10 +2508,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SBR3U60P1-7_0_1"
+			(symbol "RF201L2SDDTE25_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.508) (xy -2.032 1.143) (xy -1.397 1.143) (xy -1.397 -1.397) (xy -0.762 -1.397) (xy -0.762 -0.762)
+						(xy 9.398 3.048) (xy 9.398 3.683) (xy 10.033 3.683) (xy 10.033 1.143) (xy 10.668 1.143) (xy 10.668 1.778)
 					)
 					(stroke
 						(width 0.254)
@@ -2877,7 +2523,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.524) (xy -1.397 -0.127) (xy 1.27 1.27)
+						(xy 12.7 3.81) (xy 12.7 1.016) (xy 10.033 2.413) (xy 12.7 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -2888,11 +2534,11 @@
 					)
 				)
 			)
-			(symbol "SBR3U60P1-7_1_1"
+			(symbol "RF201L2SDDTE25_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at 7.62 2.54 0)
 					(length 2.54)
-					(name ""
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2908,9 +2554,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 15.24 2.54 180)
 					(length 2.54)
-					(name ""
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2921,6 +2567,332 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SQJ170ELP-T1_GE3:SQJ170ELP-T1_GE3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+				)
+			)
+			(property "Value" "SQJ170ELP"
+				(at 20.828 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+				)
+			)
+			(property "Footprint" "SQJ160EPT1_GE3"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/63124/sqj170elp.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET N-CHANNEL 60-V (D-S) 175C MOSFET"
+				(at 0.254 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "78-SQJ170ELP-T1_GE3"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQJ170ELP-T1_GE3?qs=MyNHzdoqoQKx0TNbtBmHoQ%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SQJ170ELP-T1_GE3"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SQJ170ELP-T1_GE3_0_1"
+				(polyline
+					(pts
+						(xy 5.334 1.905) (xy 5.334 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.286) (xy 5.842 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0.508) (xy 5.842 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -1.27) (xy 5.842 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -1.778) (xy 8.382 -1.778) (xy 8.382 1.778) (xy 5.842 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 0) (xy 7.112 0.381) (xy 7.112 -0.381) (xy 6.096 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.731 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 7.62 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 0) (xy 5.842 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.001 0.381) (xy 8.763 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 0.381) (xy 8.001 -0.254) (xy 8.763 -0.254) (xy 8.382 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SQJ170ELP-T1_GE3_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
 							)
 						)
 					)
@@ -3787,6 +3759,12 @@
 		(uuid "f419c81a-6377-4481-bb3a-5bd95b56ebb1")
 	)
 	(junction
+		(at 220.98 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00f98c50-992f-472e-97e7-152d693bab5a")
+	)
+	(junction
 		(at 240.03 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3877,6 +3855,12 @@
 		(uuid "3491a8c1-858c-42b9-9b95-9e2763b04b32")
 	)
 	(junction
+		(at 237.49 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "373e89b6-b079-48a6-b09a-db55fce645a0")
+	)
+	(junction
 		(at 196.85 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3931,6 +3915,12 @@
 		(uuid "5f5ec7eb-7fba-47e8-9266-a167f8f1f41b")
 	)
 	(junction
+		(at 358.14 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61b65a16-a6a1-4f7d-9294-37640b570a3e")
+	)
+	(junction
 		(at 254 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3949,6 +3939,12 @@
 		(uuid "7016612a-0105-447f-9222-2f0ffcb646e3")
 	)
 	(junction
+		(at 341.63 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7235dba0-2b10-47f7-83db-52751e6b580a")
+	)
+	(junction
 		(at 323.85 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3959,6 +3955,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bae9c58-dfcb-4a97-88de-a1bd50656777")
+	)
+	(junction
+		(at 341.63 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bd1d0aa-c99a-4def-8756-f54181fdf8a1")
 	)
 	(junction
 		(at 323.85 156.21)
@@ -4111,6 +4113,12 @@
 		(uuid "b8df9878-df4a-4465-aac4-2cabc1cdecf9")
 	)
 	(junction
+		(at 109.22 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba9623c9-aeec-4f77-8ef3-73ab8834880e")
+	)
+	(junction
 		(at 74.93 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4133,6 +4141,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c31ee067-99fb-4347-9145-7e75ecd7d08f")
+	)
+	(junction
+		(at 220.98 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c333d067-7815-46ec-8fe6-642f5df9091a")
 	)
 	(junction
 		(at 311.15 182.88)
@@ -4193,6 +4207,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dba5f3d7-a3d1-40d4-b8cc-f7f6e2a7cdeb")
+	)
+	(junction
+		(at 92.71 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de70c006-ca55-4b45-a3cb-b9bf30fe594b")
 	)
 	(junction
 		(at 76.2 41.91)
@@ -4259,6 +4279,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa50375d-596c-4355-825f-c085663690ae")
+	)
+	(junction
+		(at 92.71 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd999fd0-a64c-40e4-a15e-f1cfcb8b34bf")
 	)
 	(no_connect
 		(at 381 242.57)
@@ -4690,7 +4716,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 156.21) (xy 367.03 156.21)
+			(xy 367.03 156.21) (xy 358.14 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4717,6 +4743,16 @@
 			(type default)
 		)
 		(uuid "1701ad3f-f619-4f74-be93-27b1788ab7d7")
+	)
+	(wire
+		(pts
+			(xy 237.49 151.13) (xy 237.49 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ac6ab7-39f6-4014-bf81-a195d0fae566")
 	)
 	(wire
 		(pts
@@ -5100,6 +5136,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 156.21) (xy 358.14 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d4eafd-237a-4088-8fb8-961e581bbca6")
+	)
+	(wire
+		(pts
 			(xy 39.37 176.53) (xy 67.31 176.53)
 		)
 		(stroke
@@ -5107,6 +5153,16 @@
 			(type default)
 		)
 		(uuid "345eeae9-1bce-4e12-ac89-6fbcc3c0eb8e")
+	)
+	(wire
+		(pts
+			(xy 358.14 156.21) (xy 358.14 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349679e7-86fe-409f-a382-8ff97a2c1582")
 	)
 	(wire
 		(pts
@@ -5187,6 +5243,16 @@
 			(type default)
 		)
 		(uuid "3e508bc1-2083-4bac-b9eb-f9fa57009977")
+	)
+	(wire
+		(pts
+			(xy 358.14 138.43) (xy 358.14 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed8958e-748d-4d74-9b83-8c9319efbeb8")
 	)
 	(wire
 		(pts
@@ -5410,6 +5476,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 139.7) (xy 109.22 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe5e910-b33c-4e55-a1fa-70331e3dcc9b")
+	)
+	(wire
+		(pts
 			(xy 209.55 73.66) (xy 222.25 73.66)
 		)
 		(stroke
@@ -5427,6 +5503,16 @@
 			(type default)
 		)
 		(uuid "50b31d1d-7af9-4248-9879-bda861d90c24")
+	)
+	(wire
+		(pts
+			(xy 358.14 167.64) (xy 358.14 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c7f46c-1eee-49c5-b3b3-02e4f0d39161")
 	)
 	(wire
 		(pts
@@ -5557,6 +5643,16 @@
 			(type default)
 		)
 		(uuid "5d4d62fb-91ab-4413-b195-783bf3017c2e")
+	)
+	(wire
+		(pts
+			(xy 109.22 147.32) (xy 109.22 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d817735-f3ae-4fb9-aca4-60f121733125")
 	)
 	(wire
 		(pts
@@ -5720,6 +5816,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 138.43) (xy 358.14 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9aa27b-69b2-4480-870d-295d1cb61276")
+	)
+	(wire
+		(pts
 			(xy 247.65 38.1) (xy 247.65 45.72)
 		)
 		(stroke
@@ -5767,6 +5873,16 @@
 			(type default)
 		)
 		(uuid "7508e09d-9006-4c8e-bb67-9648218bb2da")
+	)
+	(wire
+		(pts
+			(xy 237.49 156.21) (xy 220.98 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7578dc27-a699-4edb-9e6d-5fad3dd3ba23")
 	)
 	(wire
 		(pts
@@ -6030,16 +6146,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 93.98) (xy 373.38 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9026744c-e417-499a-b69b-ca6b58801c20")
-	)
-	(wire
-		(pts
 			(xy 212.09 60.96) (xy 208.28 60.96)
 		)
 		(stroke
@@ -6210,6 +6316,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 138.43) (xy 109.22 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1696683-b310-4ea3-84d8-282062573f6a")
+	)
+	(wire
+		(pts
 			(xy 96.52 41.91) (xy 115.57 41.91)
 		)
 		(stroke
@@ -6220,6 +6336,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 157.48) (xy 109.22 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21249b6-2d2a-43e6-a3c3-122d3b75b9bf")
+	)
+	(wire
+		(pts
 			(xy 193.04 171.45) (xy 193.04 166.37)
 		)
 		(stroke
@@ -6227,16 +6353,6 @@
 			(type default)
 		)
 		(uuid "a26dc973-37e1-493c-947d-93d12a7f2c6b")
-	)
-	(wire
-		(pts
-			(xy 363.22 88.9) (xy 373.38 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a31c1078-1fd1-4b73-90d3-c5e44fa10ee9")
 	)
 	(wire
 		(pts
@@ -6320,13 +6436,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 157.48) (xy 116.84 157.48)
+			(xy 92.71 157.48) (xy 109.22 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad314df3-4029-4951-8d3e-462b4cf782f3")
+	)
+	(wire
+		(pts
+			(xy 341.63 156.21) (xy 358.14 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adeade1c-7131-4064-b9b8-5f6f888084f0")
 	)
 	(wire
 		(pts
@@ -6337,6 +6463,16 @@
 			(type default)
 		)
 		(uuid "ae45331d-0139-4aae-83bb-738bf568a9e7")
+	)
+	(wire
+		(pts
+			(xy 237.49 156.21) (xy 237.49 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae89230f-d9d4-44ee-8b6b-a1a19d740fb6")
 	)
 	(wire
 		(pts
@@ -6367,6 +6503,16 @@
 			(type default)
 		)
 		(uuid "b0464941-8cdb-42b2-a86d-9acfb4463677")
+	)
+	(wire
+		(pts
+			(xy 220.98 138.43) (xy 237.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d27b19-3fa7-47ae-a065-c9a65e1f83ba")
 	)
 	(wire
 		(pts
@@ -6497,6 +6643,16 @@
 			(type default)
 		)
 		(uuid "bbffec31-9489-4d50-a7a2-9f4c386819eb")
+	)
+	(wire
+		(pts
+			(xy 341.63 175.26) (xy 358.14 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7b3620-0701-4b64-84f3-dcffeb14524a")
 	)
 	(wire
 		(pts
@@ -6730,7 +6886,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 156.21) (xy 247.65 156.21)
+			(xy 247.65 156.21) (xy 237.49 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6880,6 +7036,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 168.91) (xy 109.22 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2a78c0-07fa-46dc-b064-cce2b15e46be")
+	)
+	(wire
+		(pts
 			(xy 78.74 157.48) (xy 92.71 157.48)
 		)
 		(stroke
@@ -6900,6 +7066,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 157.48) (xy 116.84 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd8c3138-68be-4dad-9017-62279c93e788")
+	)
+	(wire
+		(pts
 			(xy 80.01 240.03) (xy 85.09 240.03)
 		)
 		(stroke
@@ -6907,6 +7083,16 @@
 			(type default)
 		)
 		(uuid "ddb109a9-6187-4e6b-a164-0146506a651c")
+	)
+	(wire
+		(pts
+			(xy 237.49 167.64) (xy 237.49 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc0d0dd-921e-4196-90ab-a4ec60659255")
 	)
 	(wire
 		(pts
@@ -6957,6 +7143,16 @@
 			(type default)
 		)
 		(uuid "e0e76ed8-e1e7-4547-a5ff-8a57ee177529")
+	)
+	(wire
+		(pts
+			(xy 237.49 138.43) (xy 237.49 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12d0b8e-a92d-4f41-b8a1-cb3d6dffeda8")
 	)
 	(wire
 		(pts
@@ -7210,6 +7406,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 175.26) (xy 237.49 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f073e60a-6dd2-4e97-be43-b7bb352be730")
+	)
+	(wire
+		(pts
 			(xy 254 34.29) (xy 262.89 34.29)
 		)
 		(stroke
@@ -7307,6 +7513,16 @@
 			(type default)
 		)
 		(uuid "f85c6cf5-4c00-43e7-aaa2-0b99ee7b5ea6")
+	)
+	(wire
+		(pts
+			(xy 92.71 176.53) (xy 109.22 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f870e161-15ec-4afd-9fc2-78d2c93edfe1")
 	)
 	(bus
 		(pts
@@ -7499,7 +7715,7 @@
 		(uuid "4ebf59e4-d3cd-4148-92fd-710aa454551a")
 	)
 	(label "W_PHASE"
-		(at 363.22 93.98 0)
+		(at 363.22 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8397,17 +8613,17 @@
 		)
 	)
 	(symbol
-		(lib_id "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1")
-		(at 203.2 166.37 0)
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 106.68 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "02399dbc-c7da-4188-95c5-f8ed619ed499")
-		(property "Reference" "Q104"
-			(at 207.01 165.0999 0)
+		(uuid "01d47c75-bc66-4e7b-876d-f13c7c54acba")
+		(property "Reference" "D113"
+			(at 111.76 143.1289 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,17 +8631,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSC146N10LS5ATMA1"
-			(at 207.01 167.6399 0)
+		(property "Value" "RF201L2SDDTE25"
+			(at 111.76 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "BSC146N10LS5ATMA1"
-			(at 224.79 261.29 0)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 13.03 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8434,8 +8650,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-			(at 224.79 361.29 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at -86.97 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8444,8 +8660,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OptiMOSTM5Power-Transistor,100V"
-			(at 203.2 166.37 0)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 106.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8453,18 +8669,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1"
-			(at 224.79 561.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-			(at 224.79 661.29 0)
+		(property "Height" "2.2"
+			(at -286.97 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,8 +8679,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-			(at 224.79 761.29 0)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at -386.97 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,8 +8689,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 224.79 861.29 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at -486.97 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8493,8 +8699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-			(at 224.79 961.29 0)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at -586.97 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,19 +8709,26 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "b672302d-75ab-4492-a4ca-f226056b84c0")
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at -686.97 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "dce741aa-f4ce-4b2a-835e-5993d5f7d40b")
+		(pin "2"
+			(uuid "47f13a35-636e-4f49-af52-91128b65e481")
 		)
 		(pin "1"
-			(uuid "3bada572-de15-4afc-83e9-005d46dbdb40")
+			(uuid "bac73f63-7bad-4cc7-b19f-9c9ba0204a70")
 		)
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "Q104")
+					(reference "D113")
 					(unit 1)
 				)
 			)
@@ -9512,126 +9725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
-		(at 186.69 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18ebaff1-6081-48a6-ab82-685fbf068bb9")
-		(property "Reference" "D103"
-			(at 186.69 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SBR3U60P1-7"
-			(at 186.309 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SBR3U60P17"
-			(at 199.39 246.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
-			(at 199.39 346.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
-			(at 186.69 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 199.39 546.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-SBR3U60P1-7"
-			(at 199.39 646.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
-			(at 199.39 746.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 199.39 846.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
-			(at 199.39 946.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e114572-7e19-4240-99f7-9cbbf55e6aaf")
-		)
-		(pin "2"
-			(uuid "c3d64042-8165-49d9-9bc6-5ed1b0c35da0")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 76.2 240.03 90)
 		(unit 1)
@@ -9828,131 +9921,6 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "TP111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1")
-		(at 74.93 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f16608d-e0c5-45aa-a205-66ec19658b5f")
-		(property "Reference" "Q101"
-			(at 78.74 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC146N10LS5ATMA1"
-			(at 78.74 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BSC146N10LS5ATMA1"
-			(at 96.52 243.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-			(at 96.52 343.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "OptiMOSTM5Power-Transistor,100V"
-			(at 74.93 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 96.52 543.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-			(at 96.52 643.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-			(at 96.52 743.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 96.52 843.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-			(at 96.52 943.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "7697fb3b-78df-469b-8fea-d6de9a303c05")
-		)
-		(pin "4"
-			(uuid "d1a98839-f57c-4d81-a661-5180401a5c01")
-		)
-		(pin "1"
-			(uuid "7a367d81-534b-4df5-8913-df85bf9e6d1b")
-		)
-		(instances
-			(project ""
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "Q101")
 					(unit 1)
 				)
 			)
@@ -10770,6 +10738,128 @@
 		)
 	)
 	(symbol
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 355.6 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "301af085-b255-4600-8ee0-dd15eab5a4e1")
+		(property "Reference" "D117"
+			(at 360.68 163.4489 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RF201L2SDDTE25"
+			(at 360.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 261.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 161.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 355.6 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.2"
+			(at -38.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at -138.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at -238.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at -338.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at -438.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8069e2f9-907d-4ea6-9234-b65d440be336")
+		)
+		(pin "1"
+			(uuid "e7cd412d-2030-4b50-bca0-f0639f97efb5")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 262.89 0)
 		(unit 1)
@@ -10968,6 +11058,131 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "R137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SQJ170ELP-T1_GE3:SQJ170ELP-T1_GE3")
+		(at 316.23 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "392bf525-fec5-4253-9699-abd2870219fc")
+		(property "Reference" "Q105"
+			(at 327.66 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SQJ170ELP"
+			(at 327.66 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SQJ170ELP-T1_GE3:SQJ160EPT1_GE3"
+			(at 337.82 261.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63124/sqj170elp.pdf"
+			(at 337.82 361.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CHANNEL 60-V (D-S) 175C MOSFET"
+			(at 316.23 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 337.82 561.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SQJ170ELP-T1_GE3"
+			(at 337.82 661.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQJ170ELP-T1_GE3?qs=MyNHzdoqoQKx0TNbtBmHoQ%3D%3D"
+			(at 337.82 761.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 337.82 861.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQJ170ELP-T1_GE3"
+			(at 337.82 961.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "ea81d6d1-3054-44f2-bc61-e588df4f8175")
+		)
+		(pin "4"
+			(uuid "834b1458-fa8b-461a-9834-40ba66d4920a")
+		)
+		(pin "1"
+			(uuid "101c8e7f-fc70-44d4-9562-7b63236ccd35")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "Q105")
 					(unit 1)
 				)
 			)
@@ -11236,251 +11451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1")
-		(at 74.93 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fc19e89-3228-4f0b-a96e-173455608aad")
-		(property "Reference" "Q102"
-			(at 78.74 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC146N10LS5ATMA1"
-			(at 78.74 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BSC146N10LS5ATMA1"
-			(at 96.52 262.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-			(at 96.52 362.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "OptiMOSTM5Power-Transistor,100V"
-			(at 74.93 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 96.52 562.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-			(at 96.52 662.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-			(at 96.52 762.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 96.52 862.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-			(at 96.52 962.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e4493f77-fb35-4a35-bd4e-3fba258a024e")
-		)
-		(pin "4"
-			(uuid "591be347-26bd-4bd5-a334-584adc2a8740")
-		)
-		(pin "1"
-			(uuid "3a5ad794-f25a-4007-a768-50bad54e8cde")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "Q102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
-		(at 58.42 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4121797d-f92a-4d0f-8986-e6bb87ac7628")
-		(property "Reference" "D102"
-			(at 58.42 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SBR3U60P1-7"
-			(at 58.039 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SBR3U60P17"
-			(at 71.12 266.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
-			(at 71.12 366.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
-			(at 58.42 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 71.12 566.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-SBR3U60P1-7"
-			(at 71.12 666.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
-			(at 71.12 766.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 71.12 866.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
-			(at 71.12 966.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43fd4fe5-ea20-412e-a43e-a3e704398049")
-		)
-		(pin "2"
-			(uuid "c99e41e7-a7e2-4331-8a4e-c071c4849940")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 240.03 246.38 0)
 		(unit 1)
@@ -11544,6 +11514,128 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "R129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 234.95 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42abb265-0d59-4f3e-a259-2535fb2382da")
+		(property "Reference" "D114"
+			(at 240.03 146.9389 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RF201L2SDDTE25"
+			(at 240.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 141.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 41.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 234.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.2"
+			(at -158.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at -258.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at -358.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at -458.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at -558.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4977853-4b55-469a-ae81-e07ab180496c")
+		)
+		(pin "1"
+			(uuid "302b06fe-99b5-4b0e-816c-f2f350f7ebbf")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D114")
 					(unit 1)
 				)
 			)
@@ -11883,6 +11975,127 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "TP115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 46.99 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "498fcc1a-7b28-4c6a-92cf-c3fa30545a25")
+		(property "Reference" "D103"
+			(at 58.674 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RF201L2SDDTE25"
+			(at 57.15 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 59.69 249.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 59.69 349.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 46.99 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.2"
+			(at 59.69 549.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at 59.69 649.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at 59.69 749.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 59.69 849.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at 59.69 949.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88810834-4f86-471e-afa3-dd82c9692ab1")
+		)
+		(pin "1"
+			(uuid "53c1db87-d574-4f75-b15f-91a23c05ae60")
+		)
+		(instances
+			(project ""
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D103")
 					(unit 1)
 				)
 			)
@@ -12455,7 +12668,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220u/63V"
+		(property "Value" "100u/200V"
 			(at 59.69 52.4509 0)
 			(effects
 				(font
@@ -12473,7 +12686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/KYOCERA-AVX/AEF1213221M063R?qs=MyNHzdoqoQJrMfkXogOvQQ%3D%3D"
+		(property "Datasheet" "~"
 			(at 55.88 52.07 0)
 			(effects
 				(font
@@ -12576,160 +12789,6 @@
 		)
 	)
 	(symbol
-		(lib_id "691311400103:691311400103")
-		(at 378.46 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "586e2612-502f-494e-b3f0-929aced1bc6a")
-		(property "Reference" "J104"
-			(at 379.73 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "691311400103"
-			(at 379.73 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "691311400103:691311400103"
-			(at 378.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 378.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 378.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Würth Elektronik"
-			(at 378.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "7.62mm Pitch Straight Pluggable Term Block, PCB Header, Through Hole, 3 Way | Wurth Electronics 691311400103"
-			(at 378.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 378.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 378.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691311400103/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 378.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "691311400103"
-			(at 378.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 378.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/691311400103/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 378.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "31b76fa8-b484-4f3a-aae4-920fccabafca")
-		)
-		(pin "1"
-			(uuid "bf458da0-0f74-4aeb-9de6-d90fbf256217")
-		)
-		(pin "2"
-			(uuid "9a184305-25d5-46be-9418-51c3ed54b457")
-		)
-		(instances
-			(project ""
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "J104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 74.93 194.31 0)
 		(unit 1)
@@ -12790,126 +12849,6 @@
 			(project ""
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
-		(at 186.69 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f16514b-d8ab-4678-90b2-4d10abc296ae")
-		(property "Reference" "D104"
-			(at 186.69 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SBR3U60P1-7"
-			(at 186.309 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SBR3U60P17"
-			(at 199.39 265.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
-			(at 199.39 365.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
-			(at 186.69 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 199.39 565.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-SBR3U60P1-7"
-			(at 199.39 665.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
-			(at 199.39 765.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 199.39 865.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
-			(at 199.39 965.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79f67c41-1ede-43c2-92be-f4937f642ff1")
-		)
-		(pin "2"
-			(uuid "cd616551-4c8b-4bc6-a64b-b188bf84c00d")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D104")
 					(unit 1)
 				)
 			)
@@ -13046,6 +12985,127 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 175.26 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb73d71-f2a6-4a1d-a4a3-311d0a836354")
+		(property "Reference" "D101"
+			(at 186.944 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RF201L2SDDTE25"
+			(at 185.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 187.96 248.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 187.96 348.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 175.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.2"
+			(at 187.96 548.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at 187.96 648.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at 187.96 748.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 187.96 848.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at 187.96 948.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4391632-d533-444e-9551-7ba7630092da")
+		)
+		(pin "1"
+			(uuid "56a50531-d7e9-4d18-ab45-811c6c0112a0")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -13808,6 +13868,131 @@
 		)
 	)
 	(symbol
+		(lib_id "SQJ170ELP-T1_GE3:SQJ170ELP-T1_GE3")
+		(at 67.31 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f9a792e-b45c-4098-890b-c1f3bdeafe0c")
+		(property "Reference" "Q103"
+			(at 78.74 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SQJ170ELP"
+			(at 78.74 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SQJ170ELP-T1_GE3:SQJ160EPT1_GE3"
+			(at 88.9 243.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63124/sqj170elp.pdf"
+			(at 88.9 343.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CHANNEL 60-V (D-S) 175C MOSFET"
+			(at 67.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 88.9 543.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SQJ170ELP-T1_GE3"
+			(at 88.9 643.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQJ170ELP-T1_GE3?qs=MyNHzdoqoQKx0TNbtBmHoQ%3D%3D"
+			(at 88.9 743.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 88.9 843.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQJ170ELP-T1_GE3"
+			(at 88.9 943.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "da4f2e93-9dd8-48ae-a9e2-99c32c22b526")
+		)
+		(pin "4"
+			(uuid "6d94b27d-5f88-42e1-a17d-d4e96281777c")
+		)
+		(pin "1"
+			(uuid "67382a9c-8386-427e-b004-b020f8f619e0")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "Q103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAT54C")
 		(at 318.77 242.57 180)
 		(unit 1)
@@ -13948,6 +14133,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 378.46 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "764157ce-8575-43c7-956d-7e4cbcea01c2")
+		(property "Reference" "J104"
+			(at 381 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_out"
+			(at 381 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Sr_42819-32XX_1x03_P10.00mm_Vertical_ThermalVias"
+			(at 378.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 378.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "51874602-7706-4a5c-9e1e-efeb9fd7fad7")
+		)
+		(pin "2"
+			(uuid "e3d6187c-d9ba-48a9-ad09-fb29c5ff47bd")
+		)
+		(pin "1"
+			(uuid "f189582c-8a90-49f4-8ab1-fecbda6f9cd0")
+		)
+		(instances
+			(project ""
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "J104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 281.94 148.59 0)
 		(unit 1)
@@ -14008,6 +14266,127 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 175.26 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b174e60-7842-49d4-9e93-a0ad855dfb77")
+		(property "Reference" "D104"
+			(at 186.944 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RF201L2SDDTE25"
+			(at 185.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 187.96 267.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 187.96 367.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 175.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.2"
+			(at 187.96 567.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at 187.96 667.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at 187.96 767.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 187.96 867.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at 187.96 967.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a34d2f80-e372-42bf-a367-1ffb6f799c3f")
+		)
+		(pin "1"
+			(uuid "26a362dd-02be-4d8c-9828-45199a1099a9")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D104")
 					(unit 1)
 				)
 			)
@@ -14217,131 +14596,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1")
-		(at 323.85 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7da701f6-ec5f-47fb-9a65-9e07a41a3a56")
-		(property "Reference" "Q106"
-			(at 327.66 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC146N10LS5ATMA1"
-			(at 327.66 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BSC146N10LS5ATMA1"
-			(at 345.44 261.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-			(at 345.44 361.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "OptiMOSTM5Power-Transistor,100V"
-			(at 323.85 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 345.44 561.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-			(at 345.44 661.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-			(at 345.44 761.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 345.44 861.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-			(at 345.44 961.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "1e20e746-a978-4b7f-8ec2-59c1fe422aa7")
-		)
-		(pin "4"
-			(uuid "eb1a8f04-d87f-4e5a-b66a-04e6dca709f4")
-		)
-		(pin "1"
-			(uuid "183cac60-e387-4d7c-8828-1fa5eaf63445")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "Q106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 252.73 247.65 0)
 		(unit 1)
@@ -14405,6 +14659,127 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "C125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 295.91 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f78f1cd-b7cb-42e7-831f-c89d5fa87f0b")
+		(property "Reference" "D105"
+			(at 307.594 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RF201L2SDDTE25"
+			(at 306.07 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 308.61 267.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 308.61 367.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 295.91 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.2"
+			(at 308.61 567.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at 308.61 667.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at 308.61 767.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 308.61 867.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at 308.61 967.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "adefec86-b771-4b92-a781-956e998114d0")
+		)
+		(pin "1"
+			(uuid "d9ffd2c2-6de3-4c45-8aed-9d9b83223e39")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D105")
 					(unit 1)
 				)
 			)
@@ -14547,35 +14922,34 @@
 		)
 	)
 	(symbol
-		(lib_id "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1")
-		(at 323.85 147.32 0)
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 46.99 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "883ca6e1-847f-4fd0-9ee9-91c3a5936ba0")
-		(property "Reference" "Q105"
-			(at 327.66 146.0499 0)
+		(uuid "89c8ce1d-eafb-4c97-8ca9-f72814a9f6f3")
+		(property "Reference" "D106"
+			(at 58.674 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "BSC146N10LS5ATMA1"
-			(at 327.66 148.5899 0)
+		(property "Value" "RF201L2SDDTE25"
+			(at 57.15 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "BSC146N10LS5ATMA1"
-			(at 345.44 242.24 0)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 59.69 268.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14584,8 +14958,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-			(at 345.44 342.24 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 59.69 368.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14594,8 +14968,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OptiMOSTM5Power-Transistor,100V"
-			(at 323.85 147.32 0)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 46.99 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14603,18 +14977,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1"
-			(at 345.44 542.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-			(at 345.44 642.24 0)
+		(property "Height" "2.2"
+			(at 59.69 568.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14623,8 +14987,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-			(at 345.44 742.24 0)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at 59.69 668.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14633,8 +14997,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 345.44 842.24 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at 59.69 768.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14643,8 +15007,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-			(at 345.44 942.24 0)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 59.69 868.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14653,19 +15017,26 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "92db3cf8-3e15-415d-a607-2e230cd8335b")
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at 59.69 968.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "4325d7c8-7b5d-4075-ae15-4a043be227db")
+		(pin "2"
+			(uuid "a934ed27-26a0-4520-a152-6078986c78ce")
 		)
 		(pin "1"
-			(uuid "05f0ca74-5393-44b4-963c-b6e854e4920b")
+			(uuid "f4170994-0ce9-49df-bd82-4d4362a8d975")
 		)
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "Q105")
+					(reference "D106")
 					(unit 1)
 				)
 			)
@@ -14939,35 +15310,34 @@
 		)
 	)
 	(symbol
-		(lib_id "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1")
-		(at 203.2 147.32 0)
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 295.91 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "904dc921-d6e7-4bc3-8e03-abf81be8bf96")
-		(property "Reference" "Q103"
-			(at 207.01 146.0499 0)
+		(uuid "90f9a900-b80e-4d47-82f2-a6c2f78f8492")
+		(property "Reference" "D102"
+			(at 307.594 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "BSC146N10LS5ATMA1"
-			(at 207.01 148.5899 0)
+		(property "Value" "RF201L2SDDTE25"
+			(at 306.07 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "BSC146N10LS5ATMA1"
-			(at 224.79 242.24 0)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 308.61 248.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14976,8 +15346,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-			(at 224.79 342.24 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 308.61 348.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14986,8 +15356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OptiMOSTM5Power-Transistor,100V"
-			(at 203.2 147.32 0)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 295.91 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14995,18 +15365,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1"
-			(at 224.79 542.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-			(at 224.79 642.24 0)
+		(property "Height" "2.2"
+			(at 308.61 548.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15015,8 +15375,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-			(at 224.79 742.24 0)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at 308.61 648.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15025,8 +15385,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 224.79 842.24 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at 308.61 748.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15035,8 +15395,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-			(at 224.79 942.24 0)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 308.61 848.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15045,19 +15405,26 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "7c0a50ac-a77c-4e5c-a6c3-d2b066e745ae")
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at 308.61 948.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "f89a52cb-3921-4b71-91ce-28c72dc51e0a")
+		(pin "2"
+			(uuid "e3c44ee2-b649-4afd-9af6-b3daced09b25")
 		)
 		(pin "1"
-			(uuid "203f2281-dcb9-4f10-b542-577ea4eec987")
+			(uuid "bc9c59bf-ab24-457a-bc10-81cdc12e1b6d")
 		)
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "Q103")
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -15202,33 +15569,35 @@
 		)
 	)
 	(symbol
-		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
-		(at 307.34 152.4 0)
+		(lib_id "SQJ170ELP-T1_GE3:SQJ170ELP-T1_GE3")
+		(at 316.23 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9471a2b0-9f60-471d-b1e5-6effa7467720")
-		(property "Reference" "D105"
-			(at 307.34 149.86 0)
+		(fields_autoplaced yes)
+		(uuid "92db257b-7417-4ca2-925c-ad2b60f380aa")
+		(property "Reference" "Q102"
+			(at 327.66 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SBR3U60P1-7"
-			(at 306.959 148.59 0)
+		(property "Value" "SQJ170ELP"
+			(at 327.66 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SBR3U60P17"
-			(at 320.04 246.05 0)
+		(property "Footprint" "SQJ170ELP-T1_GE3:SQJ160EPT1_GE3"
+			(at 337.82 242.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15237,8 +15606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
-			(at 320.04 346.05 0)
+		(property "Datasheet" "https://www.vishay.com/docs/63124/sqj170elp.pdf"
+			(at 337.82 342.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15247,8 +15616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
-			(at 307.34 152.4 0)
+		(property "Description" "MOSFET N-CHANNEL 60-V (D-S) 175C MOSFET"
+			(at 316.23 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15256,8 +15625,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1"
-			(at 320.04 546.05 0)
+		(property "Height" "1.1"
+			(at 337.82 542.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15266,8 +15635,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "621-SBR3U60P1-7"
-			(at 320.04 646.05 0)
+		(property "Mouser Part Number" "78-SQJ170ELP-T1_GE3"
+			(at 337.82 642.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15276,8 +15645,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
-			(at 320.04 746.05 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQJ170ELP-T1_GE3?qs=MyNHzdoqoQKx0TNbtBmHoQ%3D%3D"
+			(at 337.82 742.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15286,8 +15655,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 320.04 846.05 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 337.82 842.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15296,8 +15665,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
-			(at 320.04 946.05 0)
+		(property "Manufacturer_Part_Number" "SQJ170ELP-T1_GE3"
+			(at 337.82 942.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15305,17 +15674,142 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "9"
+			(uuid "29b0fa1d-11e4-49b7-a7d7-9858273a19bb")
+		)
+		(pin "4"
+			(uuid "ca7107ae-378f-468b-b993-55abaacfa95c")
 		)
 		(pin "1"
-			(uuid "519a3916-4a89-4770-861f-7ed1559f1e64")
-		)
-		(pin "2"
-			(uuid "73371fbd-d2f9-4898-9547-dcbf21f6c9f2")
+			(uuid "66d44255-fe31-49d3-ac2c-df847f81021f")
 		)
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D105")
+					(reference "Q102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 106.68 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9401ebbb-b00f-436e-9c8a-bde874ac5bbc")
+		(property "Reference" "D112"
+			(at 111.76 164.7189 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RF201L2SDDTE25"
+			(at 111.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 13.03 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at -86.97 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 106.68 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.2"
+			(at -286.97 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at -386.97 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at -486.97 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at -586.97 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at -686.97 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d40882c3-2a5a-4ac9-9b3f-bd46bb429ad9")
+		)
+		(pin "1"
+			(uuid "4efef773-627a-4f24-9df0-e8a436ca1a5f")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D112")
 					(unit 1)
 				)
 			)
@@ -16203,6 +16697,128 @@
 		)
 	)
 	(symbol
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 355.6 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5452897-b78b-4801-84b0-58296b3c621c")
+		(property "Reference" "D116"
+			(at 360.68 145.6689 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RF201L2SDDTE25"
+			(at 360.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 261.95 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 161.95 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 355.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.2"
+			(at -38.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at -138.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at -238.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at -338.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at -438.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a4de59f-b5a4-4d9a-bf09-922799b553f5")
+		)
+		(pin "1"
+			(uuid "d5414304-a9b5-4aa4-a46a-30e9c2c08b8c")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 58.42 148.59 90)
 		(unit 1)
@@ -16815,6 +17431,128 @@
 		)
 	)
 	(symbol
+		(lib_id "RF201L2SDDTE25:RF201L2SDDTE25")
+		(at 234.95 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be7b05cc-378d-4d61-a77c-99dc2e2e520a")
+		(property "Reference" "D115"
+			(at 240.03 163.4489 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RF201L2SDDTE25"
+			(at 240.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF201L2SDDTE25:DIOM5026X220N"
+			(at 141.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rf201l2sdd-e.pdf"
+			(at 41.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Recovery Diode (AEC-Q101 Qualified)"
+			(at 234.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.2"
+			(at -158.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RF201L2SDDTE25"
+			(at -258.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RF201L2SDDTE25?qs=4v%252BiZTmLVHGfSX2E7XU%2F0A%3D%3D"
+			(at -358.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at -458.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RF201L2SDDTE25"
+			(at -558.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b875dd15-5f82-4f21-950f-c3c7f300b0ad")
+		)
+		(pin "1"
+			(uuid "4ea2ec86-1f5a-47e1-88a1-0b796e49f5cd")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "D115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 64.77 148.59 0)
 		(unit 1)
@@ -17081,6 +17819,131 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "C110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SQJ170ELP-T1_GE3:SQJ170ELP-T1_GE3")
+		(at 195.58 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c83cdcf5-d621-42d0-a676-55125049832d")
+		(property "Reference" "Q104"
+			(at 207.01 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SQJ170ELP"
+			(at 207.01 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SQJ170ELP-T1_GE3:SQJ160EPT1_GE3"
+			(at 217.17 261.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63124/sqj170elp.pdf"
+			(at 217.17 361.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CHANNEL 60-V (D-S) 175C MOSFET"
+			(at 195.58 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 217.17 561.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SQJ170ELP-T1_GE3"
+			(at 217.17 661.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQJ170ELP-T1_GE3?qs=MyNHzdoqoQKx0TNbtBmHoQ%3D%3D"
+			(at 217.17 761.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 217.17 861.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQJ170ELP-T1_GE3"
+			(at 217.17 961.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "f0d19239-e01a-4f7b-a5dd-5ffa84be964b")
+		)
+		(pin "4"
+			(uuid "c074c3bd-d73b-4add-9b62-592c9dc87f75")
+		)
+		(pin "1"
+			(uuid "85b86f73-3ebf-43d7-bd67-7632c3fb5ba9")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "Q104")
 					(unit 1)
 				)
 			)
@@ -17759,6 +18622,131 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "R133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SQJ170ELP-T1_GE3:SQJ170ELP-T1_GE3")
+		(at 195.58 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d96f6aa7-c262-45f6-a900-e4527543fb4d")
+		(property "Reference" "Q101"
+			(at 207.01 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SQJ170ELP"
+			(at 207.01 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SQJ170ELP-T1_GE3:SQJ160EPT1_GE3"
+			(at 217.17 242.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63124/sqj170elp.pdf"
+			(at 217.17 342.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CHANNEL 60-V (D-S) 175C MOSFET"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 217.17 542.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SQJ170ELP-T1_GE3"
+			(at 217.17 642.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQJ170ELP-T1_GE3?qs=MyNHzdoqoQKx0TNbtBmHoQ%3D%3D"
+			(at 217.17 742.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 217.17 842.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQJ170ELP-T1_GE3"
+			(at 217.17 942.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "3fbb7e62-8b75-431a-966e-b49d1c61336e")
+		)
+		(pin "4"
+			(uuid "8bee745a-53b0-43e6-a137-45ef716e9227")
+		)
+		(pin "1"
+			(uuid "ee4931d0-7a67-468d-9684-89ed11f2489f")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "Q101")
 					(unit 1)
 				)
 			)
@@ -18573,6 +19561,131 @@
 		)
 	)
 	(symbol
+		(lib_id "SQJ170ELP-T1_GE3:SQJ170ELP-T1_GE3")
+		(at 67.31 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9b72ccb-1361-4b03-a1b9-9fb6de92ec83")
+		(property "Reference" "Q106"
+			(at 78.74 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SQJ170ELP"
+			(at 78.74 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SQJ170ELP-T1_GE3:SQJ160EPT1_GE3"
+			(at 88.9 262.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63124/sqj170elp.pdf"
+			(at 88.9 362.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CHANNEL 60-V (D-S) 175C MOSFET"
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 88.9 562.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SQJ170ELP-T1_GE3"
+			(at 88.9 662.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQJ170ELP-T1_GE3?qs=MyNHzdoqoQKx0TNbtBmHoQ%3D%3D"
+			(at 88.9 762.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 88.9 862.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQJ170ELP-T1_GE3"
+			(at 88.9 962.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "836e45ef-1e70-4439-83b6-17d23bf34303")
+		)
+		(pin "4"
+			(uuid "8bfe271a-547b-4e92-9e51-029e4f810b2e")
+		)
+		(pin "1"
+			(uuid "095299ad-8763-48e7-91cb-32a1552dc76c")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "Q106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 308.61 90.17 0)
 		(unit 1)
@@ -18836,126 +19949,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
-		(at 58.42 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4c73b5a-5920-4c7b-b44e-a0b38c8eb180")
-		(property "Reference" "D101"
-			(at 58.42 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SBR3U60P1-7"
-			(at 58.039 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SBR3U60P17"
-			(at 71.12 247.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
-			(at 71.12 347.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 71.12 547.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-SBR3U60P1-7"
-			(at 71.12 647.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
-			(at 71.12 747.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 71.12 847.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
-			(at 71.12 947.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ea0b829-7e3c-4ab9-bd11-da055a985348")
-		)
-		(pin "2"
-			(uuid "602b6f6d-78c1-49e5-b483-a1d977f4bc06")
-		)
-		(instances
-			(project ""
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 220.98 152.4 180)
 		(unit 1)
@@ -19020,126 +20013,6 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "R135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
-		(at 307.34 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7475157-701a-4a32-95ca-de7491afd9f3")
-		(property "Reference" "D106"
-			(at 307.34 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SBR3U60P1-7"
-			(at 306.959 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SBR3U60P17"
-			(at 320.04 265.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
-			(at 320.04 365.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
-			(at 307.34 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 320.04 565.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-SBR3U60P1-7"
-			(at 320.04 665.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
-			(at 320.04 765.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 320.04 865.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
-			(at 320.04 965.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "889f7bf3-0925-46a9-ba33-96e7ce3626f8")
-		)
-		(pin "2"
-			(uuid "f4175b82-3f0f-443d-a035-2af3dcf67ed2")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "D106")
 					(unit 1)
 				)
 			)
