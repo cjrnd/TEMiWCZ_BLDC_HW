@@ -3654,7 +3654,7 @@
 		(uuid d8b3ea92-bea6-4116-aeb3-7e8b1d81d3d4)
 	)
 	(rectangle
-		(start 172.72 69.85)
+		(start 157.48 69.85)
 		(end 208.28 78.74)
 		(stroke
 			(width 0.0762)
@@ -3767,7 +3767,7 @@
 	)
 	(text "near IC"
 		(exclude_from_sim no)
-		(at 177.546 71.628 0)
+		(at 166.878 71.374 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3791,6 +3791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0719713f-797a-44ee-92fe-c4c1059abc22")
+	)
+	(junction
+		(at 160.02 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d74bc3e-e34e-4add-a9e7-f7371fb161be")
 	)
 	(junction
 		(at 294.64 81.28)
@@ -3817,12 +3823,6 @@
 		(uuid "19c86be4-7c32-4bf0-a556-d9e7076f77fc")
 	)
 	(junction
-		(at 287.02 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b9e31b8-e26b-4043-9a94-eeb07df0141b")
-	)
-	(junction
 		(at 45.72 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3841,10 +3841,10 @@
 		(uuid "1ee81071-3cb6-4dce-9222-14e96badfb0c")
 	)
 	(junction
-		(at 191.77 242.57)
+		(at 31.75 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "21b3914f-4422-4ce5-ab62-e74302cbcc97")
+		(uuid "28beb44d-e3cf-4ef7-adc6-796e05114b71")
 	)
 	(junction
 		(at 313.69 147.32)
@@ -3859,16 +3859,16 @@
 		(uuid "2a6f4d60-10a4-4399-99bd-77aaf2a9367e")
 	)
 	(junction
+		(at 184.15 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b6c4669-dcab-436b-907e-6379c43ddd6d")
+	)
+	(junction
 		(at 190.5 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "317453dd-6c90-40c0-b9c1-9157b4db396c")
-	)
-	(junction
-		(at 115.57 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "319be5cc-e7fa-42e3-9491-28deb228f018")
 	)
 	(junction
 		(at 45.72 148.59)
@@ -3931,6 +3931,12 @@
 		(uuid "5f5ec7eb-7fba-47e8-9266-a167f8f1f41b")
 	)
 	(junction
+		(at 283.21 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63b859e1-60b1-4542-bd54-bab8dcbe9d0e")
+	)
+	(junction
 		(at 254 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3947,6 +3953,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7016612a-0105-447f-9222-2f0ffcb646e3")
+	)
+	(junction
+		(at 240.03 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73886075-3176-4b0b-9d43-6dc4f184504b")
+	)
+	(junction
+		(at 171.45 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77d02da7-5423-4cae-8093-40e6b574f5fa")
 	)
 	(junction
 		(at 323.85 138.43)
@@ -4081,16 +4099,16 @@
 		(uuid "ac1d5f6f-c7c5-4bc5-9cc0-196a23bdf504")
 	)
 	(junction
+		(at 191.77 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae145a96-5534-4a26-b793-4687365009c8")
+	)
+	(junction
 		(at 181.61 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aed8ce52-5c2c-4a04-98a8-da30763f9480")
-	)
-	(junction
-		(at 115.57 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b32255ea-30f7-4216-acca-c12db98dfd26")
 	)
 	(junction
 		(at 74.93 176.53)
@@ -4219,6 +4237,12 @@
 		(uuid "eb60d30e-8519-4bea-924b-99879f8aba14")
 	)
 	(junction
+		(at 287.02 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb935552-cf17-4b5c-b022-e325437ff614")
+	)
+	(junction
 		(at 219.71 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4330,6 +4354,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 82.55) (xy 171.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a38745-d050-4089-986e-a3c8d04b5192")
+	)
+	(wire
+		(pts
 			(xy 240.03 252.73) (xy 252.73 252.73)
 		)
 		(stroke
@@ -4380,7 +4414,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 138.43) (xy 281.94 140.97)
+			(xy 275.59 138.43) (xy 275.59 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4540,13 +4574,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 62.23) (xy 115.57 62.23)
+			(xy 240.03 231.14) (xy 240.03 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ce820fb-e3dd-44ef-b313-945cf34af2a7")
+		(uuid "0ce94e2d-90ae-4d52-abf6-356712bf2944")
 	)
 	(wire
 		(pts
@@ -4740,6 +4774,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 138.43) (xy 203.2 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199b8221-e9a6-46e0-b152-4c06a37fb722")
+	)
+	(wire
+		(pts
 			(xy 250.19 26.67) (xy 254 26.67)
 		)
 		(stroke
@@ -4747,6 +4791,16 @@
 			(type default)
 		)
 		(uuid "1a5dbd9b-5e89-44fe-b544-aa4ca869b095")
+	)
+	(wire
+		(pts
+			(xy 287.02 67.31) (xy 287.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8e1b4e-b9b2-40c9-b9a1-a1f60fe347be")
 	)
 	(wire
 		(pts
@@ -4980,6 +5034,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 245.11) (xy 91.44 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4e9d1e-8257-47b1-84f9-7b7ba5dd02fe")
+	)
+	(wire
+		(pts
 			(xy 295.91 171.45) (xy 293.37 171.45)
 		)
 		(stroke
@@ -5060,7 +5124,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 138.43) (xy 323.85 138.43)
+			(xy 275.59 138.43) (xy 283.21 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5070,7 +5134,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 138.43) (xy 24.13 138.43)
+			(xy 74.93 138.43) (xy 31.75 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5220,7 +5284,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 138.43) (xy 203.2 138.43)
+			(xy 151.13 138.43) (xy 160.02 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5247,16 +5311,6 @@
 			(type default)
 		)
 		(uuid "40e748f0-2e12-4c57-9d1e-f61a0ba84988")
-	)
-	(wire
-		(pts
-			(xy 115.57 41.91) (xy 115.57 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41f04cd1-d053-4909-938d-626edc507400")
 	)
 	(wire
 		(pts
@@ -5370,6 +5424,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 138.43) (xy 160.02 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c17b5bf-eb24-447e-927a-e4f19c60b09b")
+	)
+	(wire
+		(pts
 			(xy 64.77 148.59) (xy 67.31 148.59)
 		)
 		(stroke
@@ -5387,16 +5451,6 @@
 			(type default)
 		)
 		(uuid "4d9d522e-da34-44e6-b7fa-16bcd0cec3ba")
-	)
-	(wire
-		(pts
-			(xy 123.19 41.91) (xy 115.57 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e0dca68-c19c-4f2b-8f23-aaf39d0f307c")
 	)
 	(wire
 		(pts
@@ -5427,6 +5481,16 @@
 			(type default)
 		)
 		(uuid "50b31d1d-7af9-4248-9879-bda861d90c24")
+	)
+	(wire
+		(pts
+			(xy 191.77 242.57) (xy 200.66 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512f83b5-2d74-4b97-b349-d3633a1b1a94")
 	)
 	(wire
 		(pts
@@ -5610,7 +5674,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 138.43) (xy 158.75 139.7)
+			(xy 151.13 138.43) (xy 151.13 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5750,6 +5814,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 138.43) (xy 323.85 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70aaf231-b41b-42cd-9466-394781fe5ff9")
+	)
+	(wire
+		(pts
 			(xy 114.3 242.57) (xy 114.3 250.19)
 		)
 		(stroke
@@ -5767,6 +5841,16 @@
 			(type default)
 		)
 		(uuid "7508e09d-9006-4c8e-bb67-9648218bb2da")
+	)
+	(wire
+		(pts
+			(xy 229.87 231.14) (xy 229.87 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ae42fe-8a1f-4aa0-8d78-cb32616ee247")
 	)
 	(wire
 		(pts
@@ -5937,6 +6021,16 @@
 			(type default)
 		)
 		(uuid "83ae773c-1ce4-40fe-920f-a320cc48b289")
+	)
+	(wire
+		(pts
+			(xy 31.75 138.43) (xy 31.75 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83edf7d4-9cc3-42f5-a317-66d6e4906d0b")
 	)
 	(wire
 		(pts
@@ -6120,6 +6214,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 82.55) (xy 171.45 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "983e20e0-6cab-48e7-8fd1-3c082826c5e0")
+	)
+	(wire
+		(pts
 			(xy 311.15 152.4) (xy 313.69 152.4)
 		)
 		(stroke
@@ -6190,16 +6294,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 52.07) (xy 115.57 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f8b8f56-4aa9-4c8c-93ab-84ecac5e627f")
-	)
-	(wire
-		(pts
 			(xy 68.58 250.19) (xy 72.39 250.19)
 		)
 		(stroke
@@ -6210,13 +6304,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 41.91) (xy 115.57 41.91)
+			(xy 96.52 41.91) (xy 123.19 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a1a00c14-046b-4be8-b4f7-2c1f0c323573")
+	)
+	(wire
+		(pts
+			(xy 229.87 241.3) (xy 229.87 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a220a850-425b-4eae-a69e-616e060d002b")
 	)
 	(wire
 		(pts
@@ -6260,6 +6364,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 252.73) (xy 240.03 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60c4737-f540-432a-80f4-3dab3b27ec4a")
+	)
+	(wire
+		(pts
 			(xy 85.09 245.11) (xy 85.09 250.19)
 		)
 		(stroke
@@ -6287,16 +6401,6 @@
 			(type default)
 		)
 		(uuid "a87d6b4d-569c-4808-9f38-1df7bf485fb6")
-	)
-	(wire
-		(pts
-			(xy 90.17 245.11) (xy 85.09 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a93ce176-93ee-4631-83c1-f88a8129a8e0")
 	)
 	(wire
 		(pts
@@ -6397,6 +6501,16 @@
 			(type default)
 		)
 		(uuid "b22763ae-68f9-4832-a0ec-b2b83829f156")
+	)
+	(wire
+		(pts
+			(xy 31.75 138.43) (xy 24.13 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a53b0f-6146-4900-9970-a9d58c4bbca5")
 	)
 	(wire
 		(pts
@@ -6550,16 +6664,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 67.31) (xy 287.02 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c213efc6-cde5-46bc-adf0-5026aea0fa0d")
-	)
-	(wire
-		(pts
 			(xy 311.15 166.37) (xy 313.69 166.37)
 		)
 		(stroke
@@ -6660,6 +6764,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 71.12) (xy 171.45 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7acaac-f63d-4964-8a48-079ade654c97")
+	)
+	(wire
+		(pts
 			(xy 341.63 138.43) (xy 341.63 140.97)
 		)
 		(stroke
@@ -6677,6 +6791,16 @@
 			(type default)
 		)
 		(uuid "ccb9f505-d352-4ec0-8ceb-cc40f7079ddd")
+	)
+	(wire
+		(pts
+			(xy 283.21 138.43) (xy 283.21 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce3a8d9-8607-40b6-9e46-c775810e843a")
 	)
 	(wire
 		(pts
@@ -6717,6 +6841,16 @@
 			(type default)
 		)
 		(uuid "cef35289-f2a8-48f6-8986-f734c0e6135f")
+	)
+	(wire
+		(pts
+			(xy 229.87 251.46) (xy 229.87 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5cc6ef-d04d-4a5f-a806-41fd1967d586")
 	)
 	(wire
 		(pts
@@ -6980,23 +7114,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 242.57) (xy 195.58 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3244efb-f791-401f-bb09-53ad20a4002d")
-	)
-	(wire
-		(pts
-			(xy 96.52 62.23) (xy 115.57 62.23)
+			(xy 96.52 62.23) (xy 123.19 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e3812934-74bb-44c5-bf26-de55e11d43f3")
+	)
+	(wire
+		(pts
+			(xy 229.87 231.14) (xy 240.03 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49379c3-9229-42af-8e97-25d63831c12a")
 	)
 	(wire
 		(pts
@@ -7120,17 +7254,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 60.96) (xy 115.57 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb8e4d07-ab3e-48f2-ba8a-c0771c50eb1c")
-	)
-	(wire
-		(pts
-			(xy 240.03 232.41) (xy 240.03 228.6)
+			(xy 240.03 232.41) (xy 240.03 231.14)
 		)
 		(stroke
 			(width 0)
@@ -7908,28 +8032,6 @@
 		)
 		(uuid "fb56cd4c-5c56-4e37-97ac-8e10900ac3e1")
 	)
-	(hierarchical_label "SensIA"
-		(shape input)
-		(at 271.78 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ba6a48c-d882-4f59-987e-c7b61d4ea5f6")
-	)
-	(hierarchical_label "SensIB"
-		(shape input)
-		(at 365.76 242.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "154d1a0c-8d9a-4d59-86df-aad33a42021d")
-	)
 	(hierarchical_label "SensVB"
 		(shape output)
 		(at 58.42 229.87 180)
@@ -7940,6 +8042,17 @@
 			(justify right)
 		)
 		(uuid "1653ef2d-cfdf-47fe-9778-a0ff3d55629b")
+	)
+	(hierarchical_label "TEMP_MOSFET"
+		(shape output)
+		(at 200.66 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b42d7c2-d00c-47a8-adff-03c3ccca82c0")
 	)
 	(hierarchical_label "SensVB"
 		(shape output)
@@ -7996,16 +8109,27 @@
 		)
 		(uuid "31de642d-07b0-4686-80f8-59efcef9d59a")
 	)
-	(hierarchical_label "SensIC"
-		(shape input)
-		(at 396.24 242.57 0)
+	(hierarchical_label "SDO"
+		(shape output)
+		(at 302.26 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "58099c48-640b-48b9-b13e-3759dda2a644")
+		(uuid "380e261f-8946-4ee1-b6f9-adc4c836c1bf")
+	)
+	(hierarchical_label "SensIC"
+		(shape output)
+		(at 271.78 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57560c7f-7762-4fc4-be7a-18479a4934c4")
 	)
 	(hierarchical_label "NFAULT"
 		(shape input)
@@ -8028,17 +8152,6 @@
 			(justify right)
 		)
 		(uuid "5b5d5678-3b1e-42d6-a918-59898012677c")
-	)
-	(hierarchical_label "SensIA"
-		(shape input)
-		(at 350.52 242.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5cc5cc30-bfb7-48d9-911b-7cff345748f2")
 	)
 	(hierarchical_label "SensVC"
 		(shape output)
@@ -8084,6 +8197,17 @@
 		)
 		(uuid "91e1c60d-af88-4885-8fdb-6b0c5de44568")
 	)
+	(hierarchical_label "SensIA"
+		(shape output)
+		(at 271.78 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91fcbc37-7fd1-41df-a079-8512c7a731fe")
+	)
 	(hierarchical_label "ENABLE"
 		(shape input)
 		(at 271.78 60.96 0)
@@ -8117,27 +8241,16 @@
 		)
 		(uuid "ac113c19-103a-4f6c-a915-44148b782a98")
 	)
-	(hierarchical_label "SensIC"
-		(shape input)
-		(at 271.78 83.82 0)
+	(hierarchical_label "SensIB"
+		(shape output)
+		(at 271.78 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c07369be-4728-49aa-a50c-ca25451c67b0")
-	)
-	(hierarchical_label "TEMP_MOSFET"
-		(shape input)
-		(at 195.58 242.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c6d83206-e29b-4ae7-b029-ff6456d45d8d")
+		(uuid "c66a469e-928f-45fe-b51f-6f382932f5bb")
 	)
 	(hierarchical_label "SensVN"
 		(shape bidirectional)
@@ -8149,6 +8262,17 @@
 			(justify left)
 		)
 		(uuid "c8b7f4f6-b5fe-4ad5-95f0-8961d985aefb")
+	)
+	(hierarchical_label "SensVN"
+		(shape output)
+		(at 91.44 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c97a09ff-50d1-4fd1-a46a-f75ab0dffae8")
 	)
 	(hierarchical_label "CAL"
 		(shape input)
@@ -8172,17 +8296,6 @@
 		)
 		(uuid "d1f6308e-fafc-4616-b4d8-f980bf5ff6f6")
 	)
-	(hierarchical_label "SensIB"
-		(shape input)
-		(at 271.78 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d8d4b504-d8b3-4d45-a73f-ec6753fd91ce")
-	)
 	(hierarchical_label "NSCS"
 		(shape input)
 		(at 271.78 63.5 0)
@@ -8194,27 +8307,16 @@
 		)
 		(uuid "d968f0ac-8791-4253-8fd3-df72964b9832")
 	)
-	(hierarchical_label "SDO"
-		(shape input)
-		(at 302.26 71.12 0)
+	(hierarchical_label "SensIB"
+		(shape output)
+		(at 271.78 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e2bebdcd-9d6c-41d7-8604-3fa019ed0207")
-	)
-	(hierarchical_label "SensVN"
-		(shape bidirectional)
-		(at 90.17 245.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea84db1c-d7e6-43be-ae57-17c86d7b9e3d")
+		(uuid "e33f806d-27ba-44dc-b951-2ce1df7e2541")
 	)
 	(hierarchical_label "SDI"
 		(shape input)
@@ -8728,7 +8830,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 281.94 144.78 0)
+		(at 275.59 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8737,7 +8839,7 @@
 		(fields_autoplaced yes)
 		(uuid "086484fa-49ac-497e-a047-adee9977dce6")
 		(property "Reference" "C115"
-			(at 282.194 142.748 0)
+			(at 275.844 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8746,7 +8848,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 282.194 147.066 0)
+			(at 275.844 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,7 +8857,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 282.9052 148.59 0)
+			(at 276.5552 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +8866,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 281.94 144.78 0)
+			(at 275.59 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,7 +8875,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 281.94 144.78 0)
+			(at 275.59 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9959,6 +10061,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 31.75 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22d4478d-5977-435e-bdc5-bc16abc7c23a")
+		(property "Reference" "#PWR0138"
+			(at 31.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 31.623 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 31.75 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c1dda92-91d4-4a84-a0ba-795ad7a09d9a")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 92.71 163.83 0)
 		(unit 1)
@@ -10023,6 +10191,75 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "R107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 171.45 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "239f2afb-9160-4cca-a406-bf16a533510f")
+		(property "Reference" "C135"
+			(at 171.704 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u/100V"
+			(at 171.704 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 172.4152 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55281b43-c9ee-448c-b44f-d55c721c5c38")
+		)
+		(pin "2"
+			(uuid "907c126f-7459-4654-b8e5-583f9eed108f")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C135")
 					(unit 1)
 				)
 			)
@@ -10567,75 +10804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 341.63 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2dfd567e-4317-4d5d-9308-75ac1b27a9a8")
-		(property "Reference" "C120"
-			(at 344.424 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n/200V"
-			(at 344.424 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 342.5952 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 341.63 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 341.63 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "298decb4-b005-4c40-9412-43a4a317c4b9")
-		)
-		(pin "2"
-			(uuid "221b2857-4838-4924-92e0-37a2cbc5f1e7")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "C120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 85.09 240.03 0)
 		(unit 1)
@@ -10968,6 +11136,141 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "R137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 283.21 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "365ebcb9-cbf5-457a-b44b-bbac1f0f9305")
+		(property "Reference" "#PWR0140"
+			(at 283.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 283.083 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 283.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14dad293-b53f-4efb-b3a2-570a5d928744")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 220.98 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39d83142-522d-463f-b672-20de4653f675")
+		(property "Reference" "C121"
+			(at 223.774 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n/200V"
+			(at 223.774 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 221.9452 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 220.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec108ba4-62eb-4759-b495-385ffe316dd4")
+		)
+		(pin "2"
+			(uuid "4052bd2c-822f-49a5-ab4a-2d054989f12f")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C121")
 					(unit 1)
 				)
 			)
@@ -11550,6 +11853,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 229.87 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4357330e-51da-4782-9b2c-72fe4c2a7ce1")
+		(property "Reference" "C134"
+			(at 230.124 235.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n/200V"
+			(at 230.124 239.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 230.8352 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 229.87 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ebed25b-6ab9-4754-a585-452408671c00")
+		)
+		(pin "2"
+			(uuid "eaf9fce8-d857-4492-b436-055e7b0c6303")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 341.63 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43d04513-cb94-405c-b2fb-decd7f1a3777")
+		(property "Reference" "C132"
+			(at 344.424 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n/200V"
+			(at 344.424 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 342.5952 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 341.63 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a3c12ca-0239-47c9-9021-833d96421a16")
+		)
+		(pin "2"
+			(uuid "9f8629bd-6518-48e8-a9cb-712c94b6df14")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAT54C")
 		(at 388.62 242.57 180)
 		(unit 1)
@@ -11815,6 +12256,72 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "C128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 160.02 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47da024d-beca-4252-9b53-abb9e153dca8")
+		(property "Reference" "#PWR0139"
+			(at 160.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 159.893 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a68ecbe-19f3-4313-8a10-40c357b30dba")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -12094,75 +12601,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 115.57 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54d2eeb0-d844-4db8-a9b3-76a9265ad41a")
-		(property "Reference" "C102"
-			(at 115.824 46.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n/200V"
-			(at 115.824 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 116.5352 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 115.57 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a89012eb-7615-4ae4-99d2-6f64162aed73")
-		)
-		(pin "2"
-			(uuid "46d0a505-e144-487f-be7c-5704d65c2def")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "C102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 307.34 166.37 90)
 		(unit 1)
@@ -12369,7 +12807,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 158.75 143.51 0)
+		(at 151.13 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12378,7 +12816,7 @@
 		(fields_autoplaced yes)
 		(uuid "56ee4137-465c-4e93-b575-650491140fb4")
 		(property "Reference" "C113"
-			(at 159.004 141.478 0)
+			(at 151.384 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12387,7 +12825,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 159.004 145.796 0)
+			(at 151.384 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12396,7 +12834,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 159.7152 147.32 0)
+			(at 152.0952 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12405,7 +12843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 143.51 0)
+			(at 151.13 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +12852,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 158.75 143.51 0)
+			(at 151.13 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12501,75 +12939,6 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "C104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5724b4e5-cce3-4fbb-bda2-b8dafc7f399f")
-		(property "Reference" "R102"
-			(at 116.84 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3R"
-			(at 116.84 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 113.792 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b66d6618-8069-49b1-8767-76f33163a3b5")
-		)
-		(pin "1"
-			(uuid "62e67b8c-dea3-4d68-acfd-1975b491870c")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -13046,6 +13415,76 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64bd999d-63e7-498b-9599-133c2a2a9558")
+		(property "Reference" "C117"
+			(at 160.274 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 160.274 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 160.9852 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78d86c25-b61b-4c23-a18c-6628aca3983e")
+		)
+		(pin "2"
+			(uuid "5b3b8e57-4367-4159-b36f-b931c8aedba0")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -13629,7 +14068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 93.6752 148.59 0)
 			(effects
 				(font
@@ -13808,6 +14247,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 283.21 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f492b27-72f2-4575-99d5-e81c4450cbbd")
+		(property "Reference" "C133"
+			(at 283.464 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 283.464 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 284.1752 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 283.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdfd1a8b-0502-43a9-83da-e89595d879ac")
+		)
+		(pin "2"
+			(uuid "607c4930-991f-460f-bb34-d561bcded749")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAT54C")
 		(at 318.77 242.57 180)
 		(unit 1)
@@ -13949,7 +14458,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 281.94 148.59 0)
+		(at 275.59 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13958,7 +14467,7 @@
 		(fields_autoplaced yes)
 		(uuid "7912b940-63c2-44f2-bb6d-fa6f547b8c45")
 		(property "Reference" "#PWR0120"
-			(at 281.94 153.67 0)
+			(at 275.59 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13967,7 +14476,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 281.813 152.4 0)
+			(at 275.463 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13975,7 +14484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 149.86 0)
+			(at 275.59 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,7 +14493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 149.86 0)
+			(at 275.59 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13993,7 +14502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 281.94 148.59 0)
+			(at 275.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14473,6 +14982,75 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "TP119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 220.98 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86abf814-fbf2-4214-91fe-f5a87b166dc7")
+		(property "Reference" "C120"
+			(at 223.774 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n/200V"
+			(at 223.774 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 221.9452 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 220.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e60b340-3cf0-45f7-b6f1-0efe3f42693c")
+		)
+		(pin "2"
+			(uuid "35e6fe06-4477-423d-a843-d30bc5797793")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C120")
 					(unit 1)
 				)
 			)
@@ -16134,75 +16712,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 220.98 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2cdda50-ab6b-424e-854a-cd0010565ab4")
-		(property "Reference" "C119"
-			(at 223.774 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n/200V"
-			(at 223.774 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 221.9452 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 220.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a27d7b6-91db-4139-90e2-2a35b633d680")
-		)
-		(pin "2"
-			(uuid "1f17a521-b35a-4162-b887-a4b284ff8c2f")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "C119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 58.42 148.59 90)
 		(unit 1)
@@ -16532,6 +17041,75 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 229.87 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0a994ac-3fbe-482f-befb-abdfa0cd3d2b")
+		(property "Reference" "R105"
+			(at 231.14 246.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3R"
+			(at 231.14 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+			(at 228.092 247.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b98c129-b354-4dac-be4d-e4b9746535da")
+		)
+		(pin "1"
+			(uuid "22a98224-1afe-494e-823e-68997aa5ee75")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -17087,75 +17665,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 92.71 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c97acc52-d678-4611-be8e-f94d96a6bc1d")
-		(property "Reference" "C121"
-			(at 95.504 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n/200V"
-			(at 95.504 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 93.6752 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 92.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb2f261e-2d01-4536-a097-51cd35a76cb2")
-		)
-		(pin "2"
-			(uuid "072fc307-7d38-4c4a-89e4-0bc5898f49c0")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "C121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 307.34 147.32 90)
 		(unit 1)
@@ -17291,7 +17800,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 158.75 147.32 0)
+		(at 151.13 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17300,7 +17809,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdb2846e-1eb2-4aab-9ec6-a6f5293ff3e5")
 		(property "Reference" "#PWR0118"
-			(at 158.75 152.4 0)
+			(at 151.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17309,7 +17818,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 158.623 151.13 0)
+			(at 151.003 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17317,7 +17826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 148.59 0)
+			(at 151.13 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17326,7 +17835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 148.59 0)
+			(at 151.13 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17335,7 +17844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 158.75 147.32 0)
+			(at 151.13 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17559,6 +18068,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 341.63 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d13a32df-a3e9-4ac4-aefa-9d86e01d5f02")
+		(property "Reference" "C131"
+			(at 344.424 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n/200V"
+			(at 344.424 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 342.5952 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 341.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a90fbde7-614a-4473-818c-788c18403de5")
+		)
+		(pin "2"
+			(uuid "81e6d566-67b8-4b7a-8147-b5e784104e23")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAT54C")
 		(at 318.77 220.98 180)
 		(unit 1)
@@ -17698,6 +18276,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 31.75 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d75616cb-f4a5-4828-a5a0-e64194088e5f")
+		(property "Reference" "C116"
+			(at 32.004 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 32.004 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 32.7152 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 31.75 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8152cd7f-7c55-4e3f-ab68-8a840176269e")
+		)
+		(pin "2"
+			(uuid "dd55ea28-6e49-4f68-93a1-5101683aff80")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 58.42 260.35 180)
 		(unit 1)
@@ -17759,75 +18407,6 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "R133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 341.63 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d982f206-a3b5-49ec-8978-d152476957ec")
-		(property "Reference" "C132"
-			(at 344.424 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n/200V"
-			(at 344.424 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 342.5952 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 341.63 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 341.63 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19cf8a78-ecfa-4a54-862a-c3424e772735")
-		)
-		(pin "2"
-			(uuid "eee2a09e-1d18-40f2-9378-0e26a15ac3a2")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "C132")
 					(unit 1)
 				)
 			)
@@ -17962,75 +18541,6 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 220.98 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc49ce2b-f160-443a-a679-6c4cfd63affd")
-		(property "Reference" "C131"
-			(at 223.774 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n/200V"
-			(at 223.774 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 221.9452 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 220.98 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "290824b4-f8fa-4d1c-8aa1-de725fc71282")
-		)
-		(pin "2"
-			(uuid "7a3fdfed-0254-42a5-8103-841503ec29ac")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "C131")
 					(unit 1)
 				)
 			)
@@ -18830,6 +19340,75 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.71 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eda841d0-92c9-483d-90cd-2931769c8d99")
+		(property "Reference" "C119"
+			(at 95.504 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n/200V"
+			(at 95.504 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 93.6752 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6eee713-b7e8-4767-9030-d9e73d862cb8")
+		)
+		(pin "2"
+			(uuid "c46612c6-ecaf-46f0-b000-739047a9f35a")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "C119")
 					(unit 1)
 				)
 			)

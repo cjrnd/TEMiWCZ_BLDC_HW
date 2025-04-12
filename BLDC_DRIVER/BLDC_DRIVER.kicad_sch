@@ -229,7 +229,7 @@
 				(justify left)
 			)
 		)
-		(pin "SDO" input
+		(pin "SDO" output
 			(at 198.755 85.725 180)
 			(uuid "ad830042-0ca0-4640-91e0-6be26211cc91")
 			(effects
@@ -249,7 +249,7 @@
 				(justify left)
 			)
 		)
-		(pin "SensIA" input
+		(pin "SensIA" output
 			(at 198.755 107.315 180)
 			(uuid "3ade4ea4-c13d-4c12-bf40-3b28875525cc")
 			(effects
@@ -309,7 +309,7 @@
 				(justify left)
 			)
 		)
-		(pin "SensVN" bidirectional
+		(pin "SensVN" output
 			(at 198.755 95.885 180)
 			(uuid "e4a924c2-1c30-492f-b3a8-9bd6e837b521")
 			(effects
@@ -329,7 +329,7 @@
 				(justify left)
 			)
 		)
-		(pin "SensIC" input
+		(pin "SensIC" output
 			(at 198.755 112.395 180)
 			(uuid "01b8ae25-80fb-4b42-ba46-54c0ac11c328")
 			(effects
@@ -339,7 +339,7 @@
 				(justify left)
 			)
 		)
-		(pin "SensIB" input
+		(pin "SensIB" output
 			(at 198.755 109.855 180)
 			(uuid "a432fb02-4ca0-4fd0-bb9f-c25c32e1f6e7")
 			(effects
@@ -369,9 +369,9 @@
 				(justify left)
 			)
 		)
-		(pin "TEMP_MOSFET" input
+		(pin "TEMP_MOSFET" output
 			(at 198.755 118.745 180)
-			(uuid "ff04799e-fe64-4a84-a31d-85e279932b43")
+			(uuid "fcc8e86b-e118-41f0-b700-34610d1ca2cf")
 			(effects
 				(font
 					(size 1.27 1.27)
