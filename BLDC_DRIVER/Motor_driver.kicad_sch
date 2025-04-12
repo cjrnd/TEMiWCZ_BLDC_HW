@@ -7930,7 +7930,7 @@
 		(uuid "57560c7f-7762-4fc4-be7a-18479a4934c4")
 	)
 	(hierarchical_label "NFAULT"
-		(shape input)
+		(shape output)
 		(at 302.26 73.66 0)
 		(effects
 			(font
@@ -7985,7 +7985,7 @@
 		(uuid "8d9d96cf-7bf4-4d81-9db4-676e9fd7a940")
 	)
 	(hierarchical_label "GH[1..3]"
-		(shape input)
+		(shape output)
 		(at 57.15 92.71 180)
 		(effects
 			(font
@@ -8018,7 +8018,7 @@
 		(uuid "941b9df3-37ba-4739-a4cf-19c315fcc23f")
 	)
 	(hierarchical_label "GL[1..3]"
-		(shape input)
+		(shape output)
 		(at 88.9 92.71 180)
 		(effects
 			(font
@@ -8095,7 +8095,7 @@
 		(uuid "d1f6308e-fafc-4616-b4d8-f980bf5ff6f6")
 	)
 	(hierarchical_label "NSCS"
-		(shape input)
+		(shape bidirectional)
 		(at 271.78 63.5 0)
 		(effects
 			(font

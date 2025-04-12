@@ -602,156 +602,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -1549,6 +1399,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SBR3U60P1-7:SBR3U60P1-7"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.842 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SBR3U60P1-7"
+				(at -5.842 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SBR3U60P17"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-SBR3U60P1-7"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SBR3U60P1-7"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SBR3U60P1-7_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy -2.032 1.143) (xy -1.397 1.143) (xy -1.397 -1.397) (xy -0.762 -1.397) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.524) (xy -1.397 -0.127) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SBR3U60P1-7_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2028,7 +2048,7 @@
 	)
 	(rectangle
 		(start 31.115 147.955)
-		(end 92.71 188.595)
+		(end 102.235 188.595)
 		(stroke
 			(width 0)
 			(type default)
@@ -2222,10 +2242,22 @@
 		(uuid "c5b855d1-6a74-470a-b6c7-20af1bec22ba")
 	)
 	(junction
+		(at 137.16 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d57c8d14-4a6f-4fe7-b1ec-58620f663ef9")
+	)
+	(junction
 		(at 151.13 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d710d4ed-53bd-4fdd-ba12-59adde38f2e6")
+	)
+	(junction
+		(at 83.82 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5c1ae10-7a4e-4241-9ffc-5b61a15325d4")
 	)
 	(wire
 		(pts
@@ -2276,6 +2308,16 @@
 			(type default)
 		)
 		(uuid "106527e3-4470-4821-bfdc-cb21ffffa0e8")
+	)
+	(wire
+		(pts
+			(xy 64.77 171.45) (xy 60.96 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12838ef0-7bff-46bc-949c-a182a014630d")
 	)
 	(wire
 		(pts
@@ -2489,6 +2531,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 63.5) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665a7a02-e86d-45ee-90d9-e64e2ce5a2bc")
+	)
+	(wire
+		(pts
+			(xy 151.13 49.53) (xy 151.13 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b90589-177a-4bee-a141-1af18e741c9e")
+	)
+	(wire
+		(pts
 			(xy 48.26 165.1) (xy 48.26 168.91)
 		)
 		(stroke
@@ -2669,6 +2731,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 45.72) (xy 76.2 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68ca819-fcae-42e5-aa71-be802ee85bb0")
+	)
+	(wire
+		(pts
 			(xy 52.07 48.26) (xy 63.5 48.26)
 		)
 		(stroke
@@ -2719,13 +2791,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 168.91) (xy 60.96 168.91)
+			(xy 58.42 168.91) (xy 64.77 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8691831-805f-4d04-aaa5-1410a4a1c81c")
+	)
+	(wire
+		(pts
+			(xy 83.82 59.69) (xy 83.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb60e744-00ef-45d7-8a72-9d76ad48d36f")
 	)
 	(wire
 		(pts
@@ -2746,6 +2828,16 @@
 			(type default)
 		)
 		(uuid "d4e59721-0f28-4051-afe6-337325f56eee")
+	)
+	(wire
+		(pts
+			(xy 137.16 63.5) (xy 151.13 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62acaf5-defe-42f4-8b96-26cca9d6ac88")
 	)
 	(wire
 		(pts
@@ -2809,13 +2901,80 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 63.5) (xy 151.13 63.5)
+			(xy 121.92 63.5) (xy 137.16 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fa603dda-3be8-45ee-a457-75e1c174079d")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03f8fd40-3b79-4912-8293-64d99f13b22e")
+		(property "Reference" "TP4"
+			(at 153.67 44.9579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 153.67 47.4979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 156.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5788b235-5e4f-4624-b5a7-d157eb3b9c19")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3285,35 +3444,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 66.04 168.91 0)
+		(lib_id "Connector:TestPoint")
+		(at 137.16 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3a151eae-822d-4cd3-ae93-f115c45e78f1")
-		(property "Reference" "J1"
-			(at 68.58 168.9099 0)
+		(uuid "2be8a825-23ed-4d39-9b95-3d8d42197951")
+		(property "Reference" "TP3"
+			(at 139.7 70.6119 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "XT60"
-			(at 68.58 171.4499 0)
+		(property "Value" "TestPoint"
+			(at 139.7 73.1519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
-			(at 66.04 168.91 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +3481,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 168.91 0)
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,25 +3489,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 66.04 168.91 0)
+		(property "Description" "test point"
+			(at 137.16 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "0878cefa-50f7-4a11-9670-6c104fb63fd3")
 		)
 		(pin "1"
-			(uuid "98d06be2-d40e-4a5c-af66-d0bf9629f163")
+			(uuid "737792bc-c3b9-4fd4-ba05-40724f759470")
 		)
 		(instances
-			(project ""
+			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
-					(reference "J1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3973,7 +4129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60c26225-9868-4a65-b959-ded057480946")
-		(property "Reference" "TP1"
+		(property "Reference" "TP5"
 			(at 54.61 107.1879 0)
 			(effects
 				(font
@@ -4024,7 +4180,7 @@
 		(instances
 			(project ""
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
-					(reference "TP1")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -4177,7 +4333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77921f61-3d6c-471a-8b84-e41eb56f70aa")
-		(property "Reference" "TP2"
+		(property "Reference" "TP6"
 			(at 86.36 107.1879 0)
 			(effects
 				(font
@@ -4228,7 +4384,7 @@
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
-					(reference "TP2")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -4573,17 +4729,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 130.81 58.42 270)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 69.85 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ddaf826-3c13-474a-b078-9fe23f1d9600")
-		(property "Reference" "D1"
-			(at 133.35 56.8324 90)
+		(uuid "968085dd-7dc1-4fd7-af6d-4c5b8adaa823")
+		(property "Reference" "J1"
+			(at 72.39 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,8 +4747,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 133.35 59.3724 90)
+		(property "Value" "Terminal"
+			(at 72.39 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,8 +4756,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 130.81 58.42 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Wuerth_691311400102_P7.62mm"
+			(at 69.85 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,8 +4765,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Diotec-Semiconductor/SK13?qs=OlC7AqGiEDmNDO2GUzqLIg%3D%3D"
-			(at 130.81 58.42 0)
+		(property "Datasheet" "~"
+			(at 69.85 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,25 +4774,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 130.81 58.42 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "eb514ef7-62be-4684-8946-3e2cbc027b45")
 		)
 		(pin "2"
-			(uuid "a1937ab3-a3de-4c0e-977f-8996d19a8764")
+			(uuid "1ec29807-42c3-4a81-884e-1ecd86006aac")
+		)
+		(pin "1"
+			(uuid "d8555e5a-7de4-4301-bda6-401ef72d8302")
 		)
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
-					(reference "D1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5335,6 +5491,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 83.82 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dab15273-df9e-4e5e-bdaf-64f1ca86845c")
+		(property "Reference" "TP2"
+			(at 86.36 70.6119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 86.36 73.1519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9943a72b-c97b-481d-a5ba-3655c5d874d9")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 100.33 118.11 0)
 		(unit 1)
@@ -5399,6 +5622,126 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SBR3U60P1-7:SBR3U60P1-7")
+		(at 130.81 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1724446-d6d3-4afe-9d01-8ad047a02363")
+		(property "Reference" "D1"
+			(at 133.35 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SBR3U60P1-7"
+			(at 134.62 58.039 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 37.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/SBR3U60P1.pdf"
+			(at -62.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc SBR3U60P1-7, SMT Schottky Diode, 60V 3A, 2-Pin PowerDI 123"
+			(at 130.81 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at -262.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-SBR3U60P1-7"
+			(at -362.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR3U60P1-7?qs=EumP11lMQtNogJZjibK0jQ%3D%3D"
+			(at -462.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at -562.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SBR3U60P1-7"
+			(at -662.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a89ca932-1c3b-4fc3-b89d-d24d5044ba43")
+		)
+		(pin "2"
+			(uuid "f56a501e-489c-48a5-90de-99d41b1466ab")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5675,6 +6018,73 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 76.2 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f791a2e0-4be2-4833-9012-8461ea256c6f")
+		(property "Reference" "TP1"
+			(at 78.74 41.1479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 78.74 43.6879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a30c613d-a0e8-467d-bb67-2398be29552a")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
