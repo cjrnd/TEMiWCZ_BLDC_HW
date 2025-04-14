@@ -7814,12 +7814,12 @@
 	)
 	(hierarchical_label "SensVB"
 		(shape output)
-		(at 311.15 220.98 180)
+		(at 326.39 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1f45c586-c41a-49c4-a496-75e5b7204fe7")
 	)
@@ -7902,12 +7902,12 @@
 	)
 	(hierarchical_label "SensVA"
 		(shape output)
-		(at 326.39 220.98 0)
+		(at 311.15 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5b5d5678-3b1e-42d6-a918-59898012677c")
 	)
@@ -16499,7 +16499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 228.092 247.65 90)
 			(effects
 				(font

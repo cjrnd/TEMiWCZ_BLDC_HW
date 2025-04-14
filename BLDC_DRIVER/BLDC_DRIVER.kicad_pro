@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -136,8 +136,8 @@
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.4,
+        "min_via_annular_width": 0.3,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -481,7 +481,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
