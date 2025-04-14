@@ -13,4 +13,5 @@
   (lib (name "SBR3U60P1-7")(type "KiCad")(uri "${KIPRJMOD}/models&footprints/SBR3U60P1-7/SBR3U60P1-7.kicad_sym")(options "")(descr ""))
   (lib (name "691311400103")(type "KiCad")(uri "${KIPRJMOD}/models&footprints/691311400103/691311400103.kicad_sym")(options "")(descr ""))
   (lib (name "LMR51610YDBVR")(type "KiCad")(uri "${KIPRJMOD}/models&footprints/LMR51610YDBVR/LMR51610YDBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "NTMFS4D0N08XT1G")(type "KiCad")(uri "${KIPRJMOD}/models&footprints/NTMFS4D0N08XT1G/NTMFS4D0N08XT1G.kicad_sym")(options "")(descr ""))
 )
