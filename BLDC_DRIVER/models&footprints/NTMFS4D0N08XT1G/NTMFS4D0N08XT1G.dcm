@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NTMFS4D0N08XT1G
+D Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant
+K
+F https://www.onsemi.com/pub/Collateral/NTMFS4D0N08X-D.PDF
+$ENDCMP
+#
+#End Doc Library

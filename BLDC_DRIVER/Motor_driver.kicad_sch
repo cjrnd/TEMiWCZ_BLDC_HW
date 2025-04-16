@@ -276,332 +276,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 2.286 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "BSC146N10LS5ATMA1"
-				(at 2.286 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "BSC146N10LS5ATMA1"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "OptiMOSTM5Power-Transistor,100V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Infineon"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "BSC146N10LS5ATMA1_0_1"
-				(polyline
-					(pts
-						(xy -2.286 1.905) (xy -2.286 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -1.778 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 0.508) (xy -1.778 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.27) (xy -1.778 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.778) (xy 0.762 -1.778) (xy 0.762 1.778) (xy -1.778 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -0.508 0.381) (xy -0.508 -0.381) (xy -1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -0.889 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 0.381) (xy 1.143 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.381) (xy 0.381 -0.254) (xy 1.143 -0.254) (xy 0.762 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BSC146N10LS5ATMA1_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2566,6 +2240,332 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NTMFS4D0N08XT1G:NTMFS4D0N08XT1G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 2.54 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "NTMFS4D0N08XT1G"
+				(at 2.54 -0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "NRVTS10100EMFST1G"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTMFS4D0N08X-D.PDF"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "863-NTMFS4D0N08XT1G"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTMFS4D0N08XT1G?qs=jRuttqqUwMRUHMk9%2F5TPlA%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "NTMFS4D0N08XT1G"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "NTMFS4D0N08XT1G_0_1"
+				(polyline
+					(pts
+						(xy -2.286 1.905) (xy -2.286 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.27) (xy -1.778 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy 0.762 -1.778) (xy 0.762 1.778) (xy -1.778 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -0.508 0.381) (xy -0.508 -0.381) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.889 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 0.381) (xy 1.143 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.381) (xy 0.381 -0.254) (xy 1.143 -0.254) (xy 0.762 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NTMFS4D0N08XT1G_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SBR3U60P1-7:SBR3U60P1-7"
 			(pin_names
 				(hide yes)
@@ -3619,12 +3619,6 @@
 		(uuid "16015c1a-011d-45a1-a25d-7bc23551f223")
 	)
 	(junction
-		(at 67.31 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16e8a03f-53bd-4df8-a6d9-341b4d96b6f5")
-	)
-	(junction
 		(at 30.48 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3635,12 +3629,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d63f4d2-9422-48ed-8cfe-3d7ab4834a27")
-	)
-	(junction
-		(at 195.58 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ec669ec-8cde-4328-82fc-e9a868edae7a")
 	)
 	(junction
 		(at 85.09 245.11)
@@ -3751,6 +3739,12 @@
 		(uuid "67066298-2c1d-41c0-92b0-173543618d18")
 	)
 	(junction
+		(at 49.53 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69cd1cff-b043-4988-a448-321fb16173b1")
+	)
+	(junction
 		(at 313.69 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3781,10 +3775,10 @@
 		(uuid "781d48c1-0168-4522-be84-9b5455606ccc")
 	)
 	(junction
-		(at 316.23 175.26)
+		(at 299.72 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7bae9c58-dfcb-4a97-88de-a1bd50656777")
+		(uuid "7a137136-94b8-43c0-9ce0-11282733a4a5")
 	)
 	(junction
 		(at 323.85 156.21)
@@ -3929,6 +3923,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4c7af55-7ede-4636-9dc1-ff2a3e354a6d")
+	)
+	(junction
+		(at 180.34 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4f33fc9-32c8-4576-adea-dca1c0769bd7")
 	)
 	(junction
 		(at 203.2 182.88)
@@ -4472,16 +4472,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 220.98) (xy 309.88 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ed6618e-5ec6-43bf-b62c-b985fd06aa23")
-	)
-	(wire
-		(pts
 			(xy 39.37 148.59) (xy 45.72 148.59)
 		)
 		(stroke
@@ -4972,7 +4962,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 176.53) (xy 67.31 176.53)
+			(xy 39.37 176.53) (xy 74.93 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5142,7 +5132,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 190.5) (xy 311.15 190.5)
+			(xy 289.56 190.5) (xy 299.72 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5152,7 +5142,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 175.26) (xy 316.23 175.26)
+			(xy 289.56 175.26) (xy 323.85 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5672,16 +5662,6 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 175.26) (xy 323.85 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77319b9d-c544-4b57-85da-c14bdd9ac34f")
-	)
-	(wire
-		(pts
 			(xy 240.03 252.73) (xy 240.03 257.81)
 		)
 		(stroke
@@ -6082,16 +6062,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 175.26) (xy 203.2 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d98b4ff-561f-4ed0-ba1b-a9ad033aa9f9")
-	)
-	(wire
-		(pts
 			(xy 24.13 138.43) (xy 24.13 140.97)
 		)
 		(stroke
@@ -6242,6 +6212,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 191.77) (xy 62.23 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6b6998-0356-4e38-b975-54f6321164d6")
+	)
+	(wire
+		(pts
 			(xy 80.01 245.11) (xy 85.09 245.11)
 		)
 		(stroke
@@ -6322,16 +6302,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 176.53) (xy 74.93 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b350e682-fb19-47c4-8879-a9fa6b7f50c5")
-	)
-	(wire
-		(pts
 			(xy 262.89 66.04) (xy 271.78 66.04)
 		)
 		(stroke
@@ -6352,7 +6322,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 190.5) (xy 190.5 190.5)
+			(xy 168.91 190.5) (xy 180.34 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6392,7 +6362,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 191.77) (xy 62.23 191.77)
+			(xy 39.37 191.77) (xy 49.53 191.77)
 		)
 		(stroke
 			(width 0)
@@ -6522,7 +6492,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 175.26) (xy 195.58 175.26)
+			(xy 168.91 175.26) (xy 203.2 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6669,6 +6639,16 @@
 			(type default)
 		)
 		(uuid "cf85efc6-afe4-459c-83f0-8c2e70b55625")
+	)
+	(wire
+		(pts
+			(xy 299.72 190.5) (xy 311.15 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffd7c02-cd42-4ecd-a41b-e855b8335540")
 	)
 	(wire
 		(pts
@@ -6989,6 +6969,16 @@
 			(type default)
 		)
 		(uuid "e7cfa193-cce9-46c4-8ee7-c8f07b6576a4")
+	)
+	(wire
+		(pts
+			(xy 180.34 190.5) (xy 190.5 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e801ac5f-ace2-42b9-90ad-c3f59f25ae10")
 	)
 	(wire
 		(pts
@@ -7370,16 +7360,6 @@
 		)
 		(uuid "2ed17868-8f59-4c28-9482-4336e34eaefd")
 	)
-	(label "SLA"
-		(at 39.37 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33636ced-2b4a-494f-b6ba-96501b63d46b")
-	)
 	(label "V_PHASE"
 		(at 16.51 245.11 0)
 		(effects
@@ -7570,16 +7550,6 @@
 		)
 		(uuid "7f0fffa5-fa5c-4d52-816d-78c2edeb95fd")
 	)
-	(label "SLB"
-		(at 168.91 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81d50579-98fc-4879-9965-709893017678")
-	)
 	(label "GHB"
 		(at 240.03 104.14 270)
 		(effects
@@ -7699,16 +7669,6 @@
 			(justify right bottom)
 		)
 		(uuid "ca66b2bd-5d44-40c1-b5f2-b9418a6e3533")
-	)
-	(label "SLC"
-		(at 289.56 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ccab97d7-6122-43f0-8856-14233dd726d6")
 	)
 	(label "GLA"
 		(at 209.55 78.74 0)
@@ -7865,7 +7825,7 @@
 	)
 	(hierarchical_label "PVDDSENSE"
 		(shape output)
-		(at 326.39 242.57 0)
+		(at 396.24 242.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7942,7 +7902,7 @@
 	)
 	(hierarchical_label "SensVA"
 		(shape output)
-		(at 309.88 220.98 180)
+		(at 311.15 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7961,6 +7921,17 @@
 			(justify right)
 		)
 		(uuid "68681c7f-3eea-41fd-a4b1-a8d88e8dcd47")
+	)
+	(hierarchical_label "SensIB"
+		(shape output)
+		(at 350.52 242.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a07e9cf-c282-4a51-a98d-b24e42b4c291")
 	)
 	(hierarchical_label "SensVA"
 		(shape output)
@@ -8038,6 +8009,28 @@
 			(justify right)
 		)
 		(uuid "ac113c19-103a-4f6c-a915-44148b782a98")
+	)
+	(hierarchical_label "SensIC"
+		(shape output)
+		(at 326.39 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8c5bbdf-8dd6-4da1-8127-1558964c85a6")
+	)
+	(hierarchical_label "SensIA"
+		(shape output)
+		(at 365.76 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c02918ed-d67b-41b4-b5ef-5e1f4bce723f")
 	)
 	(hierarchical_label "SensIB"
 		(shape output)
@@ -8411,131 +8404,6 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "D103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1")
-		(at 203.2 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02399dbc-c7da-4188-95c5-f8ed619ed499")
-		(property "Reference" "Q104"
-			(at 207.01 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC146N10LS5ATMA1"
-			(at 207.01 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
-			(at 224.79 261.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-			(at 224.79 361.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "OptiMOSTM5Power-Transistor,100V"
-			(at 203.2 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 224.79 561.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-			(at 224.79 661.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-			(at 224.79 761.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 224.79 861.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-			(at 224.79 961.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "b672302d-75ab-4492-a4ca-f226056b84c0")
-		)
-		(pin "4"
-			(uuid "dce741aa-f4ce-4b2a-835e-5993d5f7d40b")
-		)
-		(pin "1"
-			(uuid "3bada572-de15-4afc-83e9-005d46dbdb40")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "Q104")
 					(unit 1)
 				)
 			)
@@ -9296,6 +9164,131 @@
 		)
 	)
 	(symbol
+		(lib_id "NTMFS4D0N08XT1G:NTMFS4D0N08XT1G")
+		(at 323.85 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "178daf92-2472-4713-a1b2-00ec3b7368f7")
+		(property "Reference" "Q105"
+			(at 327.66 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTMFS4D0N08XT1G"
+			(at 327.66 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NRVTS10100EMFST1G"
+			(at 345.44 242.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTMFS4D0N08X-D.PDF"
+			(at 345.44 342.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+			(at 323.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 345.44 542.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-NTMFS4D0N08XT1G"
+			(at 345.44 642.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTMFS4D0N08XT1G?qs=jRuttqqUwMRUHMk9%2F5TPlA%3D%3D"
+			(at 345.44 742.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 345.44 842.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTMFS4D0N08XT1G"
+			(at 345.44 942.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "5349f03e-51c5-4b8c-af9b-2853b20ccc07")
+		)
+		(pin "1"
+			(uuid "67316d4b-31dd-487d-8d6d-80c7160c4041")
+		)
+		(pin "4"
+			(uuid "de7d694d-d228-495e-b00d-4e5a2668ff79")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "Q105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DRV8323SRTAR:DRV8323SRTAR")
 		(at 222.25 60.96 0)
 		(unit 1)
@@ -9728,131 +9721,6 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "TP111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1")
-		(at 74.93 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f16608d-e0c5-45aa-a205-66ec19658b5f")
-		(property "Reference" "Q101"
-			(at 78.74 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC146N10LS5ATMA1"
-			(at 78.74 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
-			(at 96.52 243.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-			(at 96.52 343.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "OptiMOSTM5Power-Transistor,100V"
-			(at 74.93 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 96.52 543.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-			(at 96.52 643.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-			(at 96.52 743.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 96.52 843.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-			(at 96.52 943.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "7697fb3b-78df-469b-8fea-d6de9a303c05")
-		)
-		(pin "4"
-			(uuid "d1a98839-f57c-4d81-a661-5180401a5c01")
-		)
-		(pin "1"
-			(uuid "7a367d81-534b-4df5-8913-df85bf9e6d1b")
-		)
-		(instances
-			(project ""
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "Q101")
 					(unit 1)
 				)
 			)
@@ -11217,131 +11085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1")
-		(at 74.93 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fc19e89-3228-4f0b-a96e-173455608aad")
-		(property "Reference" "Q102"
-			(at 78.74 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC146N10LS5ATMA1"
-			(at 78.74 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
-			(at 96.52 262.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-			(at 96.52 362.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "OptiMOSTM5Power-Transistor,100V"
-			(at 74.93 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 96.52 562.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-			(at 96.52 662.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-			(at 96.52 762.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 96.52 862.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-			(at 96.52 962.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e4493f77-fb35-4a35-bd4e-3fba258a024e")
-		)
-		(pin "4"
-			(uuid "591be347-26bd-4bd5-a334-584adc2a8740")
-		)
-		(pin "1"
-			(uuid "3a5ad794-f25a-4007-a768-50bad54e8cde")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "Q102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 240.03 246.38 0)
 		(unit 1)
@@ -11887,7 +11630,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 316.23 175.26 0)
+		(at 299.72 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11896,7 +11639,7 @@
 		(fields_autoplaced yes)
 		(uuid "47fad3e0-9687-4611-9e5e-adaef755e287")
 		(property "Reference" "TP115"
-			(at 318.77 171.9579 0)
+			(at 302.26 187.1979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11905,7 +11648,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 318.77 173.2279 0)
+			(at 302.26 188.4679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11915,7 +11658,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 321.31 175.26 0)
+			(at 304.8 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11924,7 +11667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 321.31 175.26 0)
+			(at 304.8 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11933,7 +11676,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 316.23 175.26 0)
+			(at 299.72 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14164,131 +13907,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1")
-		(at 323.85 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7da701f6-ec5f-47fb-9a65-9e07a41a3a56")
-		(property "Reference" "Q106"
-			(at 327.66 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC146N10LS5ATMA1"
-			(at 327.66 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
-			(at 345.44 261.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-			(at 345.44 361.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "OptiMOSTM5Power-Transistor,100V"
-			(at 323.85 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 345.44 561.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-			(at 345.44 661.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-			(at 345.44 761.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 345.44 861.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-			(at 345.44 961.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "1e20e746-a978-4b7f-8ec2-59c1fe422aa7")
-		)
-		(pin "4"
-			(uuid "eb1a8f04-d87f-4e5a-b66a-04e6dca709f4")
-		)
-		(pin "1"
-			(uuid "183cac60-e387-4d7c-8828-1fa5eaf63445")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "Q106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 252.73 247.65 0)
 		(unit 1)
@@ -14563,17 +14181,17 @@
 		)
 	)
 	(symbol
-		(lib_id "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1")
-		(at 323.85 147.32 0)
+		(lib_id "NTMFS4D0N08XT1G:NTMFS4D0N08XT1G")
+		(at 74.93 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "883ca6e1-847f-4fd0-9ee9-91c3a5936ba0")
-		(property "Reference" "Q105"
-			(at 327.66 146.0499 0)
+		(uuid "8a0cc6c1-e8a7-4dad-a724-527693c31ac2")
+		(property "Reference" "Q101"
+			(at 78.74 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14581,8 +14199,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSC146N10LS5ATMA1"
-			(at 327.66 148.5899 0)
+		(property "Value" "NTMFS4D0N08XT1G"
+			(at 78.74 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14590,8 +14208,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
-			(at 345.44 242.24 0)
+		(property "Footprint" "NRVTS10100EMFST1G"
+			(at 96.52 243.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14600,8 +14218,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-			(at 345.44 342.24 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTMFS4D0N08X-D.PDF"
+			(at 96.52 343.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14610,8 +14228,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OptiMOSTM5Power-Transistor,100V"
-			(at 323.85 147.32 0)
+		(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+			(at 74.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14619,18 +14237,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1"
-			(at 345.44 542.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-			(at 345.44 642.24 0)
+		(property "Height" "1.1"
+			(at 96.52 543.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14639,8 +14247,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-			(at 345.44 742.24 0)
+		(property "Mouser Part Number" "863-NTMFS4D0N08XT1G"
+			(at 96.52 643.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14649,8 +14257,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 345.44 842.24 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTMFS4D0N08XT1G?qs=jRuttqqUwMRUHMk9%2F5TPlA%3D%3D"
+			(at 96.52 743.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14659,8 +14267,18 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-			(at 345.44 942.24 0)
+		(property "Manufacturer_Name" "onsemi"
+			(at 96.52 843.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTMFS4D0N08XT1G"
+			(at 96.52 943.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14670,18 +14288,18 @@
 			)
 		)
 		(pin "5"
-			(uuid "92db3cf8-3e15-415d-a607-2e230cd8335b")
-		)
-		(pin "4"
-			(uuid "4325d7c8-7b5d-4075-ae15-4a043be227db")
+			(uuid "4b8dc1fd-664f-45b4-af86-b83b52f14671")
 		)
 		(pin "1"
-			(uuid "05f0ca74-5393-44b4-963c-b6e854e4920b")
+			(uuid "987cef96-1043-479c-aa6d-ac601e855ca0")
+		)
+		(pin "4"
+			(uuid "81a95480-5338-4d16-bd5f-cc5e751ec3e1")
 		)
 		(instances
-			(project "BLDC_DRIVER"
+			(project ""
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "Q105")
+					(reference "Q101")
 					(unit 1)
 				)
 			)
@@ -14754,8 +14372,133 @@
 		)
 	)
 	(symbol
+		(lib_id "NTMFS4D0N08XT1G:NTMFS4D0N08XT1G")
+		(at 203.2 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bbf9946-99ae-45f3-811b-c11ff10b084f")
+		(property "Reference" "Q104"
+			(at 207.01 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTMFS4D0N08XT1G"
+			(at 207.01 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NRVTS10100EMFST1G"
+			(at 224.79 261.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTMFS4D0N08X-D.PDF"
+			(at 224.79 361.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+			(at 203.2 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 224.79 561.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-NTMFS4D0N08XT1G"
+			(at 224.79 661.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTMFS4D0N08XT1G?qs=jRuttqqUwMRUHMk9%2F5TPlA%3D%3D"
+			(at 224.79 761.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 224.79 861.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTMFS4D0N08XT1G"
+			(at 224.79 961.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "33a1ad7f-da96-431d-b48c-625555033af2")
+		)
+		(pin "1"
+			(uuid "dcaa1b78-fdbb-4ddf-bdf4-3b38a0e875ca")
+		)
+		(pin "4"
+			(uuid "d8f09086-a89b-4c64-bc18-a13f4a9b5551")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "Q104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 67.31 176.53 0)
+		(at 49.53 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14764,7 +14507,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d53dd9f-53aa-441a-9fcc-d3fe267927ce")
 		(property "Reference" "TP116"
-			(at 69.85 173.2279 0)
+			(at 52.07 188.4679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14773,7 +14516,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 69.85 174.4979 0)
+			(at 52.07 189.7379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14783,7 +14526,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 72.39 176.53 0)
+			(at 54.61 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14792,7 +14535,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 176.53 0)
+			(at 54.61 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14801,7 +14544,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 67.31 176.53 0)
+			(at 49.53 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14955,131 +14698,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1")
-		(at 203.2 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "904dc921-d6e7-4bc3-8e03-abf81be8bf96")
-		(property "Reference" "Q103"
-			(at 207.01 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC146N10LS5ATMA1"
-			(at 207.01 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BSC146N10LS5ATMA1:BSC146N10LS5ATMA1"
-			(at 224.79 242.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC146N10LS5-DataSheet-v02_00-EN.pdf?fileId=5546d4626b2d8e69016b4c4f80f313ea"
-			(at 224.79 342.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "OptiMOSTM5Power-Transistor,100V"
-			(at 203.2 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 224.79 542.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC146N10LS5ATMA"
-			(at 224.79 642.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC146N10LS5ATMA1?qs=l7cgNqFNU1j1dxLMhqzXfg%3D%3D"
-			(at 224.79 742.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 224.79 842.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BSC146N10LS5ATMA1"
-			(at 224.79 942.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "7c0a50ac-a77c-4e5c-a6c3-d2b066e745ae")
-		)
-		(pin "4"
-			(uuid "f89a52cb-3921-4b71-91ce-28c72dc51e0a")
-		)
-		(pin "1"
-			(uuid "203f2281-dcb9-4f10-b542-577ea4eec987")
-		)
-		(instances
-			(project "BLDC_DRIVER"
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "Q103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 78.74 157.48 0)
 		(unit 1)
@@ -15212,6 +14830,131 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NTMFS4D0N08XT1G:NTMFS4D0N08XT1G")
+		(at 203.2 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9575a11a-ac17-4474-9a81-fc753548ad39")
+		(property "Reference" "Q103"
+			(at 207.01 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTMFS4D0N08XT1G"
+			(at 207.01 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NRVTS10100EMFST1G"
+			(at 224.79 242.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTMFS4D0N08X-D.PDF"
+			(at 224.79 342.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 224.79 542.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-NTMFS4D0N08XT1G"
+			(at 224.79 642.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTMFS4D0N08XT1G?qs=jRuttqqUwMRUHMk9%2F5TPlA%3D%3D"
+			(at 224.79 742.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 224.79 842.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTMFS4D0N08XT1G"
+			(at 224.79 942.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "3e95f222-6bf0-44d3-b182-0257ebbba2ba")
+		)
+		(pin "1"
+			(uuid "265bafda-3319-4d46-8a48-9bfd760b65f6")
+		)
+		(pin "4"
+			(uuid "1580138f-341a-473c-a746-a8689c59ba0f")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "Q103")
 					(unit 1)
 				)
 			)
@@ -15353,7 +15096,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 195.58 175.26 0)
+		(at 180.34 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15362,7 +15105,7 @@
 		(fields_autoplaced yes)
 		(uuid "98ffb3b1-eabf-4f1d-9a49-0b3d091fb226")
 		(property "Reference" "TP114"
-			(at 198.12 171.9579 0)
+			(at 182.88 187.1979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15371,7 +15114,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 198.12 173.2279 0)
+			(at 182.88 188.4679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15381,7 +15124,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 200.66 175.26 0)
+			(at 185.42 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15390,7 +15133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 175.26 0)
+			(at 185.42 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15399,7 +15142,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 195.58 175.26 0)
+			(at 180.34 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15620,6 +15363,131 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "R136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NTMFS4D0N08XT1G:NTMFS4D0N08XT1G")
+		(at 74.93 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9becbedf-dc6b-4e82-9151-0d13ad4a1a0d")
+		(property "Reference" "Q102"
+			(at 78.74 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTMFS4D0N08XT1G"
+			(at 78.74 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NRVTS10100EMFST1G"
+			(at 96.52 262.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTMFS4D0N08X-D.PDF"
+			(at 96.52 362.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+			(at 74.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 96.52 562.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-NTMFS4D0N08XT1G"
+			(at 96.52 662.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTMFS4D0N08XT1G?qs=jRuttqqUwMRUHMk9%2F5TPlA%3D%3D"
+			(at 96.52 762.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 96.52 862.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTMFS4D0N08XT1G"
+			(at 96.52 962.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "920eb651-d902-47cc-a593-b731b0205f9b")
+		)
+		(pin "1"
+			(uuid "aa25d4d9-bf62-4104-a492-66ac0bce8b23")
+		)
+		(pin "4"
+			(uuid "1abd30d3-8bec-4cdf-a586-f41a0f7cf471")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "Q102")
 					(unit 1)
 				)
 			)
@@ -16033,7 +15901,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R/2W"
+		(property "Value" "0R/1W"
 			(at 261.112 24.638 90)
 			(effects
 				(font
@@ -16042,7 +15910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.16 24.892 90)
 			(effects
 				(font
@@ -16631,7 +16499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 228.092 247.65 90)
 			(effects
 				(font
@@ -19207,6 +19075,131 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "C119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NTMFS4D0N08XT1G:NTMFS4D0N08XT1G")
+		(at 323.85 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef2913b4-1326-4581-955e-c49b7fa3dbb9")
+		(property "Reference" "Q106"
+			(at 327.66 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTMFS4D0N08XT1G"
+			(at 327.66 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NRVTS10100EMFST1G"
+			(at 345.44 261.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTMFS4D0N08X-D.PDF"
+			(at 345.44 361.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+			(at 323.85 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 345.44 561.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-NTMFS4D0N08XT1G"
+			(at 345.44 661.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTMFS4D0N08XT1G?qs=jRuttqqUwMRUHMk9%2F5TPlA%3D%3D"
+			(at 345.44 761.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 345.44 861.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTMFS4D0N08XT1G"
+			(at 345.44 961.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4335a5fe-7929-4861-b591-c860edfecdb1")
+		)
+		(pin "1"
+			(uuid "625dfe06-c20f-4a5c-a60c-49f38c3daf17")
+		)
+		(pin "4"
+			(uuid "67649110-0848-437a-b4d7-2de236ee407c")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
+					(reference "Q106")
 					(unit 1)
 				)
 			)
