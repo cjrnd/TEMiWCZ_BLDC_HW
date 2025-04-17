@@ -5096,10 +5096,6 @@
 		(uuid "a96a8268-e7e0-4699-ae5e-07ef42ed56ef")
 	)
 	(no_connect
-		(at 261.62 107.95)
-		(uuid "aaf25c64-d04e-46db-9b0e-32f589a59a4f")
-	)
-	(no_connect
 		(at 152.4 43.18)
 		(uuid "b156ee0f-c600-4cea-883f-a0140e690306")
 	)
@@ -5114,6 +5110,10 @@
 	(no_connect
 		(at 152.4 73.66)
 		(uuid "b961e3ac-471e-4026-bb1e-4e7ffa264b5f")
+	)
+	(no_connect
+		(at 226.06 90.17)
+		(uuid "be393729-ca18-45d7-bc15-ac1a530bb766")
 	)
 	(no_connect
 		(at 152.4 66.04)
@@ -5344,6 +5344,16 @@
 			(type default)
 		)
 		(uuid "22ac1680-3f5e-4bf5-8711-25bc2787f906")
+	)
+	(wire
+		(pts
+			(xy 262.89 107.95) (xy 261.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d5a216-b6c2-4e2a-a078-cd254e29ba2f")
 	)
 	(bus
 		(pts
@@ -6167,16 +6177,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 90.17) (xy 226.06 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da205ea0-6a44-475d-8d7d-469c0074caa6")
-	)
-	(wire
-		(pts
 			(xy 58.42 106.68) (xy 60.96 106.68)
 		)
 		(stroke
@@ -6287,6 +6287,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 152.4) (xy 26.67 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe93dcfd-fd16-404f-9a3a-ecdcab749462")
+	)
+	(wire
+		(pts
 			(xy 48.26 111.76) (xy 48.26 113.03)
 		)
 		(stroke
@@ -6325,15 +6335,15 @@
 		)
 		(uuid "054e41d4-4105-4392-ac21-19d1033d4310")
 	)
-	(label "GL1"
-		(at 261.62 110.49 0)
+	(label "GH3"
+		(at 261.62 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0aff5cdf-faff-4dda-b2dd-c8e840a8acd7")
+		(uuid "0fe16591-170f-4b72-b5b1-b34d039b3e82")
 	)
 	(label "NRST"
 		(at 226.06 39.37 180)
@@ -6435,6 +6445,16 @@
 		)
 		(uuid "4b09858a-d508-4e9b-86f6-780f37690336")
 	)
+	(label "GH1"
+		(at 261.62 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4be21ef9-6259-4c49-b488-09c7aa020f31")
+	)
 	(label "SWDIO"
 		(at 40.64 78.74 0)
 		(effects
@@ -6465,6 +6485,16 @@
 		)
 		(uuid "6bcfb54c-310c-4cf4-8be5-f7598c996465")
 	)
+	(label "GL1"
+		(at 261.62 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "807a5413-37eb-4a17-baf9-bbd9f596323f")
+	)
 	(label "RX_STM32"
 		(at 90.17 83.82 0)
 		(effects
@@ -6484,16 +6514,6 @@
 			(justify left bottom)
 		)
 		(uuid "81fdc8b8-2ab5-410c-a94a-250060e08663")
-	)
-	(label "GH1"
-		(at 261.62 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83c69e39-15f4-4204-8d75-cd07fa325699")
 	)
 	(label "SWDIO"
 		(at 261.62 67.31 0)
@@ -6545,16 +6565,6 @@
 		)
 		(uuid "9113ff51-f7db-4238-ad30-3971afd088ca")
 	)
-	(label "FUNC_BTN2"
-		(at 218.44 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "91fbab7b-0897-4f48-aee1-369494cdb13b")
-	)
 	(label "D-"
 		(at 152.4 48.26 0)
 		(effects
@@ -6574,16 +6584,6 @@
 			(justify left bottom)
 		)
 		(uuid "9654a786-97b5-4973-ad7d-f8088b6fc066")
-	)
-	(label "GL3"
-		(at 261.62 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c1a2903-390e-4a03-b790-6b7e427285a0")
 	)
 	(label "LED2"
 		(at 226.06 82.55 180)
@@ -6625,6 +6625,16 @@
 		)
 		(uuid "a8937dc1-69a3-47ba-80af-7c0f378462c8")
 	)
+	(label "FUNC_BTN2"
+		(at 262.89 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9354537-3a55-4ed3-988e-098776830b5c")
+	)
 	(label "ESP_EN"
 		(at 109.22 181.61 0)
 		(effects
@@ -6665,16 +6675,6 @@
 		)
 		(uuid "b991950c-29a3-4458-813a-2a574dbd580a")
 	)
-	(label "GH3"
-		(at 261.62 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bdd8c1f9-bdd6-4240-8cac-29195f49f09b")
-	)
 	(label "RCC_OSC_IN"
 		(at 34.29 106.68 180)
 		(effects
@@ -6714,16 +6714,6 @@
 			(justify left bottom)
 		)
 		(uuid "cb0f73b2-edf3-477a-bb2c-8174ff1275d5")
-	)
-	(label "LED3"
-		(at 26.67 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d294795c-79da-4caa-bb81-20f3beca5853")
 	)
 	(label "FUNC_BTN1"
 		(at 261.62 100.33 0)
@@ -6864,6 +6854,16 @@
 			(justify left bottom)
 		)
 		(uuid "fbec4839-eeca-44dd-b592-a912f27b436a")
+	)
+	(label "GL3"
+		(at 261.62 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff68ca02-2527-4652-b604-f5e71545e85c")
 	)
 	(hierarchical_label "NSCS"
 		(shape bidirectional)
@@ -7095,6 +7095,71 @@
 			(justify left)
 		)
 		(uuid "d8ff1c8a-bcaa-4b81-add1-76b562c5e85c")
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 24.13 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "004313ed-edde-4fcc-a5fc-1cf441e89674")
+		(property "Reference" "#PWR063"
+			(at 24.13 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 24.13 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 24.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79e7dded-d4d8-4132-b732-afbe93f12386")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/3858e4a6-498a-4dbf-a28d-a3d68cd1c461"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")

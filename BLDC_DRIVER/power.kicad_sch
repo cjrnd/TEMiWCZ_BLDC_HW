@@ -2047,6 +2047,18 @@
 		)
 	)
 	(rectangle
+		(start 105.41 147.955)
+		(end 169.545 187.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae87c7c1-f1cc-4fea-82d1-678601772bde)
+	)
+	(rectangle
 		(start 31.115 147.955)
 		(end 102.235 188.595)
 		(stroke
@@ -2092,6 +2104,16 @@
 		)
 		(uuid "186fd694-6360-4ba5-a237-1e024bd5bae7")
 	)
+	(text "TEST POINTS GND"
+		(exclude_from_sim no)
+		(at 117.348 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4fa5a122-d5de-4dea-ab5e-ac51777ee40b")
+	)
 	(text "BUCK CONVERTER 5V"
 		(exclude_from_sim no)
 		(at 37.465 26.035 0)
@@ -2101,16 +2123,6 @@
 			)
 		)
 		(uuid "7950b228-8c76-4089-bd3c-6cf5c4656643")
-	)
-	(text "CHOOSE FOTPRINT FOR ELECTROLITIC"
-		(exclude_from_sim no)
-		(at 52.832 37.084 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "835e1618-e5ba-4ff9-90d8-29a06f54c64f")
 	)
 	(text "TI basic calculation for dc/dc buck"
 		(exclude_from_sim no)
@@ -2170,12 +2182,6 @@
 		(uuid "25a9c154-71e0-4606-a26f-bcc8db07a004")
 	)
 	(junction
-		(at 58.42 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2625bb6f-e5fd-4451-afab-2787bc8a3e3d")
-	)
-	(junction
 		(at 125.73 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2192,12 +2198,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6abeb3cb-8c37-45a3-af17-5de6f5991097")
-	)
-	(junction
-		(at 48.26 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84b03aff-3915-42b2-89a4-690add78ef2d")
 	)
 	(junction
 		(at 76.2 59.69)
@@ -2258,6 +2258,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5c1ae10-7a4e-4241-9ffc-5b61a15325d4")
+	)
+	(junction
+		(at 135.89 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f58a15c3-77da-4736-9486-53180bb06d5d")
 	)
 	(wire
 		(pts
@@ -2378,26 +2384,6 @@
 			(type default)
 		)
 		(uuid "2386044d-e91e-49c7-af6f-8839389678d5")
-	)
-	(wire
-		(pts
-			(xy 49.53 172.72) (xy 48.26 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2458b0b0-6ef9-4fa6-9161-4cb0612c8301")
-	)
-	(wire
-		(pts
-			(xy 58.42 165.1) (xy 58.42 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a0fd89-971b-4d36-b28f-66eb03801696")
 	)
 	(wire
 		(pts
@@ -2551,33 +2537,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 165.1) (xy 48.26 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a73ebe4-0601-46c7-ae2b-0bd235a2e6a6")
-	)
-	(wire
-		(pts
-			(xy 57.15 165.1) (xy 58.42 165.1)
+			(xy 57.15 168.91) (xy 64.77 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6da574b1-81b4-4898-b0d0-0a02adb85337")
-	)
-	(wire
-		(pts
-			(xy 48.26 172.72) (xy 48.26 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74517acf-f66c-4861-a16c-ce5103f6f4aa")
 	)
 	(wire
 		(pts
@@ -2608,16 +2574,6 @@
 			(type default)
 		)
 		(uuid "7aed425a-e55a-4c8a-8ea8-2b45e168bb60")
-	)
-	(wire
-		(pts
-			(xy 58.42 172.72) (xy 58.42 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85251449-7f3a-46d7-a46c-934b1eb86e89")
 	)
 	(wire
 		(pts
@@ -2661,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 168.91) (xy 41.91 168.91)
+			(xy 41.91 168.91) (xy 49.53 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2791,16 +2747,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 168.91) (xy 64.77 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8691831-805f-4d04-aaa5-1410a4a1c81c")
-	)
-	(wire
-		(pts
 			(xy 83.82 59.69) (xy 83.82 68.58)
 		)
 		(stroke
@@ -2811,13 +2757,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 172.72) (xy 58.42 172.72)
+			(xy 121.92 170.18) (xy 135.89 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cedb5bec-41d8-4dc6-baff-b8b8bf0c86df")
+		(uuid "cc77098c-96cd-4b9f-8957-1b604d866ebf")
 	)
 	(wire
 		(pts
@@ -2851,16 +2797,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 165.1) (xy 49.53 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de604edf-0eb3-4041-8262-dfe0ae8b8423")
-	)
-	(wire
-		(pts
 			(xy 130.81 53.34) (xy 130.81 54.61)
 		)
 		(stroke
@@ -2881,6 +2817,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 170.18) (xy 135.89 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaded6c5-4b38-40f0-9e3f-9dfb42222a44")
+	)
+	(wire
+		(pts
 			(xy 165.1 53.34) (xy 179.07 53.34)
 		)
 		(stroke
@@ -2898,6 +2844,16 @@
 			(type default)
 		)
 		(uuid "f06e8cae-97b4-47e1-9283-0ad54d1db901")
+	)
+	(wire
+		(pts
+			(xy 149.86 170.18) (xy 135.89 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81eb261-8d52-4f18-8537-7301c43adc54")
 	)
 	(wire
 		(pts
@@ -3377,32 +3333,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 53.34 172.72 270)
+		(lib_id "Connector:TestPoint")
+		(at 149.86 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "296a8799-f696-4ae7-bad7-e849f3b3af2d")
-		(property "Reference" "F2"
-			(at 53.34 167.894 90)
+		(fields_autoplaced yes)
+		(uuid "28549490-49c8-4ac4-a49f-c46b237a1dfc")
+		(property "Reference" "TP7"
+			(at 147.32 168.1481 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "15A"
-			(at 53.34 170.434 90)
+		(property "Value" "TestPoint"
+			(at 147.32 165.6081 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Blade_ATO_directSolder"
-			(at 53.34 170.942 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 154.94 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3370,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 172.72 0)
+			(at 154.94 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3419,8 +3378,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
-			(at 53.34 172.72 0)
+		(property "Description" "test point"
+			(at 149.86 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,15 +3388,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "932c86df-a205-4a4c-8854-bf18643cb6a1")
-		)
-		(pin "2"
-			(uuid "04ab8321-35d1-423e-a340-c80797aead4e")
+			(uuid "d1e2a897-fc3f-4378-be29-e9404415c1f2")
 		)
 		(instances
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
-					(reference "F2")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -3505,6 +3461,72 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a5a7c22-0a72-49c5-a326-dbe537d754a2")
+		(property "Reference" "TP9"
+			(at 133.35 168.1481 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 133.35 165.6081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 140.97 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe183e6b-264c-45e9-9e21-d60dd9e6f639")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -3920,7 +3942,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 53.34 165.1 90)
+		(at 53.34 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3928,7 +3950,7 @@
 		(dnp no)
 		(uuid "4a32aee5-1f48-4c0a-86e4-7333702611ec")
 		(property "Reference" "F1"
-			(at 53.34 160.274 90)
+			(at 53.34 164.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,15 +3958,15 @@
 			)
 		)
 		(property "Value" "15A"
-			(at 53.34 162.814 90)
+			(at 53.34 166.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Blade_ATO_directSolder"
-			(at 53.34 166.878 90)
+		(property "Footprint" "Fuse:Fuse_Blade_Mini_directSolder"
+			(at 53.34 170.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 165.1 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +3984,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 53.34 165.1 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,6 +5083,139 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.92 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcf98318-8139-4e3b-af8a-c7b9948851c1")
+		(property "Reference" "TP8"
+			(at 119.38 168.1481 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 119.38 165.6081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 127 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b3be2ef-9596-4054-babc-74f7c72cbaef")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c41e6063-2de9-48c1-b70f-b432ce8bdb2a")
+		(property "Reference" "#PWR062"
+			(at 135.89 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65bede40-cacc-4cb1-9b6f-70f91559bd8e")
+		)
+		(instances
+			(project "BLDC_DRIVER"
+				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1c5e87bf-9a00-4b40-8a2f-6d7d1241f47d"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)

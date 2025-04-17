@@ -3619,12 +3619,6 @@
 		(uuid "16015c1a-011d-45a1-a25d-7bc23551f223")
 	)
 	(junction
-		(at 30.48 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19c86be4-7c32-4bf0-a556-d9e7076f77fc")
-	)
-	(junction
 		(at 45.72 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3887,12 +3881,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5f860e0-7651-4cbc-b91c-6c45d9b737b4")
-	)
-	(junction
-		(at 30.48 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa7e3391-dbc7-469d-a497-33d03a0c86f4")
 	)
 	(junction
 		(at 53.34 184.15)
@@ -4209,16 +4197,6 @@
 			(type default)
 		)
 		(uuid "0417cb5f-e208-44fb-a481-fb055ffc57c5")
-	)
-	(wire
-		(pts
-			(xy 30.48 54.61) (xy 30.48 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0436e83c-658b-4943-9555-8dda62193dcb")
 	)
 	(wire
 		(pts
@@ -4849,16 +4827,6 @@
 			(type default)
 		)
 		(uuid "2cb66783-c1b7-4422-846f-895c60a3b3ed")
-	)
-	(wire
-		(pts
-			(xy 30.48 46.99) (xy 30.48 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cf95768-7f7b-4fac-a67a-760ceac8231a")
 	)
 	(wire
 		(pts
@@ -10257,76 +10225,6 @@
 			(project "BLDC_DRIVER"
 				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
 					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 30.48 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2885f48c-191d-4f6b-9b57-34d97ae58916")
-		(property "Reference" "C103"
-			(at 34.29 48.6409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u/200V"
-			(at 34.29 51.1809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EMVY101ARA101MKE0S:CAPAE1300X1400N"
-			(at 31.4452 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 30.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "73fc9193-f42b-402b-8c3b-acaa1a3bdcfb")
-		)
-		(pin "1"
-			(uuid "a8b5e75d-9a99-4330-b212-64fd9d9c3059")
-		)
-		(instances
-			(project ""
-				(path "/3fb7c58e-7fa7-4c2f-8afc-969dd7f24a74/1a6cb0fa-11a9-4eae-a722-17bc849d44a5"
-					(reference "C103")
 					(unit 1)
 				)
 			)
